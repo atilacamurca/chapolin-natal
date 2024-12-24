@@ -1,0 +1,27 @@
+{
+  "_resourceType": "scene",
+  "id": "53c9ee01-697e-4cdf-a75b-633c362cba06",
+  "_index": 0,
+  "name": "Casa do Chapolin",
+  "backgroundId": "a5ffb281-867b-46f0-964f-7005710cedbf",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "collisions": "003d+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+0029+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 264,
+  "y": 144,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "91df1ede-8980-4de8-82af-30d4f2464a75"
+}
