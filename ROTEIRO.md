@@ -24,7 +24,7 @@ Ao interagir com a porta escuta: "Oh. E agora? Quem poderá me ajudar?".
 
 - "Eu!".
 - "O Chapolin Colorado!".
-- "Não contavam com a minha estúcia! Sigam-me os bons! BAM!".
+- "Não contavam com a minha astúcia! Sigam-me os bons! BAM!".
 
 Papai Noel explica sua situação, suas renas não estão no curral, foram raptadas.
 
@@ -42,5 +42,5 @@ Chapolin decide prosseguir com a investigação com as câmeras.
 
 Ao rever as imagens não se vê ninguém na cena, apenas as renas sendo levadas.
 
-Isso só pode ser obra do homem invisível!
+Isso só pode ser obra do Homem Invisível!
 
