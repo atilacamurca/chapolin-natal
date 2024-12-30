@@ -10,6 +10,12 @@ Jogo de Game Boy do Chapolin, baseado no seriado e em outras obras do Chespirito
 - <https://pixel-pablo.itch.io/gameboy-style-interiors> - GameBoy Style Interiors
 - <https://monkeyimage.itch.io/fantasy-character-set> - Fantasy character set - Caveira
 - <https://the-pixel-nook.itch.io/retro-rpg-character-pack> - collection of 20 animated RPG characters
+- <https://teaceratops.itch.io/farmtiles> - GameBoy Style Farm and Town Tileset
+- <https://rekkimaru.itch.io/gb-studio-dungeon-tileset-8x8> - GB Studio Dungeon Tileset 8x8 - Esqueleto
+- <https://itch.io/c/1555553/gb-studio-gfx-assets> - GB Studio Assets on Itch
+- <https://the-pixel-nook.itch.io/gb-studio-character-pack> - GB Studio Character pack
+- <https://the-pixel-nook.itch.io/gb-studio-emojis> - GB Studio Emojis
+- <https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection/tree/main?tab=readme-ov-file#dialogue-with-name-taglarge-avatar-plugin> - Dialogue With Name Tag/Large Avatar Plugin
 
 ### Links Úteis
 

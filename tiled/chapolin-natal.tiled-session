@@ -3,21 +3,21 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "GameBoy Style Interiors.tsx",
+    "activeFile": "casa-do-chapolin.tmx",
     "expandedProjectPaths": [
         "."
     ],
     "fileStates": {
         "GameBoy Style Interiors.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 5.5,
             "scaleInEditor": 4
         },
         "RPG_exterior.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 3,
             "scaleInEditor": 5.5
         },
         "RPG_interior.tsx": {
-            "scaleInDock": 2,
+            "scaleInDock": 4,
             "scaleInEditor": 5.5
         },
         "Top-down Gameboy Asset Pack.tsx": {
@@ -25,11 +25,11 @@
             "scaleInEditor": 3
         },
         "casa-do-chapolin.tmx": {
-            "scale": 5.2368749999999995,
-            "selectedLayer": 0,
+            "scale": 6.221180555555555,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 80.00954767872062,
-                "y": 72.08497434061346
+                "x": 80.04911536529555,
+                "y": 71.93168499190715
             }
         },
         "mapa-teste.tmx": {
@@ -48,19 +48,18 @@
     "map.tileWidth": 8,
     "map.width": 20,
     "openFiles": [
-        "mapa-teste.tmx",
         "RPG_interior.tsx",
         "casa-do-chapolin.tmx",
-        "Top-down Gameboy Asset Pack.tsx",
-        "GameBoy Style Interiors.tsx"
+        "GameBoy Style Interiors.tsx",
+        "mapa-teste.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
-        "mapa-teste.tmx",
         "RPG_interior.tsx",
+        "mapa-teste.tmx",
+        "GameBoy Style Interiors.tsx",
         "casa-do-chapolin.tmx",
         "Top-down Gameboy Asset Pack.tsx",
-        "GameBoy Style Interiors.tsx",
         "RPG_exterior.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",

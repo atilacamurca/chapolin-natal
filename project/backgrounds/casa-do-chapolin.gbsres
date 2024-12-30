@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c76018b0-10a4-4391-8543-fd06ae5e50e4",
+  "name": "casa-do-chapolin",
+  "symbol": "bg_casa_do_chapolin",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "casa-do-chapolin.png",
+  "tileColors": "",
+  "autoColor": false
+}
