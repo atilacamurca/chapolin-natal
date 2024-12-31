@@ -138,7 +138,7 @@ Assim como o trenó e os presentes.
 
 **Ideia**: Mostrar cena animada com itens sendo levados.
 
-Votando para a entrada da fábrica, Chapolin encontra bel perto de onde estavam
+Voltando para a entrada da fábrica, Chapolin encontra **Bel** perto de onde estavam
 alguns presentes, também com pegadas de lama.
 
 ```
