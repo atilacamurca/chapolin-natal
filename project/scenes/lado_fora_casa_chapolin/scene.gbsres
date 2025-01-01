@@ -1,0 +1,25 @@
+{
+  "_resourceType": "scene",
+  "id": "16092e1f-3be0-43bc-b3a6-091a5bb61a7f",
+  "_index": 2,
+  "name": "Lado Fora Casa Chapolin",
+  "backgroundId": "adf68a7c-412d-46e4-8607-8c7313fcbf00",
+  "tilesetId": "",
+  "width": 33,
+  "height": 32,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00420+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 248,
+  "y": 224,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7"
+}

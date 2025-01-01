@@ -3,17 +3,17 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "casa-do-chapolin.tmx",
+    "activeFile": "lado-fora-casa-chapolin.tmx",
     "expandedProjectPaths": [
         "."
     ],
     "fileStates": {
         "GameBoy Style Interiors.tsx": {
-            "scaleInDock": 5.5,
+            "scaleInDock": 3,
             "scaleInEditor": 4
         },
         "RPG_exterior.tsx": {
-            "scaleInDock": 3,
+            "scaleInDock": 8,
             "scaleInEditor": 5.5
         },
         "RPG_interior.tsx": {
@@ -26,41 +26,50 @@
         },
         "casa-do-chapolin.tmx": {
             "scale": 6.221180555555555,
-            "selectedLayer": 5,
+            "selectedLayer": 1,
             "viewCenter": {
                 "x": 80.04911536529555,
                 "y": 71.93168499190715
+            }
+        },
+        "lado-fora-casa-chapolin.tmx": {
+            "scale": 3.4994140624999996,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 128.02143215940168,
+                "y": 127.87855109672378
             }
         },
         "mapa-teste.tmx": {
             "scale": 3.2507812499999997,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 128.8920932468157,
+                "x": 128.89209324681568,
                 "y": 128.12304734438837
             }
         }
     },
     "last.imagePath": "/home/atila/Jogos/gbstudio/chapolin-natal/tiled",
-    "map.height": 18,
+    "map.height": 32,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 32,
     "openFiles": [
-        "RPG_interior.tsx",
-        "casa-do-chapolin.tmx",
-        "GameBoy Style Interiors.tsx",
-        "mapa-teste.tmx"
+        "lado-fora-casa-chapolin.tmx",
+        "RPG_exterior.tsx",
+        "Top-down Gameboy Asset Pack.tsx",
+        "casa-do-chapolin.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
-        "RPG_interior.tsx",
-        "mapa-teste.tmx",
-        "GameBoy Style Interiors.tsx",
         "casa-do-chapolin.tmx",
         "Top-down Gameboy Asset Pack.tsx",
-        "RPG_exterior.tsx"
+        "RPG_exterior.tsx",
+        "lado-fora-casa-chapolin.tmx",
+        "RPG_interior.tsx",
+        "GameBoy Style Interiors.tsx",
+        "mapa-teste.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

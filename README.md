@@ -17,6 +17,8 @@ Jogo de Game Boy do Chapolin, baseado no seriado e em outras obras do Chespirito
 - <https://the-pixel-nook.itch.io/gb-studio-emojis> - GB Studio Emojis
 - <https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection/tree/main?tab=readme-ov-file#dialogue-with-name-taglarge-avatar-plugin> - Dialogue With Name Tag/Large Avatar Plugin
 - <https://kevins-moms-house.itch.io/factory>
+- <https://the-pixel-nook.itch.io/gb-studio-buildings> - GB Studio Buildings
+- <https://the-pixel-nook.itch.io/gb-studio-indoors> - GB Studio Indoors
 
 ### Links Úteis
 
