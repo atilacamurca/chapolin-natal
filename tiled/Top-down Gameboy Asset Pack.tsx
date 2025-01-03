@@ -3,4 +3,5 @@
  <image source="Top-down Gameboy Asset Pack.png" width="400" height="160"/>
  <tile id="486" probability="20"/>
  <tile id="537" probability="20"/>
+ <tile id="785" probability="20"/>
 </tileset>

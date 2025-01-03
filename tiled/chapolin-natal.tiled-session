@@ -3,17 +3,21 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "lado-fora-casa-chapolin.tmx",
+    "activeFile": "lado-fora-casa-papai-noel.tmx",
     "expandedProjectPaths": [
         "."
     ],
     "fileStates": {
+        "GB Modular Houses.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 3
+        },
         "GameBoy Style Interiors.tsx": {
             "scaleInDock": 3,
             "scaleInEditor": 4
         },
         "RPG_exterior.tsx": {
-            "scaleInDock": 8,
+            "scaleInDock": 3,
             "scaleInEditor": 5.5
         },
         "RPG_interior.tsx": {
@@ -34,9 +38,17 @@
         },
         "lado-fora-casa-chapolin.tmx": {
             "scale": 3.4994140624999996,
-            "selectedLayer": 0,
+            "selectedLayer": 1,
             "viewCenter": {
                 "x": 128.02143215940168,
+                "y": 127.87855109672378
+            }
+        },
+        "lado-fora-casa-papai-noel.tmx": {
+            "scale": 3.4994140624999996,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 132.022101914383,
                 "y": 127.87855109672378
             }
         },
@@ -54,19 +66,22 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 32,
+    "map.width": 33,
     "openFiles": [
-        "lado-fora-casa-chapolin.tmx",
-        "RPG_exterior.tsx",
+        "lado-fora-casa-papai-noel.tmx",
         "Top-down Gameboy Asset Pack.tsx",
-        "casa-do-chapolin.tmx"
+        "GB Modular Houses.tsx",
+        "RPG_exterior.tsx",
+        "lado-fora-casa-chapolin.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
-        "casa-do-chapolin.tmx",
-        "Top-down Gameboy Asset Pack.tsx",
-        "RPG_exterior.tsx",
         "lado-fora-casa-chapolin.tmx",
+        "RPG_exterior.tsx",
+        "GB Modular Houses.tsx",
+        "Top-down Gameboy Asset Pack.tsx",
+        "lado-fora-casa-papai-noel.tmx",
+        "casa-do-chapolin.tmx",
         "RPG_interior.tsx",
         "GameBoy Style Interiors.tsx",
         "mapa-teste.tmx"

@@ -12,14 +12,139 @@
     "dmg"
   ],
   "spritePaletteIds": [],
-  "collisions": "00420+",
+  "collisions": "005+0f!009+0f2+004+0f2+004+0f!00a+0f!008+0f!002+0f!002+0f!002+0f!003+0f!00a+0f!006+0f3+002+0f4+002+0f5+007+0f4+005+0f!00f+0f3+004+0f!003+0f!004+0f2+002+0f3+00a+0f!002+0f!003+0f!003+0f!003+0f!003+0f2+00!0f2+009+0f!002+0f!003+0f!003+0f!003+0f!002+0f2+003+0f2+008+0f!002+0f!003+0f!003+0f!002+0f2+002+0f!005+0f!008+0f!002+0f!003+0f!003+0f3+002+0f3+005+0f!008+0f!002+0f!003+0f!003+0f!006+0f!005+0f!008+0f!002+0f!003+0f!003+0f!007+0f2+002+0f!009+0f!002+0f!003+0f!003+0f!0015+0f!002+0f!003+0f!003+0f!0015+0f!002+0f!003+0f!003+0fa+002+0fb+002+0f!003+0f!001c+0f!004+0f!001b+0f!004+0f!001b+0f!005+0f!0019+0f!004+0f3+003+0f4+0012+0f2+002+0f!006+0f4+0014+0f!00!0f!003+0f2+0019+0f!002+0f!001d+0f!002+0f3+002+0f2+0017+0f!00!0f!001f+0f3+006+0f2+0016+0f2+001e+0f!00!0f!00!0f2+001b+0f!00!0f!001e+0f!00!0f!003+0f2+0019+0f!002+0f2+001c+0f!003+0f!004+0f5+002+0f11+005+0f5+004+0f2+0013+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
-  "x": 248,
-  "y": 224,
-  "script": [],
+  "x": 200,
+  "y": 480,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 1,
+              "duration": 10,
+              "frames": 30,
+              "__scriptTabs": "end",
+              "__collapse": true,
+              "__label": "Chapolin recebe chamdo Polo Norte"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Não tarda e ele\nlogo sente que\nalgo de errado\nnão está certo."
+                    ],
+                    "__section": "layout",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "top",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "364d9918-39c2-4d77-bae6-1f6a3c83bf7a"
+                },
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "$self$",
+                    "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                    "__collapse": true
+                  },
+                  "id": "1970af59-b924-4ea5-be4b-434f9fb5e50f"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Nossa! Minhas \nanteninhas de\nvinil estão\ndetectando o\nperigo. E ele vem",
+                      "do Polo Norte.\nDevo ir\nimediatamente para",
+                      "a placa de viagem\nrápida que\nfica aqui fora."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 3,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "b5ae7f9b-a3fb-4f35-a301-457f1d19ba39"
+                },
+                {
+                  "command": "EVENT_TIMER_DISABLE",
+                  "args": {
+                    "timer": 1,
+                    "__collapse": true
+                  },
+                  "id": "e96d635d-bd7d-48cb-ad4f-b2fc7e457e8f"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "8a512eae-c434-4bf0-a5ef-0c89fc23d1e5"
+                }
+              ]
+            },
+            "id": "a83fe0ee-0347-483f-b6d7-1340335ef2b8"
+          }
+        ],
+        "false": []
+      },
+      "id": "4086e99d-4039-4e68-bdc6-67c19fb91463"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7"
+  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+  "autoFadeEventCollapse": false
 }

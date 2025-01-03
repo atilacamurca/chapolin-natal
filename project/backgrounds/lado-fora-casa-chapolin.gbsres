@@ -8,5 +8,6 @@
   "imageWidth": 264,
   "imageHeight": 256,
   "filename": "lado-fora-casa-chapolin.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

@@ -19,6 +19,9 @@ Jogo de Game Boy do Chapolin, baseado no seriado e em outras obras do Chespirito
 - <https://kevins-moms-house.itch.io/factory>
 - <https://the-pixel-nook.itch.io/gb-studio-buildings> - GB Studio Buildings
 - <https://the-pixel-nook.itch.io/gb-studio-indoors> - GB Studio Indoors
+- <https://monkeyimage.itch.io/world-tilesets-remastered> - World tilesets remastered - Computador
+- <https://gibbongl.itch.io/modular-game-boy-houses> - Modular Game Boy Houses
+- <https://spritedatabase.net/file/2243> - Horon Village (Winter), Legend of Zelda: Oracle of Ages & Seasons
 
 ### Links Úteis
 

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f6575dda-853a-4fb8-8827-995385732203",
+  "name": "lado-fora-casa-papai-noel",
+  "symbol": "bg_lado_fora_casa_papai_noe",
+  "width": 33,
+  "height": 32,
+  "imageWidth": 264,
+  "imageHeight": 256,
+  "filename": "lado-fora-casa-papai-noel.png",
+  "tileColors": "00a+014+001b+018+0019+0110+0011+0110+0011+0110+0011+0110+0011+0110+0011+0110+00321+",
+  "autoColor": false
+}

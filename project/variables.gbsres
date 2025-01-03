@@ -1,4 +1,15 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "0",
+      "name": "Recebeu Chamado Noel",
+      "symbol": "var_recebeu_chamado_noel_0"
+    },
+    {
+      "id": "1",
+      "name": "Jogo Iniciado",
+      "symbol": "var_jogo_iniciado"
+    }
+  ]
 }
