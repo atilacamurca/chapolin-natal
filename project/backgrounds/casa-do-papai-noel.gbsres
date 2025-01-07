@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "47a9438c-9e5f-4c2c-a322-5f1aa801edcf",
+  "name": "casa-do-papai-noel",
+  "symbol": "bg_casa_do_papai_noel",
+  "width": 24,
+  "height": 18,
+  "imageWidth": 192,
+  "imageHeight": 144,
+  "filename": "casa-do-papai-noel.png",
+  "tileColors": "",
+  "autoColor": false
+}

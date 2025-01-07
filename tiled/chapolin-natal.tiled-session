@@ -3,11 +3,15 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "lado-fora-casa-papai-noel.tmx",
+    "activeFile": "casa-do-papai-noel.tmx",
     "expandedProjectPaths": [
         "."
     ],
     "fileStates": {
+        "BitsAndBobs.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 5.5
+        },
         "GB Modular Houses.tsx": {
             "scaleInDock": 4,
             "scaleInEditor": 3
@@ -21,7 +25,7 @@
             "scaleInEditor": 5.5
         },
         "RPG_interior.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 3,
             "scaleInEditor": 5.5
         },
         "Top-down Gameboy Asset Pack.tsx": {
@@ -34,6 +38,14 @@
             "viewCenter": {
                 "x": 80.04911536529555,
                 "y": 71.93168499190715
+            }
+        },
+        "casa-do-papai-noel.tmx": {
+            "scale": 5.650520833333333,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 95.92036132362429,
+                "y": 71.94027099271823
             }
         },
         "lado-fora-casa-chapolin.tmx": {
@@ -62,26 +74,26 @@
         }
     },
     "last.imagePath": "/home/atila/Jogos/gbstudio/chapolin-natal/tiled",
-    "map.height": 32,
+    "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 33,
+    "map.width": 24,
     "openFiles": [
-        "lado-fora-casa-papai-noel.tmx",
-        "Top-down Gameboy Asset Pack.tsx",
-        "GB Modular Houses.tsx",
-        "RPG_exterior.tsx",
-        "lado-fora-casa-chapolin.tmx"
+        "casa-do-chapolin.tmx",
+        "casa-do-papai-noel.tmx",
+        "BitsAndBobs.tsx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
-        "lado-fora-casa-chapolin.tmx",
-        "RPG_exterior.tsx",
-        "GB Modular Houses.tsx",
-        "Top-down Gameboy Asset Pack.tsx",
-        "lado-fora-casa-papai-noel.tmx",
         "casa-do-chapolin.tmx",
+        "BitsAndBobs.tsx",
+        "casa-do-papai-noel.tmx",
+        "lado-fora-casa-papai-noel.tmx",
+        "Top-down Gameboy Asset Pack.tsx",
+        "GB Modular Houses.tsx",
+        "RPG_exterior.tsx",
+        "lado-fora-casa-chapolin.tmx",
         "RPG_interior.tsx",
         "GameBoy Style Interiors.tsx",
         "mapa-teste.tmx"

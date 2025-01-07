@@ -10,6 +10,11 @@
       "id": "1",
       "name": "Jogo Iniciado",
       "symbol": "var_jogo_iniciado"
+    },
+    {
+      "id": "2",
+      "name": "Entrou Na Casa Papai Noel",
+      "symbol": "var_entrou_na_casa_papai_no"
     }
   ]
 }

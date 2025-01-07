@@ -54,6 +54,8 @@ Noel: Não se machcou Chapolin?
 Ch.: Claro que não. Fiz intencionalmente para saber se
 este presente estava bem embrulhado. Todos os meus
 movimentos são friamente calculados.
+Fiz intencionalmente para ver se o tapete estava bem
+colocado.
 ```
 
 **Papai Noel** explica sua situação, suas renas não estão no curral, foram raptadas.
@@ -62,7 +64,7 @@ movimentos são friamente calculados.
 Noel: Que bom que chegou Chapolin, imagina que minhas renas foram raptadas!
 Ch.: Palma, palma, não priemos cânico! E onde estavam?
 Noel: No curral, aqui do lado esquerdo da minha casa.
-Ch.: Precisamos investigar imadiatamente. Sigam-me os bons!
+Ch.: Precisamos investigar imediatamente. Sigam-me os bons!
 ```
 
 Quem poderá ter feito algo assim? Chapolin deve investigar.

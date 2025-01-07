@@ -1,0 +1,90 @@
+{
+  "_resourceType": "trigger",
+  "id": "5b41643c-5fb4-4ffa-88e7-f9bd9e1033b5",
+  "name": "",
+  "prefabId": "",
+  "x": 11,
+  "y": 6,
+  "symbol": "trigger_2",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+            },
+            "id": "53e27368-477e-4303-b559-37b659f6d268"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Oh, e agora,\nquem poderá \nme ajudar?"
+              ],
+              "__section": "text",
+              "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d751f3c7-6a93-45ed-a18f-ec35f30bc105"
+          }
+        ],
+        "false": []
+      },
+      "id": "2fee7c7a-3b90-4a87-bcbb-7b6019639223"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "098eebbf-75ca-43ff-adf4-97e1d4e0479e",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "up",
+        "fadeSpeed": "2"
+      },
+      "id": "325a1b59-5dbd-4039-9186-008823bd244c"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

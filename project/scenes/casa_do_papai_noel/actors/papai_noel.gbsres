@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "a4594e06-0954-4edf-9d33-8976e85dbecc",
+  "name": "Papai Noel",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "dfd6a4da-db04-456a-81b2-ce064611c2f5",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_4",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Minhas renas\nforam raptadas!",
+          "Elas estavam no\ncurral, aqui do\nlado esquerdo\nda minha casa."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "68f295b2-2050-4205-bec6-f1da3c346bae"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 9,
+  "_index": 0
+}
