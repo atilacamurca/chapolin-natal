@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "casa-do-papai-noel.tmx",
+    "activeFile": "lado-esquerdo-casa-papai-noel.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -13,15 +13,19 @@
             "scaleInEditor": 5.5
         },
         "GB Modular Houses.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 3,
             "scaleInEditor": 3
         },
         "GameBoy Style Interiors.tsx": {
             "scaleInDock": 3,
             "scaleInEditor": 4
         },
+        "Gameboy-Forest-Tileset.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 4
+        },
         "RPG_exterior.tsx": {
-            "scaleInDock": 3,
+            "scaleInDock": 2,
             "scaleInEditor": 5.5
         },
         "RPG_interior.tsx": {
@@ -48,6 +52,18 @@
                 "y": 71.94027099271823
             }
         },
+        "gameboy_outdoor_assets_v1.2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 4
+        },
+        "lado-esquerdo-casa-papai-noel.tmx": {
+            "scale": 5.332440476190476,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 96.01607411955126,
+                "y": 109.79963163476029
+            }
+        },
         "lado-fora-casa-chapolin.tmx": {
             "scale": 3.4994140624999996,
             "selectedLayer": 1,
@@ -58,10 +74,10 @@
         },
         "lado-fora-casa-papai-noel.tmx": {
             "scale": 3.4994140624999996,
-            "selectedLayer": 4,
+            "selectedLayer": 5,
             "viewCenter": {
                 "x": 132.022101914383,
-                "y": 127.87855109672378
+                "y": 88.44337779762236
             }
         },
         "mapa-teste.tmx": {
@@ -80,23 +96,23 @@
     "map.tileWidth": 8,
     "map.width": 24,
     "openFiles": [
-        "casa-do-chapolin.tmx",
-        "casa-do-papai-noel.tmx",
-        "BitsAndBobs.tsx"
+        "lado-esquerdo-casa-papai-noel.tmx",
+        "lado-fora-casa-papai-noel.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
-        "casa-do-chapolin.tmx",
-        "BitsAndBobs.tsx",
-        "casa-do-papai-noel.tmx",
         "lado-fora-casa-papai-noel.tmx",
+        "lado-esquerdo-casa-papai-noel.tmx",
+        "lado-fora-casa-chapolin.tmx",
+        "casa-do-chapolin.tmx",
         "Top-down Gameboy Asset Pack.tsx",
+        "Gameboy-Forest-Tileset.tsx",
+        "gameboy_outdoor_assets_v1.2.tsx",
+        "casa-do-papai-noel.tmx",
+        "BitsAndBobs.tsx",
         "GB Modular Houses.tsx",
         "RPG_exterior.tsx",
-        "lado-fora-casa-chapolin.tmx",
-        "RPG_interior.tsx",
-        "GameBoy Style Interiors.tsx",
-        "mapa-teste.tmx"
+        "RPG_interior.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
