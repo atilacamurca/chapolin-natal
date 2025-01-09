@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "casa-do-chapolin.tmx",
+    "activeFile": "lado-direito-casa-papai-noel.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -60,12 +60,20 @@
             "scaleInDock": 1,
             "scaleInEditor": 4
         },
+        "lado-direito-casa-papai-noel.tmx": {
+            "scale": 5.332440476190476,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 96.01607411955126,
+                "y": 83.92029915722499
+            }
+        },
         "lado-esquerdo-casa-papai-noel.tmx": {
             "scale": 5.5,
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 98.00000000000001,
-                "y": 83.90909090909092
+                "y": 134.0909090909091
             }
         },
         "lado-fora-casa-chapolin.tmx": {
@@ -78,10 +86,10 @@
         },
         "lado-fora-casa-papai-noel.tmx": {
             "scale": 3.4994140624999996,
-            "selectedLayer": 5,
+            "selectedLayer": 3,
             "viewCenter": {
                 "x": 132.022101914383,
-                "y": 88.44337779762236
+                "y": 127.87855109672378
             }
         },
         "mapa-teste.tmx": {
@@ -94,20 +102,22 @@
         }
     },
     "last.imagePath": "/home/atila/Jogos/gbstudio/chapolin-natal/tiled",
-    "map.height": 18,
+    "map.height": 21,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
     "map.width": 24,
     "openFiles": [
         "lado-esquerdo-casa-papai-noel.tmx",
-        "casa-do-chapolin.tmx"
+        "lado-direito-casa-papai-noel.tmx",
+        "lado-fora-casa-papai-noel.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
         "lado-esquerdo-casa-papai-noel.tmx",
-        "casa-do-chapolin.tmx",
         "lado-fora-casa-papai-noel.tmx",
+        "lado-direito-casa-papai-noel.tmx",
+        "casa-do-chapolin.tmx",
         "Pegadas_A.tsx",
         "lado-fora-casa-chapolin.tmx",
         "Top-down Gameboy Asset Pack.tsx",
@@ -115,8 +125,7 @@
         "gameboy_outdoor_assets_v1.2.tsx",
         "casa-do-papai-noel.tmx",
         "BitsAndBobs.tsx",
-        "GB Modular Houses.tsx",
-        "RPG_exterior.tsx"
+        "GB Modular Houses.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
