@@ -8,5 +8,6 @@
   "imageWidth": 192,
   "imageHeight": 176,
   "filename": "lado-esquerdo-casa-papai-noel.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

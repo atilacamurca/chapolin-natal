@@ -41,10 +41,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Eu!"
+                " Eu!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -59,7 +59,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "1d4c8f6b-d91a-435e-a2d2-40513aefa1a0"
           },

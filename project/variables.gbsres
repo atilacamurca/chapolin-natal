@@ -15,6 +15,16 @@
       "id": "2",
       "name": "Entrou Na Casa Papai Noel",
       "symbol": "var_entrou_na_casa_papai_no"
+    },
+    {
+      "id": "3",
+      "name": "Conversou Com Dingo",
+      "symbol": "var_conversou_com_dingo"
+    },
+    {
+      "id": "4",
+      "name": "Encontrou Pegadas Curral",
+      "symbol": "var_encontrou_pegadas_curra"
     }
   ]
 }

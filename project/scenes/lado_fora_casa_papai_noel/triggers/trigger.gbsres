@@ -30,6 +30,15 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": false
+            },
+            "id": "99fa58a4-2cd4-4062-9de8-ad6ae6e58ad7"
+          },
+          {
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
               "actorId": "$self$",

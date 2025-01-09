@@ -89,7 +89,8 @@ Chapolin procura por pistas e encontra pegadas de lama no fundo do curral.
 Ch.: Precisa de uma limpezinha isto aqui.
 Dingo: Não Chapolin, aqui não deveria ter lama, apenas neve.
 Ch.: Hum. Estranho. Aqui tem câmeras?
-Dingo: Sim, elas ficam na fábrica do Papai Noel, a direita da casa dele.
+Dingo: Sim, e as imagens ficam guardadas na fábrica do Papai Noel,
+a direita da casa dele.
 Ch.: Precisamos verificá-las agora. Sigam me os bons.
 ```
 

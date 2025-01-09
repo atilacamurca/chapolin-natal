@@ -1,0 +1,35 @@
+{
+  "_resourceType": "trigger",
+  "id": "f3b5ae0c-ffdd-4d2d-871e-0e148b61b4df",
+  "name": "Visão Da Câmera",
+  "prefabId": "",
+  "x": 13,
+  "y": 4,
+  "symbol": "trigger_6",
+  "prefabScriptOverrides": {},
+  "width": 7,
+  "height": 5,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "cbe8ca00-81d7-4a07-9091-11274d5a642a",
+        "spriteStateId": "Observando",
+        "loopAnim": true
+      },
+      "id": "adf97010-f5dc-4ce4-be80-b91eb83b3807"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "cbe8ca00-81d7-4a07-9091-11274d5a642a",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "fd349ba5-5838-40ef-abd1-a869535f962d"
+    }
+  ],
+  "_index": 1
+}
