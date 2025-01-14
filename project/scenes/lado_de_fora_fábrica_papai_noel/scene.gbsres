@@ -1,0 +1,24 @@
+{
+  "_resourceType": "scene",
+  "id": "aafa56d2-c52b-4305-8349-0bd1178ca3eb",
+  "_index": 6,
+  "name": "Lado de Fora Fábrica Papai Noel",
+  "backgroundId": "79e066c6-4f72-45db-8eac-17d2ea9e286c",
+  "tilesetId": "",
+  "width": 24,
+  "height": 22,
+  "type": "ADVENTURE",
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "003+0f9+002+0f7+002+0f!003+0f!008+0f2+007+0f3+00!0f2+0014+0f!00!0f!003+0f13+002+0f!002+0f!0011+0f!002+0f!002+0f!0011+0f!002+0f!002+0f!0011+0f!002+0f!002+0f!0011+0f!002+0f!002+0f!008+0fa+002+0f!002+0f!008+0f!008+0f!002+0f!002+0f3+002+0f5+006+0f3+002+0f!0012+0f3+002+0f!0012+0f9+008+0fb+0016+0f2+0016+0f!0017+0f!0016+0f!0017+0f!0018+0f2+00!0f2+007+0f2+007+0f2+00!0f3+002+0f7+002+0f7+002+0f2+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 1080,
+  "y": 304,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
