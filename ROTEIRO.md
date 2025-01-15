@@ -161,3 +161,76 @@ Chapolin volta a casa do Noel e interage com a placa de viagem rápida,
 com destino ao sul, o pântano da Bruxa Baratuxa.
 
 ## Pântano
+
+Ao chegar no Pântano, Chapolin dá de cara com um caminho cheio de lama.
+Do lado esquerdo é possível ver **Dingo**, o esperando.
+
+```
+Dingo: Depressa Chpolin, você precisa atravessar a lama pra chegar
+na casa da Bruxa Baratuxa.
+Ch.: Sim, deixa comigo.
+```
+
+Após passar por um caminho estreito, Chapolin chega do outro lado.
+Lá encontra a casa da Bruxa Baratuxa. Dentro da casa, Chapolin se depara
+com várias magias, como uma vassoura que move sozinha, um bolo que desaparece
+ao tocar e o gato Satanás. Ao fundo da casa a Bruxa prepara algo em um
+caldeirão.
+
+```
+Bruxa: Quem ousa invadir novamente a casa da Bruxa Baratuxa?
+Ch.: Eu! O Chapolin Colorado.
+Bruxa: O Chapolin Colorado? Bem dizem que o Chpolin ajuda qualquer pessoa.
+Ch.: O que quer dizer?
+Bruxa: É que me roubaram Chapolin, e eu estava justamente me preparando
+para procurar o bandido.
+Ch.: Puxa! Me conte tudo.
+Bruxa: Eu estava dando a comida dos meus filhinhos quando fui atacada
+à traição. Quando recobrei os sentidos haviam me roubado o anel mágico.
+Ch.: Re-puxa! E onde estavam seus filhinhos?
+Bruxa: No lago, aqui a direita da casa.
+Ch.: Preciso investigar o local.
+Bruxa: Mas cuidado Chapolin, porque eles mordem.
+Ch.: Ah, sim. Porquê tem dentes de crocodilo.
+Bruxa: E olhos de crocodilo. E cauda de crocodilo.
+Ch.: Recontra-puxa!
+Bruxa: Porque são crocodilos.
+Ch.: Suspeitei desde o príncipio. Mas não importa, porque o
+Chapolin não pode ser derrotado, nunca, jamais.
+Sigam-me os bons.
+```
+
+Chapolin vai até o lago e se depara com os "filhos" da Bruxa Baratuxa.
+Além deles também encontra a Bel.
+
+```
+Bel: Chapolin, do outro lado do lago foi onde a Bruxa Baratuxa foi
+roubada. Por que você não vai até lá para investigar.
+Ch.: Sim, mas não vejo nenhum caminho.
+Bel: Você é valente, e pode ir por cima dos crocodilos, como
+nos filmes de herói.
+Ch.: Eu?
+Bel: Sim, você.
+Ch.: Sim, eu passo.
+Bel: Já sei que sim.
+Ch.: Sim, eu passo.
+Bel: Claro, vai.
+Ch.: Sim, eu passo.
+Bel: Mas já!
+Ch.: Se aproveitam de minha nobreza. Abram espaço.
+```
+
+Chapolin decide passar pelos crocodilos bem devagar. De repende Bel grita pra
+ele:
+
+```
+Bel: Cuidado Chapolin!
+```
+
+Nessa hora os crocodilos acordam, fazendo com que Chpolin tenha que correr.
+Ao passar pelo perigo Chpolin exclama:
+
+```
+Ch.: Não contavam com minha astúcia!
+Bel: Bravo Chpolin, você é o máximo.
+```
