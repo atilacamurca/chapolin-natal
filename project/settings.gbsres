@@ -37,7 +37,7 @@
   "defaultPlayerSprites": {
     "TOPDOWN": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
     "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "ADVENTURE": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
     "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"

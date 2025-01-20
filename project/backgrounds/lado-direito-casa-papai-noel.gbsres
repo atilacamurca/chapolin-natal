@@ -8,5 +8,6 @@
   "imageWidth": 192,
   "imageHeight": 176,
   "filename": "lado-direito-casa-papai-noel.png",
-  "tileColors": "0037+802+001d7+"
+  "tileColors": "0037+802+001d7+",
+  "autoColor": false
 }

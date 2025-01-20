@@ -16,8 +16,8 @@
   "collisions": "0069+0f!002+0f!00c+0f8+00!0f2+00!0fa+00!0f!0016+0f2+00!0f2+0013+0f2+0016+0f2+00c+0f12+006+0f!00a+0f!00c+0f!00a+0f!00c+0f!006+0f!003+0f!00c+0f7+00!0f!003+0f4+0010+0f3+004+0f!0012+0f!004+0f!0012+0f!005+0f!002+0f10+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
-  "x": 808,
-  "y": 32,
+  "x": 688,
+  "y": 120,
   "script": [
     {
       "command": "EVENT_IF",
@@ -404,5 +404,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7"
 }

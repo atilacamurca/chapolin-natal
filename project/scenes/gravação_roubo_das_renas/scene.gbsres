@@ -1,0 +1,56 @@
+{
+  "_resourceType": "scene",
+  "id": "51604c60-e15a-453b-858d-cacf05887480",
+  "_index": 9,
+  "name": "Gravação Roubo das Renas",
+  "backgroundId": "da5c927a-c2a0-4782-b133-22effea34387",
+  "tilesetId": "",
+  "width": 24,
+  "height": 22,
+  "type": "ADVENTURE",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003+0f15+003+0f!00d+0f!002+0f!002+0f!003+0f!00d+0f!002+0f!002+0f!002+0f2+00d+0f!002+0f!002+0f3+00!0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!005+0f!004+0f!002+0f!002+0f!002+0f2+002+0f!005+0f!004+0f!002+0f!002+0f5+002+0f7+004+0f4+002+0f!002+0f3+0015+0f!00!0f!0015+0f!002+0f!0017+0f!0016+0f!0016+0f!0017+0f2+0017+0f!002+0f2+00!0f2+00!0f2+004+0f2+00!0f2+002+0f!002+0f2+002+0f!002+0f!002+0f4+002+0f!002+0f3+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 456,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "156c8302-d130-422e-83c8-796501c50cd8"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "8d66700b-05c0-42b5-b8d1-4a3ea60eb1e3",
+        "spriteStateId": "Sendo Carregada",
+        "loopAnim": true
+      },
+      "id": "2b1c487c-1b6d-4648-8d7d-c4d3d624b396"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "8d66700b-05c0-42b5-b8d1-4a3ea60eb1e3",
+        "x": {
+          "type": "number",
+          "value": 21
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "6d387701-6e0c-4e79-81f7-0d1f89f938e7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
