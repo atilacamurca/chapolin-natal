@@ -166,7 +166,7 @@ Ao chegar no Pântano, Chapolin dá de cara com um caminho cheio de lama.
 Do lado esquerdo é possível ver **Dingo**, o esperando.
 
 ```
-Dingo: Depressa Chpolin, você precisa atravessar a lama pra chegar
+Dingo: Depressa Chapolin, você precisa atravessar a lama pra chegar
 na casa da Bruxa Baratuxa.
 Ch.: Sim, deixa comigo.
 ```
@@ -180,7 +180,7 @@ caldeirão.
 ```
 Bruxa: Quem ousa invadir novamente a casa da Bruxa Baratuxa?
 Ch.: Eu! O Chapolin Colorado.
-Bruxa: O Chapolin Colorado? Bem dizem que o Chpolin ajuda qualquer pessoa.
+Bruxa: O Chapolin Colorado? Bem dizem que o Chapolin ajuda qualquer pessoa.
 Ch.: O que quer dizer?
 Bruxa: É que me roubaram Chapolin, e eu estava justamente me preparando
 para procurar o bandido.
@@ -227,10 +227,44 @@ ele:
 Bel: Cuidado Chapolin!
 ```
 
-Nessa hora os crocodilos acordam, fazendo com que Chpolin tenha que correr.
-Ao passar pelo perigo Chpolin exclama:
+Nessa hora os crocodilos acordam, fazendo com que Chapolin tenha que correr.
+Ao passar pelo perigo Chapolin exclama:
 
 ```
 Ch.: Não contavam com minha astúcia!
-Bel: Bravo Chpolin, você é o máximo.
+Bel: Bravo Chapolin, você é o máximo.
 ```
+
+Do outro lado do lago, Chapolin encontra um pequeno pedaço de terra firme,
+com algumas caixas, aparentemente usadas para guardar a comida dos crocodilos.
+Em um canto Chapolin percebe um pedaço de jornal. Ao interagir com o objeto
+aparece Bel.
+
+```
+Bel: O que encontrou Chapolin?
+Ch.: Como chegou até aqui!?
+Bel: Pela ponte.
+Ch.: Que ponte?
+Bel: Essa aqui atrás de mim.
+Ch.: E por que não disse que havia uma ponte?
+Bel: Porque você não perguntou.
+Ch.: [emote:incrédulo]
+Bel: Me deixa ver esse pedaço de jornal. Nossa! Já viu o que
+diz o jornal?
+Ch.: Fortaleza vence o Ceará por dois a zero.
+Bel: Não, Chapolin. Na parte de trás.
+Ch.: Ah, sim. Puxa! Professor Baratinha desenvolve o extrato de energia volátil.
+Bel: Sim, você ouviu falar desse invento?
+Ch.: Não.
+Bel: É incrível. Você o injeta em objetos ou seres vivos e eles ficam
+leves como uma pena. Deve ter sido assim que levaram as renas, o trenó
+e os presentes com tanta facilidade.
+Ch.: É exatamente o que eu ia dizer. Precisamos encontrar o Professor Baratinha
+e descobrir o que ele sabe. Onde ele mora?
+Bel: No jornal diz que é num laboratório ao sul, não muito longe daqui.
+Ch.: Precisamos voltar para a placa de viagem rápida. Sigam-me os bons.
+```
+
+Chapolin volta para a placa de viagem rápida e viaja para o sul.
+
+## Laboratório do Professor Baratinha
