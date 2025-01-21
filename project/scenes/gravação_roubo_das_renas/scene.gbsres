@@ -5,12 +5,12 @@
   "name": "Gravação Roubo das Renas",
   "backgroundId": "da5c927a-c2a0-4782-b133-22effea34387",
   "tilesetId": "",
-  "width": 24,
-  "height": 22,
+  "width": 20,
+  "height": 18,
   "type": "ADVENTURE",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "003+0f15+003+0f!00d+0f!002+0f!002+0f!003+0f!00d+0f!002+0f!002+0f!002+0f2+00d+0f!002+0f!002+0f3+00!0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!005+0f!004+0f!002+0f!002+0f!002+0f2+002+0f!005+0f!004+0f!002+0f!002+0f5+002+0f7+004+0f4+002+0f!002+0f3+0015+0f!00!0f!0015+0f!002+0f!0017+0f!0016+0f!0016+0f!0017+0f2+0017+0f!002+0f2+00!0f2+00!0f2+004+0f2+00!0f2+002+0f!002+0f2+002+0f!002+0f!002+0f4+002+0f!002+0f3+",
+  "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
   "x": 456,
@@ -22,6 +22,30 @@
         "actorId": "$self$"
       },
       "id": "156c8302-d130-422e-83c8-796501c50cd8"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "befd1641-b776-4d57-9bd8-2fdda406d38f"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "8d66700b-05c0-42b5-b8d1-4a3ea60eb1e3",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "aa5207eb-56e6-40b1-abe4-8530f6c3ff1f"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "8d66700b-05c0-42b5-b8d1-4a3ea60eb1e3",
+        "spriteSheetId": "b984bcd6-329a-45d1-a070-8640bb3fc7d4"
+      },
+      "id": "9ec6688f-0dac-46fb-967b-be0beb2667e8"
     },
     {
       "command": "EVENT_ACTOR_SET_STATE",
@@ -38,16 +62,164 @@
         "actorId": "8d66700b-05c0-42b5-b8d1-4a3ea60eb1e3",
         "x": {
           "type": "number",
-          "value": 21
+          "value": 9
         },
         "y": {
           "type": "number",
-          "value": 17
+          "value": 6
         },
         "moveType": "horizontal",
         "useCollisions": false
       },
       "id": "6d387701-6e0c-4e79-81f7-0d1f89f938e7"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "8d66700b-05c0-42b5-b8d1-4a3ea60eb1e3",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "4d0fae09-12ed-4212-bfdd-1e675746c6a6"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "8d66700b-05c0-42b5-b8d1-4a3ea60eb1e3",
+        "spriteStateId": "Sendo Carregada Lado",
+        "loopAnim": true
+      },
+      "id": "25d67cf9-3b1e-4172-a248-eb35d037210c"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "8d66700b-05c0-42b5-b8d1-4a3ea60eb1e3",
+        "x": {
+          "type": "number",
+          "value": 18
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "7dfd47b5-4a62-4ac3-9f2c-bc38ea792127"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "8d66700b-05c0-42b5-b8d1-4a3ea60eb1e3"
+      },
+      "id": "fdf0cde2-dca4-40bc-afda-d341f6be3811"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "18f0e35b-2ebd-4a0f-a749-59c377a7bfc5"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "f3f2f832-2117-4853-bf04-e9cdf7734461",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "49b47172-0fa7-43c0-a786-61b6f8b03419"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "f3f2f832-2117-4853-bf04-e9cdf7734461",
+        "spriteSheetId": "b984bcd6-329a-45d1-a070-8640bb3fc7d4"
+      },
+      "id": "92d54546-08c0-47ea-b463-f26c3915ada8"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "f3f2f832-2117-4853-bf04-e9cdf7734461",
+        "spriteStateId": "Sendo Carregada",
+        "loopAnim": true
+      },
+      "id": "7db9b973-804e-44e5-b11d-a25e9a9c04be"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "f3f2f832-2117-4853-bf04-e9cdf7734461",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "91d076ff-cf88-4da7-8f9f-e7ee2a63ab68"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "f3f2f832-2117-4853-bf04-e9cdf7734461",
+        "spriteStateId": "Sendo Carregada Lado",
+        "loopAnim": true
+      },
+      "id": "31fa99df-7929-4089-a23e-c972cd20dc9d"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "f3f2f832-2117-4853-bf04-e9cdf7734461",
+        "x": {
+          "type": "number",
+          "value": 18
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "aaca81c5-dacd-4e7f-af23-b29efcccd0f8"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "f3f2f832-2117-4853-bf04-e9cdf7734461"
+      },
+      "id": "3d0a176e-f8eb-493c-a613-661da617025f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "9f765836-42cf-4d00-bf08-3a34d7531e31"
+    },
+    {
+      "command": "EVENT_SCENE_POP_STATE",
+      "args": {
+        "fadeSpeed": 2
+      },
+      "id": "04b3ccb0-c7b7-42b2-b8e8-8591a8eac309"
     }
   ],
   "playerHit1Script": [],
