@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "gravacao-roubo-renas.tmx",
+    "activeFile": "lado-esquerdo-casa-bruxa.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -70,8 +70,12 @@
             }
         },
         "gameboy_outdoor_assets_v1.2.tsx": {
-            "scaleInDock": 1,
+            "scaleInDock": 4,
             "scaleInEditor": 4
+        },
+        "gameboy_rpg_v09.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 3
         },
         "gravacao-roubo-renas.tmx": {
             "scale": 5.090056818181818,
@@ -87,6 +91,14 @@
             "viewCenter": {
                 "x": 96.01607411955126,
                 "y": 83.92029915722499
+            }
+        },
+        "lado-esquerdo-casa-bruxa.tmx": {
+            "scale": 5.090056818181818,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 96.06965451805547,
+                "y": 87.9165038789976
             }
         },
         "lado-esquerdo-casa-papai-noel.tmx": {
@@ -131,30 +143,31 @@
         }
     },
     "last.imagePath": "/home/atila/Jogos/gbstudio/chapolin-natal/tiled",
-    "map.height": 18,
+    "map.height": 22,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 20,
+    "map.width": 24,
     "openFiles": [
         "lado-esquerdo-casa-papai-noel.tmx",
-        "gravacao-roubo-renas.tmx",
-        "casa-do-chapolin.tmx"
+        "lado-esquerdo-casa-bruxa.tmx",
+        "gameboy_outdoor_assets_v1.2.tsx",
+        "lado-fora-casa-chapolin.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
         "lado-esquerdo-casa-papai-noel.tmx",
-        "casa-do-chapolin.tmx",
-        "gravacao-roubo-renas.tmx",
-        "lado-fora-casa-papai-noel.tmx",
         "lado-fora-casa-chapolin.tmx",
+        "gameboy_outdoor_assets_v1.2.tsx",
+        "lado-esquerdo-casa-bruxa.tmx",
+        "gameboy_rpg_v09.tsx",
+        "gravacao-roubo-renas.tmx",
+        "casa-do-chapolin.tmx",
+        "lado-fora-casa-papai-noel.tmx",
         "fabrica-papai-noel.tmx",
         "GameBoy Style Interiors.tsx",
         "sala-seguranca-papai-noel.tmx",
-        "lado-direito-casa-papai-noel.tmx",
-        "casa-do-papai-noel.tmx",
-        "RPG_exterior.tsx",
-        "Fabrica_Tileset.tsx"
+        "lado-direito-casa-papai-noel.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
