@@ -2,6 +2,10 @@
 
 Jogo de Game Boy do Chapolin, baseado no seriado e em outras obras do Chespirito.
 
+### Jogar agora (Versão Alpha)
+
+<https://atilacamurca.github.io/chapolin-natal/>
+
 ### Recursos
 
 - <https://gumpyfunction.itch.io/game-boy-rpg-fantasy-tileset-free> - Game Boy Top-down RPG Fantasy Tileset (FREE)

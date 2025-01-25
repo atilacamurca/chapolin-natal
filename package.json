@@ -1,0 +1,29 @@
+{
+  "name": "chapolin-natal",
+  "version": "1.0.0",
+  "description": "Chapolin - Um Conto de Natal - Jogo de Game Boy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d build/web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atilacamurca/chapolin-natal.git"
+  },
+  "keywords": [
+    "game-boy",
+    "game",
+    "chapolin",
+    "fan-game"
+  ],
+  "author": "Átila Camurça <camurca.home@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atilacamurca/chapolin-natal/issues"
+  },
+  "homepage": "https://github.com/atilacamurca/chapolin-natal#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
