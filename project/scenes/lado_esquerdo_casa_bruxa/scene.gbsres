@@ -1,0 +1,24 @@
+{
+  "_resourceType": "scene",
+  "id": "fe0de12d-1934-4520-89e2-05f8c6a457ac",
+  "_index": 10,
+  "name": "Lado Esquerdo Casa Bruxa",
+  "backgroundId": "fdc42946-ee85-4995-8ff8-779f8a3ce2d4",
+  "tilesetId": "",
+  "width": 24,
+  "height": 22,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-2"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0f!0016+0f2+0016+0f2+0016+0f2+003+0fe+005+0f2+003+0f!00c+0f!005+0f2+003+0f!00c+0f!005+0f2+003+0f!00c+0f!005+0f2+003+0f!00c+0f4+002+0f2+003+0f!00f+0f!002+0f2+003+0f!005+0f3+007+0f!002+0f6+005+0f!00!0f!007+0f!002+0f2+009+0f!00!0f!007+0f!002+0f2+009+0f!00!0f4+004+0f!002+0f2+009+0f!004+0f!004+0f!002+0f2+009+0f6+004+0f5+009+0f2+00c+0f!009+0f2+00c+0f!009+0f2+00c+0f!009+0f2+00c+0f!009+0f19+0016+0ff+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 213.025641025641,
+  "y": 786.1025641025641,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

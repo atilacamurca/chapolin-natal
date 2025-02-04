@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "b95b9286-7a52-4525-bc8a-a1cf060a6f5e",
+  "id": "33f48d43-85bd-4b5c-9574-3c2e84527a97",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,14 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_0",
+  "symbol": "actor_11",
   "script": [
     {
       "command": "EVENT_MENU",
       "args": {
         "variable": "L0",
         "items": 2,
-        "option1": "Ir para Norte",
+        "option1": "Ir para o Sul",
         "option2": "Cancelar",
         "option3": "",
         "option4": "",
@@ -30,10 +30,9 @@
         "option7": "",
         "option8": "",
         "cancelOnB": true,
-        "layout": "dialogue",
-        "__collapse": false
+        "layout": "dialogue"
       },
-      "id": "e3e94712-078f-4f74-8dbe-71303b3ed9ac"
+      "id": "d4e41435-0ed4-45dc-a3ac-9887335d4901"
     },
     {
       "command": "EVENT_IF",
@@ -49,44 +48,31 @@
             "value": 1
           }
         },
-        "__collapseElse": true,
-        "__collapse": false
+        "__collapseElse": true
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "ead1a5f3-a7c0-466f-babc-071406be6d3e",
+              "sceneId": "fe0de12d-1934-4520-89e2-05f8c6a457ac",
               "x": {
                 "type": "number",
-                "value": 24
+                "value": 4
               },
               "y": {
                 "type": "number",
-                "value": 28
+                "value": 17
               },
               "direction": "up",
               "fadeSpeed": "2"
             },
-            "id": "ab1626d3-17bd-46c2-bc0b-3c91da9dc5d6"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "0",
-              "value": {
-                "type": "number",
-                "value": 1
-              },
-              "__collapse": false
-            },
-            "id": "8c010d17-63ed-4c3a-b1d3-ab06bdab44be"
+            "id": "d2ac59c7-75a2-431d-b921-48ac78f67011"
           }
         ],
         "false": []
       },
-      "id": "9f50352a-2b10-4178-810f-b584bbbb85d6"
+      "id": "e7f81d87-6c1c-40b9-b110-0674e1454935"
     }
   ],
   "startScript": [],
@@ -94,7 +80,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 25,
-  "y": 23,
-  "_index": 0
+  "x": 24,
+  "y": 26,
+  "_index": 1
 }

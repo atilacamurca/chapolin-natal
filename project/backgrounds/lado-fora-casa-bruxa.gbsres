@@ -8,5 +8,6 @@
   "imageWidth": 192,
   "imageHeight": 176,
   "filename": "lado-fora-casa-bruxa.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
