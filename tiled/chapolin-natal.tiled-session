@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "lado-fora-casa-bruxa.tmx",
+    "activeFile": "casa-da-bruxa-baratuxa.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -12,6 +12,10 @@
         "BitsAndBobs.tsx": {
             "scaleInDock": 3,
             "scaleInEditor": 5.5
+        },
+        "Casa_Bruxa_Tileset.tsx": {
+            "scaleInDock": 8,
+            "scaleInEditor": 8
         },
         "Fabrica_Tileset.tsx": {
             "scaleInDock": 5.5,
@@ -45,20 +49,28 @@
             "scaleInDock": 2,
             "scaleInEditor": 3
         },
+        "casa-da-bruxa-baratuxa.tmx": {
+            "scale": 4.665885416666666,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 96.01607411955129,
+                "y": 95.90891332254286
+            }
+        },
         "casa-do-chapolin.tmx": {
             "scale": 6.221180555555555,
-            "selectedLayer": 1,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 80.04911536529555,
+                "x": 66.22537255120837,
                 "y": 71.93168499190715
             }
         },
         "casa-do-papai-noel.tmx": {
             "scale": 5.650520833333333,
-            "selectedLayer": 5,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 95.92036132362429,
-                "y": 71.94027099271823
+                "x": 78.31136510277443,
+                "y": 71.94027099271821
             }
         },
         "fabrica-papai-noel.tmx": {
@@ -97,15 +109,15 @@
             "scale": 5.090056818181818,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 75.34297036334209,
-                "y": 87.91650387899762
+                "x": 75.44120109393315,
+                "y": 87.9165038789976
             }
         },
         "lado-esquerdo-casa-papai-noel.tmx": {
             "scale": 4,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 96.125,
+                "x": 96,
                 "y": 87.875
             }
         },
@@ -114,7 +126,7 @@
             "selectedLayer": 4,
             "viewCenter": {
                 "x": 96.06965451805547,
-                "y": 87.9165038789976
+                "y": 87.91650387899762
             }
         },
         "lado-fora-casa-chapolin.tmx": {
@@ -151,32 +163,33 @@
         }
     },
     "last.imagePath": "/home/atila/Jogos/gbstudio/chapolin-natal/tiled",
-    "map.height": 22,
+    "map.height": 24,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
     "map.width": 24,
     "openFiles": [
-        "lado-esquerdo-casa-papai-noel.tmx",
-        "lado-esquerdo-casa-bruxa.tmx",
         "lado-fora-casa-bruxa.tmx",
-        "gameboy_outdoor_assets_v1.2.tsx",
-        "gameboy_rpg_v09.tsx"
+        "casa-do-papai-noel.tmx",
+        "casa-da-bruxa-baratuxa.tmx",
+        "casa-do-chapolin.tmx",
+        "RPG_interior.tsx",
+        "Casa_Bruxa_Tileset.tsx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
-        "lado-esquerdo-casa-papai-noel.tmx",
+        "lado-fora-casa-bruxa.tmx",
+        "casa-do-papai-noel.tmx",
+        "Casa_Bruxa_Tileset.tsx",
+        "RPG_interior.tsx",
+        "casa-do-chapolin.tmx",
+        "casa-da-bruxa-baratuxa.tmx",
         "lado-esquerdo-casa-bruxa.tmx",
+        "lado-esquerdo-casa-papai-noel.tmx",
         "gameboy_rpg_v09.tsx",
         "gameboy_outdoor_assets_v1.2.tsx",
-        "lado-fora-casa-bruxa.tmx",
         "lado-fora-casa-chapolin.tmx",
-        "gravacao-roubo-renas.tmx",
-        "casa-do-chapolin.tmx",
-        "lado-fora-casa-papai-noel.tmx",
-        "fabrica-papai-noel.tmx",
-        "GameBoy Style Interiors.tsx",
-        "sala-seguranca-papai-noel.tmx"
+        "gravacao-roubo-renas.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
