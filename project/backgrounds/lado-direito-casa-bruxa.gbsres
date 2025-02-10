@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bd626e70-667f-4498-a2b9-34c2584da638",
+  "name": "lado-direito-casa-bruxa",
+  "symbol": "bg_lado_direito_casa_bruxa",
+  "width": 40,
+  "height": 22,
+  "imageWidth": 320,
+  "imageHeight": 176,
+  "filename": "lado-direito-casa-bruxa.png",
+  "tileColors": "0013+0215+0013+0215+0013+0215+0013+0215+0013+0215+0013+0215+0020+016+0022+016+0022+016+0022+016+0022+016+0022+016+0050+012+0026+012+009e+012+0026+012+0050+",
+  "autoColor": false
+}

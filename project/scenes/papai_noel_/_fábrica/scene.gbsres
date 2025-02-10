@@ -1,0 +1,25 @@
+{
+  "_resourceType": "scene",
+  "id": "b9ed0b69-5701-470b-86ef-eec4fe4ab1ee",
+  "_index": 7,
+  "name": "Papai Noel / Fábrica",
+  "backgroundId": "a9f5a418-1ddd-4a8d-85b7-779a2b8417e1",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "002e+0fe+003+0f3+00e+0f3+0011+0f!003+0f2+00e+0f!00e+0f6+00a+0f4+004+0f2+006+0f5+003+0f6+004+0fc+002+0f2+0012+0f2+0012+0f2+0012+0f2+0010+0f4+0010+0f!002+0f3+00c+0f3+004+0f!00c+0f!006+0f4+004+0f6+004+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 936,
+  "y": 120,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7"
+}

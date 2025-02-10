@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "03f215b9-8bda-4898-b443-3bf838ad5ad6",
+  "name": "Crocodilo_TS",
+  "symbol": "tileset_crocodilo_ts",
+  "width": 4,
+  "height": 4,
+  "imageWidth": 32,
+  "imageHeight": 32,
+  "filename": "Crocodilo_TS.png"
+}

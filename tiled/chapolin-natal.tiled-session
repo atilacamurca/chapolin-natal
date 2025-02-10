@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "casa-da-bruxa-baratuxa.tmx",
+    "activeFile": "lado-direito-casa-bruxa.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -69,8 +69,8 @@
             "scale": 5.650520833333333,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 78.31136510277443,
-                "y": 71.94027099271821
+                "x": 78.22287768457922,
+                "y": 71.94027099271823
             }
         },
         "fabrica-papai-noel.tmx": {
@@ -95,6 +95,14 @@
             "viewCenter": {
                 "x": 96.06965451805547,
                 "y": 87.9165038789976
+            }
+        },
+        "lado-direito-casa-bruxa.tmx": {
+            "scale": 4.520416666666667,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 107.95465019817493,
+                "y": 87.9343718315052
             }
         },
         "lado-direito-casa-papai-noel.tmx": {
@@ -163,33 +171,33 @@
         }
     },
     "last.imagePath": "/home/atila/Jogos/gbstudio/chapolin-natal/tiled",
-    "map.height": 24,
+    "map.height": 22,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 24,
+    "map.width": 30,
     "openFiles": [
         "lado-fora-casa-bruxa.tmx",
-        "casa-do-papai-noel.tmx",
-        "casa-da-bruxa-baratuxa.tmx",
-        "casa-do-chapolin.tmx",
-        "RPG_interior.tsx",
-        "Casa_Bruxa_Tileset.tsx"
+        "lado-direito-casa-bruxa.tmx",
+        "Casa_Bruxa_Tileset.tsx",
+        "gameboy_rpg_v09.tsx",
+        "Gameboy-Forest-Tileset.tsx",
+        "RPG_exterior.tsx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
         "lado-fora-casa-bruxa.tmx",
-        "casa-do-papai-noel.tmx",
+        "RPG_exterior.tsx",
+        "Gameboy-Forest-Tileset.tsx",
+        "gameboy_rpg_v09.tsx",
         "Casa_Bruxa_Tileset.tsx",
+        "lado-direito-casa-bruxa.tmx",
+        "gameboy_outdoor_assets_v1.2.tsx",
+        "BitsAndBobs.tsx",
+        "casa-da-bruxa-baratuxa.tmx",
         "RPG_interior.tsx",
         "casa-do-chapolin.tmx",
-        "casa-da-bruxa-baratuxa.tmx",
-        "lado-esquerdo-casa-bruxa.tmx",
-        "lado-esquerdo-casa-papai-noel.tmx",
-        "gameboy_rpg_v09.tsx",
-        "gameboy_outdoor_assets_v1.2.tsx",
-        "lado-fora-casa-chapolin.tmx",
-        "gravacao-roubo-renas.tmx"
+        "casa-do-papai-noel.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
