@@ -99,9 +99,9 @@ acaba de desaparecer.
 
 ```
 Noel: Nossa! Olha Chapolin. O treno também acaba de sumir!
-Ch.: Como, se as renas foram levadas ontem a noite?!
-Dingo: Não sei, mas com certeza saberemos mais ao olhar as câmeras.
-Anda Chapolin, vá até a fábrica de presentes e fala com minha irmã.
+Ch.: Como? As renas foram levadas ontem a noite?!
+Noel: Não sei. Mas com certeza saberemos mais ao olhar as câmeras.
+Anda Chapolin, vá até a fábrica de presentes.
 Ch.: Sim, claro. Sem tempo a perder.
 ```
 

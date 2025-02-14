@@ -25,6 +25,26 @@
       "id": "4",
       "name": "Encontrou Pegadas Curral",
       "symbol": "var_encontrou_pegadas_curra"
+    },
+    {
+      "id": "5",
+      "name": "Conversou Com Bel",
+      "symbol": "var_conversou_com_bel"
+    },
+    {
+      "id": "6",
+      "name": "Treno Sumiu",
+      "symbol": "var_treno_sumiu"
+    },
+    {
+      "id": "7",
+      "name": "Viu Imagens Cameras",
+      "symbol": "var_viu_imagens_cameras"
+    },
+    {
+      "id": "8",
+      "name": "Encontrou Mais Lama",
+      "symbol": "var_encontrou_mais_lama"
     }
   ]
 }

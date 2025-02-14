@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "73d60911-7042-47e6-b993-ab8498ca0b4f",
-  "name": "Dingo",
+  "id": "b56bd194-ad9f-4c8d-8960-3bc66af060d2",
+  "name": "Papai Noel",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "01462071-a2b9-498f-b1d1-360f7e9bf60a",
+  "spriteSheetId": "6b7aa36b-b867-43b7-9882-a7dd6e5a048e",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_6",
+  "symbol": "actor_15",
   "script": [
     {
       "command": "EVENT_IF",
@@ -23,225 +23,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "3"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 0
-          }
-        },
-        "__collapseElse": false,
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "3",
-              "value": {
-                "type": "number",
-                "value": 1
-              },
-              "__collapse": true
-            },
-            "id": "d6990905-be9f-4cc5-a01a-2bb86cc1526d"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "6",
-              "value": {
-                "type": "number",
-                "value": 1
-              },
-              "__collapse": true
-            },
-            "id": "f930e13e-893f-447b-b5e0-ebaaa6458e37"
-          },
-          {
-            "command": "EVENT_ACTOR_EMOTE",
-            "args": {
-              "actorId": "$self$",
-              "emoteId": "52de3880-77e8-41e2-b040-29d00073b78f",
-              "__collapse": true
-            },
-            "id": "6996ccfa-7ae0-438d-bb08-ec484be9f53f"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "E você, quem é?"
-              ],
-              "__section": "text",
-              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "9c632773-42a4-481d-9425-bf4cb8e77310"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Dingo, ajudante do\nPapai Noel.\nE você?"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "52966376-6a75-4504-b176-e9ea951b8878"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Não, eu não.",
-                "Ah, sim, sou o\nChapolin Colorado.",
-                "Diga, viu algo\nsuspeito por aqui?"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "0f1a4eeb-20e0-4598-97cc-63fa17da32da"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Sim, ouvi barulhos\nestranhos ontem\na noite.",
-                "Quando cheguei no\ncurral as renas\nhaviam sumido."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "f462ae00-a347-413f-96c5-48b378ff59d3"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Precisamos\ninvestigar melhor\na cena do crime."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "d4e50b76-4ee0-456f-91a1-7d9ed358a517"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Ouvi barulhos\nestranhos ontem\na noite.",
-                "Quando cheguei no\ncurral as renas\nhaviam sumido."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "e1226df7-c4ca-431a-ab4c-67d213c1e7af"
-          }
-        ]
-      },
-      "id": "5227c012-d888-4603-968b-84f044736230"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "4"
+            "value": "6"
           },
           "valueB": {
             "type": "number",
@@ -249,7 +31,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -257,7 +39,32 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "As câmeras\nficam na fábrica\ndo Papai Noel,\na direita\nda casa dele."
+                " Credo!\n Olha Chapolin. \n"
+              ],
+              "__section": "text",
+              "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b29732a2-3e7c-46df-a4b0-2199569d4fe7"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "O treno também \nacaba de sumir!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -276,20 +83,227 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "303a6f1e-4967-4b68-be16-d950c6abb0ca"
+            "id": "6f2ea803-174e-4f17-b0d5-2aaff5c1984f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Como?"
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ab7b09f5-29b9-485c-ac84-4834c66445a6"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "As renas foram\nlevadas ontem\na noite?!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "942e6445-bbbd-448d-ac70-84c656526cdb"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Não sei."
+              ],
+              "__section": "text",
+              "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "cee4953f-f701-49a2-ab4b-4a9410360b1d"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Mas com certeza\nsaberemos mais\nao olhar\nas câmeras.",
+                "Anda Chapolin,\nvá até a fábrica\nde presentes."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "70e03aac-8e7a-40d8-a334-5779ea9b8490"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Sim, claro.\n Sem tempo\n a perder."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c708c84a-5ac5-412a-ab6e-a83d82b8e888"
           }
         ],
         "false": []
       },
-      "id": "d0b4811b-7ed6-4487-a33a-44866234afe8"
+      "id": "c02b485a-1bd4-40f8-810d-b324169a8882"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "b56bd194-ad9f-4c8d-8960-3bc66af060d2"
+      },
+      "id": "5aae3405-a625-4528-84c3-5c5abf3f567c"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "dfd6a4da-db04-456a-81b2-ce064611c2f5"
+            },
+            "id": "b5f21c01-3166-4a25-9890-f2aacb5ed259"
+          },
+          {
+            "command": "EVENT_CAMERA_MOVE_TO",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 13
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "speed": 0
+            },
+            "id": "cc4c06df-6840-4972-ab8e-638d23d2ad0e"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "b56bd194-ad9f-4c8d-8960-3bc66af060d2"
+            },
+            "id": "cd471e33-0a4f-4378-acef-db2b2c5b14e6"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "b56bd194-ad9f-4c8d-8960-3bc66af060d2",
+              "emoteId": "3ddbfaf5-63e9-47b9-95e2-fa006c2717c3"
+            },
+            "id": "33bdce2b-46d5-40d3-9d65-df7ae26201c3"
+          },
+          {
+            "command": "EVENT_CAMERA_LOCK",
+            "args": {
+              "speed": 0,
+              "axis": [
+                "x",
+                "y"
+              ]
+            },
+            "id": "8eda67b1-3cdb-42cf-8482-763790e24861"
+          }
+        ],
+        "false": []
+      },
+      "id": "7178377c-6ad8-466d-94eb-1af7398e05bb"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 10,
-  "y": 7,
-  "_index": 1
+  "x": 22,
+  "y": 14,
+  "_index": 2
 }

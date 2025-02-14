@@ -1,0 +1,69 @@
+{
+  "_resourceType": "actor",
+  "id": "7013e5e5-8582-485b-9b60-56a8683784d6",
+  "name": "Mais Pegadas",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "6b7aa36b-b867-43b7-9882-a7dd6e5a048e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_17",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "7013e5e5-8582-485b-9b60-56a8683784d6",
+        "__collapse": true
+      },
+      "id": "a459b381-f637-4cd2-9615-e0027326326a"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "4bfdac06-41e1-4ac3-ab13-942cc81864a8"
+            },
+            "id": "9d35b429-a041-4e8d-8d24-1cb99c8fb108"
+          }
+        ],
+        "false": []
+      },
+      "id": "f1a5ceb4-9da6-4f34-b8b8-603f3e8fddcb"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 2,
+  "y": 10,
+  "_index": 1
+}
