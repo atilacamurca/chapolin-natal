@@ -17,7 +17,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "7"
+            "value": "9"
           },
           "valueB": {
             "type": "number",
@@ -25,7 +25,8 @@
           }
         },
         "__collapseElse": true,
-        "__disableElse": true
+        "__disableElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -44,7 +45,8 @@
                 }
               },
               "__collapseElse": true,
-              "__disableElse": true
+              "__disableElse": true,
+              "__collapse": true
             },
             "children": {
               "true": [

@@ -32,7 +32,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "7"
+            "value": "9"
           },
           "valueB": {
             "type": "number",

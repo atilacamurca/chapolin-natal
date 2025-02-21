@@ -12,12 +12,97 @@
     "dmg"
   ],
   "spritePaletteIds": [],
-  "collisions": "0028+0f3+004+0f6+00!0f3+006+0f4+006+0f!002+0f!00d+0f2+00!0f7+0013+0f!0011+0f4+0012+0f2+0012+0f2+003+0f!00!0f4+00!0f!007+0f2+003+0f8+007+0f2+0012+0f!00!0f2+00e+0f2+003+0f!00e+0f!004+0ff+003f+",
+  "collisions": "0028+0f3+004+0f6+00!0f3+006+0f4+006+0f!002+0f!00d+0f2+00!0f!002+0f4+0013+0f!0011+0f4+0012+0f2+0012+0f2+003+0f!00!0f4+00!0f!007+0f2+003+0f8+007+0f2+0012+0f!00!0f2+00e+0f2+003+0f!00e+0f!004+0ff+003f+",
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
   "x": 1112,
   "y": 120,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "5d568b77-0cab-4f08-b4de-088f18225457",
+              "__collapse": true
+            },
+            "id": "ac29f6cc-0e6a-4ec4-b360-821a965d449a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Nossa!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "2c55641e-a4de-4591-ad0d-6cb8d939bba1"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "7",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "4525fce9-17f2-4814-aab7-251069a24299"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "9",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "cd32145a-458f-49c8-8dec-7e2ab9d87aba"
+          }
+        ],
+        "false": []
+      },
+      "id": "5844852a-b55a-4ad4-b421-7d4530b60e09"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

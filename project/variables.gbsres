@@ -45,6 +45,11 @@
       "id": "8",
       "name": "Encontrou Mais Lama",
       "symbol": "var_encontrou_mais_lama"
+    },
+    {
+      "id": "9",
+      "name": "Mostrar Mais Pegadas",
+      "symbol": "var_mostrar_mais_pegadas"
     }
   ]
 }
