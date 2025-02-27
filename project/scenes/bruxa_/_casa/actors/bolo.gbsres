@@ -15,8 +15,162 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_12",
-  "script": [],
-  "startScript": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "10",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "a83f590d-7780-44c5-a0ab-3920935b308d"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "f45b9bf6-ad15-48ef-ac65-42245ee517b2"
+            },
+            "id": "2ff80562-0f7e-4fa8-a8e6-a18239499d79"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "ae34c614-9a6a-49d9-9085-e077d2236ef5"
+            },
+            "id": "519d66e9-00f4-4fb0-aca1-9162df6dc137"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "299e1738-c933-4165-adfd-fc964acf28b8"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "ae34c614-9a6a-49d9-9085-e077d2236ef5"
+            },
+            "id": "24eded21-999b-43ad-9c35-ac12b62bc83b"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": false
+            },
+            "id": "970e7d8b-5768-49f8-964c-6a6c1f392c17"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "ae34c614-9a6a-49d9-9085-e077d2236ef5",
+              "__collapse": false
+            },
+            "id": "fd2f5a32-d8bb-4420-8141-c40df3f9841f"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "3e8f1ca0-d513-4b3b-8bbc-4a119f8c11e2"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "ae34c614-9a6a-49d9-9085-e077d2236ef5"
+            },
+            "id": "db28dc8a-d3b2-468a-ae33-62a7659f617c"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "b2e374aa-61de-42a0-81c0-ffb55a7189aa"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "ae34c614-9a6a-49d9-9085-e077d2236ef5",
+              "__collapse": false
+            },
+            "id": "9575ac0c-1a8c-4349-bc3f-6c16d43edf97"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "5d568b77-0cab-4f08-b4de-088f18225457"
+            },
+            "id": "809badbb-5106-4c20-b3ea-439a2297666d"
+          }
+        ],
+        "false": []
+      },
+      "id": "7567930f-2e3c-4be4-b2d5-41465668c466"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "ae34c614-9a6a-49d9-9085-e077d2236ef5"
+            },
+            "id": "9736bcfb-b93a-4f46-bed4-5bd0f50f1b11"
+          }
+        ],
+        "false": []
+      },
+      "id": "99434d1e-94c7-4698-9b0a-f8440782f2e4"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

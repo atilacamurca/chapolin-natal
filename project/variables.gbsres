@@ -50,6 +50,21 @@
       "id": "9",
       "name": "Mostrar Mais Pegadas",
       "symbol": "var_mostrar_mais_pegadas"
+    },
+    {
+      "id": "10",
+      "name": "Interagiu Com Bolo",
+      "symbol": "var_interagiu_com_bolo"
+    },
+    {
+      "id": "11",
+      "name": "Interagiu Com Satanas",
+      "symbol": "var_interagiu_com_satanas"
+    },
+    {
+      "id": "12",
+      "name": "Conversou Com A Bruxa",
+      "symbol": "var_conversou_com_a_bruxa"
     }
   ]
 }
