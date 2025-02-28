@@ -65,6 +65,26 @@
       "id": "12",
       "name": "Conversou Com A Bruxa",
       "symbol": "var_conversou_com_a_bruxa"
+    },
+    {
+      "id": "13",
+      "name": "Falou Com Bel Sobre Crocodilos",
+      "symbol": "var_falou_com_bel_sobre_cro"
+    },
+    {
+      "id": "14",
+      "name": "Iniciou Travessia Crocodilos",
+      "symbol": "var_iniciou_travessia_croco"
+    },
+    {
+      "id": "15",
+      "name": "Bel Deu Grito",
+      "symbol": "var_bel_deu_grito"
+    },
+    {
+      "id": "16",
+      "name": "Passou Pelos Crocodilos",
+      "symbol": "var_passou_pelos_crocodilos"
     }
   ]
 }
