@@ -30,7 +30,8 @@
             "value": 0
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -292,6 +293,56 @@
         "false": []
       },
       "id": "b203419a-fc7e-4dd9-84f8-dc1b45027ab5"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "17"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "No jornal diz que\né num laboratório\nao leste, não\nmuito longe daqui."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "2552b1fa-25b5-4aed-ab74-91e75ec013b0"
+          }
+        ],
+        "false": []
+      },
+      "id": "a2cf7b6d-3e25-4e9b-9b0c-1bf5bd95d1f6"
     }
   ],
   "startScript": [],

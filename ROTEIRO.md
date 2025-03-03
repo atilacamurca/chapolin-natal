@@ -261,7 +261,7 @@ leves como uma pena. Deve ter sido assim que levaram as renas, o trenó
 e os presentes com tanta facilidade.
 Ch.: É exatamente o que eu ia dizer. Precisamos encontrar o Professor Baratinha
 e descobrir o que ele sabe. Onde ele mora?
-Bel: No jornal diz que é num laboratório ao sul, não muito longe daqui.
+Bel: No jornal diz que é num laboratório ao leste, não muito longe daqui.
 Ch.: Precisamos voltar para a placa de viagem rápida. Sigam-me os bons.
 ```
 

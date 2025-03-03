@@ -109,6 +109,14 @@
             "id": "db28dc8a-d3b2-468a-ae33-62a7659f617c"
           },
           {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "ae34c614-9a6a-49d9-9085-e077d2236ef5",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "979c5b77-fe31-4819-a0c1-a199debfe4bb"
+          },
+          {
             "command": "EVENT_WAIT",
             "args": {
               "time": 0.5,

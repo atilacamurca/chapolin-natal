@@ -85,6 +85,11 @@
       "id": "16",
       "name": "Passou Pelos Crocodilos",
       "symbol": "var_passou_pelos_crocodilos"
+    },
+    {
+      "id": "17",
+      "name": "Encontro Jornal",
+      "symbol": "var_encontro_jornal"
     }
   ]
 }
