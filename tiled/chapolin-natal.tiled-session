@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "lado-direito-casa-bruxa.tmx",
+    "activeFile": "laboratorio-professor-baratinha.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -22,7 +22,11 @@
             "scaleInEditor": 8
         },
         "GB Modular Houses.tsx": {
-            "scaleInDock": 3,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 3
+        },
+        "GB_studio_overworld_tiles.tsx": {
+            "scaleInDock": 4,
             "scaleInEditor": 3
         },
         "GameBoy Style Interiors.tsx": {
@@ -32,6 +36,14 @@
         "Gameboy-Forest-Tileset.tsx": {
             "scaleInDock": 2,
             "scaleInEditor": 4
+        },
+        "Laboratorio.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Overworld_Final.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 3
         },
         "Pegadas_A.tsx": {
             "scaleInDock": 8,
@@ -51,7 +63,7 @@
         },
         "casa-da-bruxa-baratuxa.tmx": {
             "scale": 4.665885416666666,
-            "selectedLayer": 5,
+            "selectedLayer": 1,
             "viewCenter": {
                 "x": 96.01607411955129,
                 "y": 95.90891332254286
@@ -61,8 +73,8 @@
             "scale": 6.221180555555555,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 66.22537255120837,
-                "y": 71.93168499190715
+                "x": 118.78774348384218,
+                "y": 49.74940001116259
             }
         },
         "casa-do-papai-noel.tmx": {
@@ -86,7 +98,7 @@
             "scaleInEditor": 4
         },
         "gameboy_rpg_v09.tsx": {
-            "scaleInDock": 3,
+            "scaleInDock": 1.5,
             "scaleInEditor": 3
         },
         "gravacao-roubo-renas.tmx": {
@@ -95,6 +107,14 @@
             "viewCenter": {
                 "x": 96.06965451805547,
                 "y": 87.9165038789976
+            }
+        },
+        "laboratorio-professor-baratinha.tmx": {
+            "scale": 4.665885416666666,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 96.01607411955129,
+                "y": 95.90891332254286
             }
         },
         "lado-direito-casa-bruxa.tmx": {
@@ -134,7 +154,7 @@
             "selectedLayer": 4,
             "viewCenter": {
                 "x": 96.06965451805547,
-                "y": 87.91650387899762
+                "y": 87.9165038789976
             }
         },
         "lado-fora-casa-chapolin.tmx": {
@@ -151,6 +171,14 @@
             "viewCenter": {
                 "x": 132.022101914383,
                 "y": 127.87855109672378
+            }
+        },
+        "lado-fora-laboratorio-prof-baratinha.tmx": {
+            "scale": 5.090056818181818,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 96.06965451805547,
+                "y": 87.9165038789976
             }
         },
         "mapa-teste.tmx": {
@@ -171,33 +199,32 @@
         }
     },
     "last.imagePath": "/home/atila/Jogos/gbstudio/chapolin-natal/tiled",
-    "map.height": 22,
+    "map.height": 24,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 30,
+    "map.width": 24,
     "openFiles": [
-        "lado-fora-casa-bruxa.tmx",
-        "lado-direito-casa-bruxa.tmx",
-        "Casa_Bruxa_Tileset.tsx",
-        "gameboy_rpg_v09.tsx",
-        "Gameboy-Forest-Tileset.tsx",
-        "RPG_exterior.tsx"
+        "lado-fora-laboratorio-prof-baratinha.tmx",
+        "GB Modular Houses.tsx",
+        "casa-da-bruxa-baratuxa.tmx",
+        "casa-do-chapolin.tmx",
+        "laboratorio-professor-baratinha.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
-        "lado-fora-casa-bruxa.tmx",
-        "RPG_exterior.tsx",
-        "Gameboy-Forest-Tileset.tsx",
-        "gameboy_rpg_v09.tsx",
-        "Casa_Bruxa_Tileset.tsx",
-        "lado-direito-casa-bruxa.tmx",
-        "gameboy_outdoor_assets_v1.2.tsx",
-        "BitsAndBobs.tsx",
+        "lado-fora-laboratorio-prof-baratinha.tmx",
+        "GB Modular Houses.tsx",
         "casa-da-bruxa-baratuxa.tmx",
-        "RPG_interior.tsx",
         "casa-do-chapolin.tmx",
-        "casa-do-papai-noel.tmx"
+        "laboratorio-professor-baratinha.tmx",
+        "lado-fora-casa-bruxa.tmx",
+        "Overworld_Final.tsx",
+        "Laboratorio.tsx",
+        "GB_studio_overworld_tiles.tsx",
+        "Top-down Gameboy Asset Pack.tsx",
+        "lado-direito-casa-bruxa.tmx",
+        "Casa_Bruxa_Tileset.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

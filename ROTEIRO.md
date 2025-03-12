@@ -265,6 +265,61 @@ Bel: No jornal diz que é num laboratório ao leste, não muito longe daqui.
 Ch.: Precisamos voltar para a placa de viagem rápida. Sigam-me os bons.
 ```
 
-Chapolin volta para a placa de viagem rápida e viaja para o sul.
+Chapolin volta para a placa de viagem rápida e viaja para o leste.
 
 ## Laboratório do Professor Baratinha
+
+**Chapolin** chega até uma pequena cidade urbanizada. Na calçada é possível ver **Bel**.
+
+```
+Bel: Olha Chapolin, do outro lado da rua fica o Laboratório do Professor Baratinha.
+Me pergunto o que ele está fazendo do lado de fora.
+Ch.: Ele pode estar com algum problema. Vou até lá perguntar.
+```
+
+Ao se aproximar do Laboratório e do Professor, Chapolin sente suas anteninhas de vinil vibrarem.
+
+```
+Prof.: Oh, e agora? Quem poderá me ajudar?
+Ch.: Eu!
+Prof.: O Chapolin Colorado.
+Ch.: Não contavam com a minha astúcia.
+Prof.: Que bom que chegou Chapolin. Imagina que tranquei o Laboratório
+e deixei a chave lá dentro.
+Ch.: Nossa! Não me diga que você é o Professor Baratinha.
+Prof.: Sim, sou eu. Como me conhece?
+Ch.: Encontrei um pedaço de jornal em uma cena de crime que mencionava
+o senhor e seu invento, o extrato de energia volátil.
+Prof.: Por isso mesmo tenho que entrar no meu laboratório,
+é urgente.
+Ch.: Fujam! Não deixe que o agarrem. Ou o contrário.
+Prof.: Não quero fugir Chapolin. Na verdade me roubaram o
+extrato. Preciso acessar o computador do laboratório e
+rastreá-lo.
+Ch.: Suspeitei desde o príncipio. Mãos de cobra.
+Digo, mãos à obra.
+Prof.: Mas como vamos entrar Chapolin?
+Ch.: Quer saber se eu tenho um plano?
+Prof.: Sim.
+Ch.: A resposta é muito simples.
+Prof.: Qual?
+Ch.: Não tenho plano algum.
+Dingo: Ah!
+[Chapolin se assusta]
+Dingo: Chapolin, por que não toma uma de suas pastilhas
+de nanicolina e passa por debaixo da porta?
+Ch.: Era exatamente o que eu ia dizer.
+```
+
+Chapolin toma uma pastilha de nanicolina e fica minúsculo.
+
+```
+Ch.: Não contavam com a minha astúcia!
+Dingo: Ele é o máximo!
+Ch.: Agora diga, onde está a chave?
+Prof.: Deixei em cima da mesa, perto do computador.
+Ch.: Sigam-me os bons.
+```
+
+Chapolin chega até a mesa e usa o fio do telefone para escalá-la.
+Atravessando a mesa, Chapolin encontra a chave.

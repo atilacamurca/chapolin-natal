@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "cef0ca06-9a53-43e4-bffc-1e139b393fe8",
+  "name": "lado-fora-laboratorio-prof-baratinha",
+  "symbol": "bg_lado_fora_laboratorio_pr",
+  "width": 24,
+  "height": 28,
+  "imageWidth": 192,
+  "imageHeight": 224,
+  "filename": "lado-fora-laboratorio-prof-baratinha.png",
+  "tileColors": "006+07c+00c+07c+00c+07c+00c+07c+00c+07c+00c+07c+00c+07c+00c+07c+00c+07c+00c+07c+0010+074+00b+802+0013+80!002+80!0014+80!002+80!0014+80!002+80!0014+80!00139+",
+  "autoColor": false
+}

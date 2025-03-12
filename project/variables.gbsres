@@ -90,6 +90,11 @@
       "id": "17",
       "name": "Encontro Jornal",
       "symbol": "var_encontro_jornal"
+    },
+    {
+      "id": "18",
+      "name": "Falou Com Prof Baratinha",
+      "symbol": "var_falou_com_prof_baratinh"
     }
   ]
 }

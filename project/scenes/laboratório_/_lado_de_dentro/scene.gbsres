@@ -1,0 +1,24 @@
+{
+  "_resourceType": "scene",
+  "id": "68cab1b4-05f9-4641-8cd4-f5e418d266a9",
+  "_index": 15,
+  "name": "Laboratório / Lado de Dentro",
+  "backgroundId": "361ffc39-3bb6-417d-ad24-719642cacbcb",
+  "tilesetId": "",
+  "width": 24,
+  "height": 24,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0090+0f13+005+0f!0011+0f7+0016+0f8+0010+0f!006+0f!0010+0f8+006+0fc+00c+0f!00a+0f!00c+0fc+00c+0f!009+0f2+00c+0f4+006+0f8+00a+0f7+006+0f!0010+0f!00!0f6+0010+0f2+0016+0f4+0014+0f!002+0f!0014+0f!002+0f!0014+0f!002+0f7+006+0f9+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_16",
+  "x": 1720,
+  "y": 464,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -40,6 +40,19 @@
         "closeDelayFrames": 30
       },
       "id": "ea144d5e-be5e-40c9-8c56-6c8d3283648f"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "3f925792-3168-4bd0-b510-46b0992677d2",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "e8e7016c-6e84-430f-a78a-5bbd866fec38"
     }
   ],
   "startScript": [],

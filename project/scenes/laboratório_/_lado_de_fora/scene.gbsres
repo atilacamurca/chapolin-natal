@@ -1,0 +1,24 @@
+{
+  "_resourceType": "scene",
+  "id": "0ee0746a-d16f-4ba2-9e4c-11020fbef2cd",
+  "_index": 14,
+  "name": "Laboratório / Lado de Fora",
+  "backgroundId": "cef0ca06-9a53-43e4-bffc-1e139b393fe8",
+  "tilesetId": "",
+  "width": 24,
+  "height": 28,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0f7+00a+0f8+005+0f!00a+0f!005+0f2+005+0f!00a+0f!005+0f2+005+0f!00a+0f!005+0f2+005+0f!00a+0f!005+0f2+005+0f!00a+0f!005+0f2+005+0f!00a+0f!005+0f2+005+0f!002+0f6+002+0f!005+0f2+005+0f!002+0f!004+0f!002+0f!005+0f2+006+0f2+006+0f2+006+0f2+0016+0f2+0016+0f2+0016+0f2+0016+0f2+0016+0f!00!0f8+006+0f8+002+0f!0014+0f!00!0f!0016+0f2+0016+0f2+0016+0f2+0016+0f2+0016+0f2+0016+0f2+0016+0f2+008+0f!009+0f!003+0f2+0016+0f2+0016+0f2+0016+0f!",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 1744,
+  "y": 728,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

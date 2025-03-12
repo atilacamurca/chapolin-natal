@@ -48,6 +48,18 @@
             "id": "2190ecff-aa5e-41cb-863c-69263929b835"
           },
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "13",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "89ab71c9-87b1-4085-b8a7-e8c58d2c534f"
+          },
+          {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "1007d3a3-82d0-47ef-91da-2a15e2bc5359",
@@ -119,6 +131,25 @@
             "id": "a74bb98e-f283-4977-a34a-ed94e249cdfd"
           },
           {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "08eb18c7-feb6-48e7-8389-4a4f8b3c130b",
+              "spriteSheetId": "82a8bd58-0be3-48f0-afa6-9dd7c3fa6d17",
+              "__collapse": true
+            },
+            "id": "3e5fc6b9-1638-4292-995f-67648c52445a"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "08eb18c7-feb6-48e7-8389-4a4f8b3c130b",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "6d0a709d-4fee-498e-a7ca-6ebadf044302"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "08eb18c7-feb6-48e7-8389-4a4f8b3c130b",
@@ -135,6 +166,25 @@
               "__collapse": true
             },
             "id": "3eb780bd-5f9c-4b4c-ba6a-ec5f648c0372"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "08eb18c7-feb6-48e7-8389-4a4f8b3c130b",
+              "spriteSheetId": "ba45f3fe-3c52-4e60-b72b-ddf5856192f9",
+              "__collapse": true
+            },
+            "id": "d5a20ac4-5a2c-46cf-810c-dd0bdfa709d8"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "08eb18c7-feb6-48e7-8389-4a4f8b3c130b",
+              "spriteStateId": "",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "035a982d-8ad1-4308-835e-2fd74d9db714"
           },
           {
             "command": "EVENT_ACTOR_EMOTE",
@@ -509,6 +559,25 @@
             "id": "8a443c7e-fa05-40d1-81bd-d8811d054c12"
           },
           {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "08eb18c7-feb6-48e7-8389-4a4f8b3c130b",
+              "spriteSheetId": "82a8bd58-0be3-48f0-afa6-9dd7c3fa6d17",
+              "__collapse": true
+            },
+            "id": "822e1e0d-4493-47d6-8d34-f3e8cf203c75"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "08eb18c7-feb6-48e7-8389-4a4f8b3c130b",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "fae33cf5-6bc6-427b-bba3-bbdef7f384c6"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "08eb18c7-feb6-48e7-8389-4a4f8b3c130b",
@@ -525,6 +594,25 @@
               "__collapse": true
             },
             "id": "3390d13e-1495-47a0-b36c-491d643b1ee1"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "08eb18c7-feb6-48e7-8389-4a4f8b3c130b",
+              "spriteSheetId": "ba45f3fe-3c52-4e60-b72b-ddf5856192f9",
+              "__collapse": true
+            },
+            "id": "8c52e8c2-188d-45de-9ae0-2d1d6858ed11"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "08eb18c7-feb6-48e7-8389-4a4f8b3c130b",
+              "spriteStateId": "",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "c599b2ef-a1a7-41f0-a1aa-ec72bb1fc2ad"
           },
           {
             "command": "EVENT_ACTOR_SET_DIRECTION",
