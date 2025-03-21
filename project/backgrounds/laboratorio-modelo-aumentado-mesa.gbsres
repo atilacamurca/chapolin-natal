@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "36827f05-c0de-46cd-9ba2-426f57a7fc7d",
+  "name": "laboratorio-modelo-aumentado-mesa",
+  "symbol": "bg_laboratorio_modelo_aumen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "laboratorio-modelo-aumentado-mesa.png",
+  "tileColors": "",
+  "autoColor": false
+}

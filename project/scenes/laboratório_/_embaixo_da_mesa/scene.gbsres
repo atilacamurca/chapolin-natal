@@ -1,0 +1,82 @@
+{
+  "_resourceType": "scene",
+  "id": "7a0cd5fc-7504-4e3d-ad3f-92739bcf633d",
+  "_index": 1,
+  "name": "Laboratório / Embaixo da Mesa",
+  "backgroundId": "15417da3-76f1-4013-b740-6774fb04a779",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "005+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00f+0f!003+0f!00b+0f5+003+0f!002+0f3+005+0f!008+0f!00!0f!003+0f!00d+0f3+004+0f!0014+0f!0014+0f!0014+0f!0014+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 1736,
+  "y": 264,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "c4387bab-3bb8-4ac8-8b10-85021f2ecb81"
+            },
+            "id": "32600547-819d-40f3-971f-79c0fc07f38c"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true
+            },
+            "id": "ae37823d-ccac-4db3-9298-51dd8bb9030e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7"
+            },
+            "id": "3f1ea512-0255-438a-b66e-78a3c84c4e5f"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true
+            },
+            "id": "0c029143-7cb4-44d1-a216-214287d794c0"
+          }
+        ]
+      },
+      "id": "df695f20-dfda-4a78-a26e-e3415977f29d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

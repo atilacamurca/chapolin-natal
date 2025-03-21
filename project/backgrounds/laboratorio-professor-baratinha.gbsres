@@ -8,5 +8,6 @@
   "imageWidth": 192,
   "imageHeight": 192,
   "filename": "laboratorio-professor-baratinha.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

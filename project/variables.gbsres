@@ -95,6 +95,21 @@
       "id": "18",
       "name": "Falou Com Prof Baratinha",
       "symbol": "var_falou_com_prof_baratinh"
+    },
+    {
+      "id": "19",
+      "name": "Chapolin Esta Pequeno",
+      "symbol": "var_chapolin_esta_pequeno"
+    },
+    {
+      "id": "20",
+      "name": "Subindo Fio",
+      "symbol": "var_subindo_fio"
+    },
+    {
+      "id": "21",
+      "name": "Encontrou Chave Lab",
+      "symbol": "var_encontrou_chave_lab"
     }
   ]
 }

@@ -1,0 +1,56 @@
+{
+  "_resourceType": "scene",
+  "id": "e1f38797-6a93-4fee-b88c-157ad59bf70e",
+  "_index": 16,
+  "name": "Laboratório / Em cima da Mesa",
+  "backgroundId": "36827f05-c0de-46cd-9ba2-426f57a7fc7d",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00de+0f9+00a+0f2+007+0f!00a+0f!007+0f7+005+0f!00e+0f!004+0f!00f+0f!003+0f!0010+0f!002+0f5+003+0fa+00!",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 2013.6267942583731,
+  "y": 204.05741626794259,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "21"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "846f11e3-9a9b-4796-bcdd-41b3b930ebe3"
+            },
+            "id": "a08bbd10-7d63-4ce3-88a2-ee5b8cb21f44"
+          }
+        ],
+        "false": []
+      },
+      "id": "ea21b792-9791-4f40-a3d7-9a5b10a33c2c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

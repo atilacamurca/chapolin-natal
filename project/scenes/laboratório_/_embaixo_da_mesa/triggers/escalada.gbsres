@@ -1,0 +1,71 @@
+{
+  "_resourceType": "trigger",
+  "id": "7891215d-0267-432d-8c2d-3693cc2a799b",
+  "name": "Escalada",
+  "prefabId": "",
+  "x": 6,
+  "y": 1,
+  "symbol": "trigger_29",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 12,
+  "script": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "c4387bab-3bb8-4ac8-8b10-85021f2ecb81"
+      },
+      "id": "92d52bb8-3a27-4ba3-a3b2-b091bd12c326"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "d9c10536-15ef-4ef1-97c0-64ccaafa89a3"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "20",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "aa5aa564-6897-42a2-8d7d-5eaaceab388e"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7"
+      },
+      "id": "d6a6ed90-aaf6-4af0-bf46-58680fa9b6ed"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "",
+        "loopAnim": true
+      },
+      "id": "f565b035-2315-460a-a267-5783436611e0"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "20",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "65ab7fea-1935-44c8-a995-fa547a76dd44"
+    }
+  ],
+  "_index": 1
+}
