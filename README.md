@@ -27,6 +27,10 @@ Jogo de Game Boy do Chapolin, baseado no seriado e em outras obras do Chespirito
 - <https://gibbongl.itch.io/modular-game-boy-houses> - Modular Game Boy Houses
 - <https://spritedatabase.net/file/2243> - Horon Village (Winter), Legend of Zelda: Oracle of Ages & Seasons
 - <https://pebonius.itch.io/gb-funky-fauna> - GB funky fauna
+- <https://jan-schneider.itch.io/mansion-interior-assets-pack> - Mansion Interior - Assets Pack
+- <https://faultbox.itch.io/pocket-witch-player-character> - FREE RPG 16x16 top down character pack (Pocket Witch by Faultbox)
+- <https://coffeevalenbat.itch.io/sweet-sounds-sfx-pack> - Sound Effects usable in your GB Studio project
+- <https://reakain.itch.io/soft-gameboy-font> - Soft Gameboy Font
 
 ### Links Úteis
 

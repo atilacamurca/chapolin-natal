@@ -304,7 +304,7 @@ Prof.: Sim.
 Ch.: A resposta é muito simples.
 Prof.: Qual?
 Ch.: Não tenho plano algum.
-Dingo: Ah!
+Dingo: AAHH!!
 [Chapolin se assusta]
 Dingo: Chapolin, por que não toma uma de suas pastilhas
 de nanicolina e passa por debaixo da porta?
@@ -323,3 +323,98 @@ Ch.: Sigam-me os bons.
 
 Chapolin chega até a mesa e usa o fio do telefone para escalá-la.
 Atravessando a mesa, Chapolin encontra a chave.
+
+```
+Ch.: Encontrei a chave!
+Prof.: Boa Chapolin. Agora abra o laboratório pra gente entrar.
+Ch.: Já vou descer.
+```
+
+Após descer da mesa, Chapolin sente que vai recuperar seu tamanho normal.
+
+```
+Ch.: Estou a ponto de recuperar meu tamanho normal.
+```
+
+Chapolin abre a porta do laboratório e sai para entregar a chave ao Prof. Baratinha.
+
+```
+Dingo: Chapolin, vejo que ainda está sob os efeitos das pastilhas de nanicolina, não é?
+Ch.: Se aproveitam de minha nobreza.
+Aqui está a chave Prof.
+Prof.: Obrigado Chapolin. Não temos tempo a perder, vamos entrar no laboratório
+e investigar onde o extrato de energia volátil está mais concentrado.
+```
+
+Todos entram no laboratório.
+
+> [Ideia]: Colocar referências de livros citados nas obras do Chapolin na
+> biblioteca do Professor Baratinha.
+> Exemplos:
+>   - Branca de Neve
+>   - Guilherme Tell
+>   - Romeu e Julieta, Shakspeare
+>   - O Alfaiate Valente, Grimm
+>   - Don Juan Tenorio, Jose Zorrilla
+>   - Cyrano de Bergerac, Edmond Rostand
+
+Ao interagir com o Professor, perto do computador.
+
+```
+Prof.: Veja Chapolin, acabei de localizar uma casa com alta concentração
+do extrato de energia volátil aqui pelo computador.
+Ch.: Deixe-me ver. Nossa! Não consigo ver nada!
+Prof.: Ficou cego?
+Ch.: Não. Desligaram o monitor.
+Agora estou vendo. Mas esse local me parece familiar.
+Esse não é o esconderijo do Tripa Seca?
+Prof.: Parece que sim. Mas o Tripa Seca não pode ter roubado meu invento.
+Ch.: E como pode ter tanta certeza?
+Prof.: Porque o Tripa Seca foi preso mês passado.
+Ch.: Claro, fui eu quem o prendeu. [emote:reticências]
+Nossa. Isso quer dizer que outro malfeitor está por trás disso.
+Preciso investigar o local imediatamente. Onde fica?
+Prof.: A Oeste daqui. Use a placa de viagem rápida lá fora.
+Ch.: Claro. Sigam-me os bons.
+```
+
+## Esconderijo do Tripa Seca
+
+Ao chegar no esconderijo do Tripa Seca, Chapolin encontra-se com Bel.
+
+```
+Bel: Olha Chapolin, ali fica o esconderijo do Tripa Seca.
+Sabia que dizem que essa casa é meio mal-assombrada.
+[Chapolin demonstra preocupação]
+Bel: Olha Chapolin, você acredita em fantasmas?
+Ch.: Não, são muito mentirosos.
+Bel: [emote:cético]
+Ch.: Sim, mas como vamos fazer pra entrar?
+Bel: Vamos à praça.
+Ch.: Até a avenida.
+Bel: Cruzamos a avenida.
+Ch.: Até a fonte.
+Bel: Passamos a fonte.
+Ch.: Até a porta da frente.
+Bel: Daí entramos.
+Ch.: Até à vista.
+[Chapolin tenta ir embora]
+Bel: Volte aqui Chapolin. Não me diga que está com medo.
+Ch.: Medo? O Chapolin não teme nada, nem ninguém.
+Pode deixar que eu cuido disso.
+```
+
+Chapolin atravessa a avenida, seguido da praça até a porta da
+casa.
+
+Ao entrar na casa, Chapolin se depara com uma casa empoeirada,
+com um espaço amplo e três portas.
+
+> Ideia: Cada porta leva a um item roubado: trenó, renas e presentes
+
+> Ideia: Criar triggers pela casa, acionando sustos.
+> Segue exemplos:
+>   - Ao chegar proximo ao sofá, um esqueleto sai de trás do sofá
+>   - Ao chegar perto da janela, um trovão é escutado e visto
+>   - Ao tentar sair pela porta principal, aparece o monge louco
+>   - As luzes apagam, e aparece um fantasma ou esqueleto
