@@ -15,7 +15,66 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_24",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "Ir para Oeste",
+        "option2": "Cancelar",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue"
+      },
+      "id": "9cd60d70-612f-4724-8179-70fbc6bfd477"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "c1f05970-1c57-4b54-a0a9-6cd01e8a4c6f",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "4451225d-0a70-4048-aae9-fe68398120a2"
+          }
+        ],
+        "false": []
+      },
+      "id": "933f2cb2-7ede-40de-b000-8ebc2e74a9a3"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

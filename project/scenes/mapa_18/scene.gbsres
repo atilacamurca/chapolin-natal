@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "5f6a683f-5cb5-4a13-a512-dcb7068db658",
+  "_index": 17,
+  "name": "Mapa 18",
+  "backgroundId": "a5ffb281-867b-46f0-964f-7005710cedbf",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_18",
+  "x": 1547.5725190839694,
+  "y": 1042.2290076335878,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

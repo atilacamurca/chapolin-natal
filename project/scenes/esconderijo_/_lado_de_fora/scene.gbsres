@@ -1,0 +1,24 @@
+{
+  "_resourceType": "scene",
+  "id": "c1f05970-1c57-4b54-a0a9-6cd01e8a4c6f",
+  "_index": 18,
+  "name": "Esconderijo / Lado de Fora",
+  "backgroundId": "e66095a4-6cf2-4a40-8da0-2c4c55fbf560",
+  "tilesetId": "",
+  "width": 50,
+  "height": 24,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-6"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "004b0+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_19",
+  "x": 2625.11004784689,
+  "y": 1140.8995215311006,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

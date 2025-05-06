@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "casa-tripa-seca-sala-estar.tmx",
+    "activeFile": "lado-fora-esconderijo-tripa-seca.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -22,11 +22,11 @@
             "scaleInEditor": 8
         },
         "GB Modular Houses.tsx": {
-            "scaleInDock": 1.5,
+            "scaleInDock": 3,
             "scaleInEditor": 3
         },
         "GB_studio_overworld_tiles.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 3,
             "scaleInEditor": 3
         },
         "GameBoy Style Interiors.tsx": {
@@ -39,6 +39,10 @@
         },
         "Laboratorio.tsx": {
             "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Old_House_Final.tsx": {
+            "scaleInDock": 4,
             "scaleInEditor": 1
         },
         "Overworld_Final.tsx": {
@@ -69,8 +73,8 @@
             "scale": 4.665885416666666,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 95.90891332254284,
-                "y": 95.90891332254287
+                "x": 95.80175252553443,
+                "y": 95.90891332254286
             }
         },
         "casa-do-chapolin.tmx": {
@@ -85,13 +89,13 @@
             "scale": 5.650520833333333,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 87.16010692229699,
-                "y": 71.94027099271821
+                "x": 87.07161950410176,
+                "y": 71.94027099271823
             }
         },
         "casa-tripa-seca-sala-estar.tmx": {
             "scale": 4.520416666666667,
-            "selectedLayer": 5,
+            "selectedLayer": 3,
             "viewCenter": {
                 "x": 119.90045165453037,
                 "y": 101.207484560789
@@ -185,12 +189,20 @@
                 "y": 127.87855109672378
             }
         },
-        "lado-fora-laboratorio-prof-baratinha.tmx": {
-            "scale": 5.090056818181818,
-            "selectedLayer": 5,
+        "lado-fora-esconderijo-tripa-seca.tmx": {
+            "scale": 2.71225,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 96.06965451805547,
-                "y": 87.9165038789976
+                "x": 199.83408609088397,
+                "y": 96.04571849940086
+            }
+        },
+        "lado-fora-laboratorio-prof-baratinha.tmx": {
+            "scale": 3.999330357142857,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 96.01607411955126,
+                "y": 111.89373220963331
             }
         },
         "mapa-teste.tmx": {
@@ -215,29 +227,31 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 30,
+    "map.width": 28,
     "openFiles": [
-        "casa-da-bruxa-baratuxa.tmx",
         "casa-do-papai-noel.tmx",
         "casa-tripa-seca-sala-estar.tmx",
         "RPG_interior.tsx",
         "RPG_exterior.tsx",
-        "Porta Grande.tsx"
+        "lado-fora-esconderijo-tripa-seca.tmx",
+        "Top-down Gameboy Asset Pack.tsx",
+        "Old_House_Final.tsx",
+        "GB_studio_overworld_tiles.tsx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
-        "casa-da-bruxa-baratuxa.tmx",
         "casa-do-papai-noel.tmx",
-        "Porta Grande.tsx",
-        "RPG_exterior.tsx",
-        "RPG_interior.tsx",
         "casa-tripa-seca-sala-estar.tmx",
+        "RPG_interior.tsx",
+        "RPG_exterior.tsx",
+        "GB_studio_overworld_tiles.tsx",
+        "Old_House_Final.tsx",
         "Top-down Gameboy Asset Pack.tsx",
-        "Overworld_Final.tsx",
-        "GameBoy Style Interiors.tsx",
-        "casa-do-chapolin.tmx",
-        "fabrica-papai-noel.tmx",
-        "lado-fora-laboratorio-prof-baratinha.tmx"
+        "lado-fora-esconderijo-tripa-seca.tmx",
+        "lado-fora-laboratorio-prof-baratinha.tmx",
+        "casa-da-bruxa-baratuxa.tmx",
+        "Porta Grande.tsx",
+        "Overworld_Final.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

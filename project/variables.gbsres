@@ -110,6 +110,16 @@
       "id": "21",
       "name": "Encontrou Chave Lab",
       "symbol": "var_encontrou_chave_lab"
+    },
+    {
+      "id": "22",
+      "name": "FantasmaCantoSuperiorEsquerdo",
+      "symbol": "var_fantasmacantosuperiores"
+    },
+    {
+      "id": "23",
+      "name": "Falou Com Bel Sobre Esconderijo",
+      "symbol": "var_falou_com_bel_sobre_esc"
     }
   ]
 }
