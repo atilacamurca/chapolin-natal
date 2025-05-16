@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "lado-fora-esconderijo-tripa-seca.tmx",
+    "activeFile": "casa-tripa-seca-comodo-esquerdo.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -66,7 +66,7 @@
             "scaleInEditor": 5.5
         },
         "Top-down Gameboy Asset Pack.tsx": {
-            "scaleInDock": 2,
+            "scaleInDock": 3,
             "scaleInEditor": 3
         },
         "casa-da-bruxa-baratuxa.tmx": {
@@ -89,16 +89,24 @@
             "scale": 5.650520833333333,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 87.07161950410176,
-                "y": 71.94027099271823
+                "x": 95.92036132362429,
+                "y": 71.94027099271821
+            }
+        },
+        "casa-tripa-seca-comodo-esquerdo.tmx": {
+            "scale": 4.665885416666666,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 112.09019367081544,
+                "y": 95.90891332254286
             }
         },
         "casa-tripa-seca-sala-estar.tmx": {
             "scale": 4.520416666666667,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 119.90045165453037,
-                "y": 101.207484560789
+                "x": 112.71084892616831,
+                "y": 95.89823946907549
             }
         },
         "fabrica-papai-noel.tmx": {
@@ -231,9 +239,9 @@
     "openFiles": [
         "casa-do-papai-noel.tmx",
         "casa-tripa-seca-sala-estar.tmx",
+        "casa-tripa-seca-comodo-esquerdo.tmx",
         "RPG_interior.tsx",
         "RPG_exterior.tsx",
-        "lado-fora-esconderijo-tripa-seca.tmx",
         "Top-down Gameboy Asset Pack.tsx",
         "Old_House_Final.tsx",
         "GB_studio_overworld_tiles.tsx"
@@ -242,16 +250,16 @@
     "recentFiles": [
         "casa-do-papai-noel.tmx",
         "casa-tripa-seca-sala-estar.tmx",
-        "RPG_interior.tsx",
-        "RPG_exterior.tsx",
         "GB_studio_overworld_tiles.tsx",
         "Old_House_Final.tsx",
         "Top-down Gameboy Asset Pack.tsx",
+        "RPG_exterior.tsx",
+        "RPG_interior.tsx",
+        "casa-tripa-seca-comodo-esquerdo.tmx",
         "lado-fora-esconderijo-tripa-seca.tmx",
+        "gravacao-roubo-renas.tmx",
         "lado-fora-laboratorio-prof-baratinha.tmx",
-        "casa-da-bruxa-baratuxa.tmx",
-        "Porta Grande.tsx",
-        "Overworld_Final.tsx"
+        "casa-da-bruxa-baratuxa.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

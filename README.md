@@ -31,6 +31,10 @@ Jogo de Game Boy do Chapolin, baseado no seriado e em outras obras do Chespirito
 - <https://faultbox.itch.io/pocket-witch-player-character> - FREE RPG 16x16 top down character pack (Pocket Witch by Faultbox)
 - <https://coffeevalenbat.itch.io/sweet-sounds-sfx-pack> - Sound Effects usable in your GB Studio project
 - <https://reakain.itch.io/soft-gameboy-font> - Soft Gameboy Font
+- <https://toadzillart.itch.io/monster-pack> - collection of monster
+- <https://dagurasusk.itch.io/retrosounds> - RETRO SOUNDS
+- <https://tiptoptomcat.itch.io/8-bit-gameboy-songs-gb-studio> - Gameboy Chiptune Pack
+- <https://victorvaldez.itch.io/gb-studio-tracks-vol-1> - GB Studio Tracks Vol. 1 by Mr. V
 
 ### Links Úteis
 

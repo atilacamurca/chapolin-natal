@@ -410,6 +410,69 @@ casa.
 Ao entrar na casa, Chapolin se depara com uma casa empoeirada,
 com um espaço amplo e três portas.
 
+### Seções da Sala de Estar
+
+#### Tapete central
+
+Colocar um trigger perto do tapete central, que irá acionar
+a aparição de uma caveira. A caveira vai aparecer de trás
+do sofá, andar perto do Chapolin e voltar a se esconder
+atrás do sofá. Após o ocorrido Chapolin vai falar com a Bel.
+
+```
+Bel: O que deu em você, Chapolin?
+Ch.: Ca-ca-ca-ca...
+Bel: Ca-ca-ca-ca-o-quê?
+Ch.: Ca-ca-ca-caveira!
+Bel: Qual caveira?
+Ch.: Ali no sofá...
+[emote:interrogação]
+Sumiu.
+Bel: Ah, Chapolin. Não diga bobagens
+e continue procurando pistas.
+Ch.: Se aproveitam de minha nobreza.
+```
+
+#### Porta da direita
+
+Chapolin encontra as renas e o trenó numa espécie de curral
+improvisado.
+
+#### Porta da esquerda
+
+Chapolin descobre um cômodo grande, quase um labirinto.
+No final do cômodo ele encontra os presentes. Bel aparece logo em seguida.
+
+```
+Bel: Boa Chapolin, você encontrou os presentes.
+Ch.: Não contavam com a minha astúcia!
+Bel: Vou correndo contar ao Papai Noel a boa notícia.
+[barulho]
+[luzes se apagam]
+Ch.: O que foi que houve?
+Bel: Tropecei em uns fios aqui no chão.
+Acho que foi isso que fez as luzes apagarem.
+Ch.: Suspeitei desde o princípio.
+Mas isso não importa, o Chapolin é capaz
+de escapar do escuro até de olhos vendados.
+Sigam-me os bons!
+```
+
+Ideia: Fazer com que ele tropece am alguma coisa ao sair.
+
+#### Porta de cima
+
+```
+Ch.: Eu o vi, eu o vi!
+Dingo: Quem Chapolin?
+Ch.: O fantasma do Longe Mouco.
+Digo, o fantasma do Monge Louco.
+Dingo: Que monge...
+É sua imaginação.
+Ch.: Minha imaginação não é tão religiosa.
+
+```
+
 > Ideia: Cada porta leva a um item roubado: trenó, renas e presentes
 
 > Ideia: Criar triggers pela casa, acionando sustos.

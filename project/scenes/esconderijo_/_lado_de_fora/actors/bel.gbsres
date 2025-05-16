@@ -305,7 +305,8 @@
               "direction": {
                 "type": "direction",
                 "value": "down"
-              }
+              },
+              "__collapse": true
             },
             "id": "ada64a82-14bc-4fe3-9efb-49d2bfc69632"
           },

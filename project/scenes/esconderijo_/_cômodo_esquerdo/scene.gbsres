@@ -1,0 +1,24 @@
+{
+  "_resourceType": "scene",
+  "id": "2c82dc54-cf22-4a08-bae2-92f87ff8348b",
+  "_index": 20,
+  "name": "Esconderijo / Cômodo Esquerdo",
+  "backgroundId": "3a7279da-8da4-4645-8c76-e2968e223bbd",
+  "tilesetId": "",
+  "width": 28,
+  "height": 24,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-3"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0038+0f1d+00!0f2+0014+0f2+00!0f2+001a+0f2+001a+0f2+001a+0f2+005+0ff+006+0f2+005+0f!00d+0f!006+0f2+005+0f!00d+0f!006+0f2+005+0fa+004+0f!007+0f3+008+0fc+007+0f!00c+0f2+00b+0f3+00c+0f2+00!0f2+008+0f!00e+0f2+00b+0f8+007+0fd+007+0f!007+0f!0013+0f!007+0f!0010+0f4+007+0f7+009+0f!00!0f2+00e+0f!009+0f!0011+0f!009+0f!0011+0f!009+0f!0011+0f!009+0f13+006+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 1528,
+  "y": 1648,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

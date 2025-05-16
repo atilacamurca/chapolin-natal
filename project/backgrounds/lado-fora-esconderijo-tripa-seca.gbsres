@@ -8,5 +8,6 @@
   "imageWidth": 400,
   "imageHeight": 192,
   "filename": "lado-fora-esconderijo-tripa-seca.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
