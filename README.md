@@ -35,6 +35,7 @@ Jogo de Game Boy do Chapolin, baseado no seriado e em outras obras do Chespirito
 - <https://dagurasusk.itch.io/retrosounds> - RETRO SOUNDS
 - <https://tiptoptomcat.itch.io/8-bit-gameboy-songs-gb-studio> - Gameboy Chiptune Pack
 - <https://victorvaldez.itch.io/gb-studio-tracks-vol-1> - GB Studio Tracks Vol. 1 by Mr. V
+- <https://phinioxglade.itch.io/gbstudio-3-custom-dmg-color-palette-tutorial> - Lights Out – DMG Custom Color Palettes Tutorial (fantasma seguidor)
 
 ### Links Úteis
 

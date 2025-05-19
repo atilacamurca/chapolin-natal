@@ -120,6 +120,16 @@
       "id": "23",
       "name": "Falou Com Bel Sobre Esconderijo",
       "symbol": "var_falou_com_bel_sobre_esc"
+    },
+    {
+      "id": "24",
+      "name": "Encontrou Presentes Escondidos",
+      "symbol": "var_encontrou_presentes_esc"
+    },
+    {
+      "id": "25",
+      "name": "Escapou da Sala Escura",
+      "symbol": "var_escapou_da_sala_escura"
     }
   ]
 }
