@@ -1,0 +1,24 @@
+{
+  "_resourceType": "scene",
+  "id": "42875b1c-4c1b-4544-8337-4f8ece74c2ef",
+  "_index": 21,
+  "name": "Esconderijo / Cômodo Direito",
+  "backgroundId": "33a12851-2410-457b-83db-e51a47dff422",
+  "tilesetId": "",
+  "width": 22,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-2"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0018c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_22",
+  "x": 2144,
+  "y": 1656,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

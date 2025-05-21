@@ -436,7 +436,34 @@ Ch.: Se aproveitam de minha nobreza.
 #### Porta da direita
 
 Chapolin encontra as renas e o trenó numa espécie de curral
-improvisado.
+improvisado junto ao Papai Noel e o Professor Baratinha.
+
+```
+Prof.: Que bom que chegou Chapolin.
+Consegui localizar as renas e o trenó
+usando melhor a maior coisa da minha cabeça.
+Ch.: Seu nariz?
+Prof.: Não, Chapolin. Meu cérebro.
+Alterei o programa de detecção do extrato
+de energia volátil, e agora posso encontrá-lo
+com mais precisão.
+Aqui mostra que os presentes estão num cômodo
+a esquerda da sala de estar desta casa.
+[caso tenha encontrado os presentes]
+    Ch.: Sim, já os encontrei com a ajuda da Bel.
+    Papai: Nesse caso falta apenas encontrar o
+    bandido, que roubou tudo isso.
+    Prof.: Sim, e detectei rastros do extrato
+    num cômodo ao norte da sala de estar.
+    O bandido deve estar lá.
+    Ch.: Devo ir agora mesmo e capturá-lo.
+    Sigam-me os bons.
+    Papai: Tenha cuidado Chapolin.
+[caso não tenha encontrado os presentes]
+    Ch.: Ententi, vou agora mesmo atrás deles.
+    Sigam-me os bons.
+    Papai: Tenha cuidado Chapolin.
+```
 
 #### Porta da esquerda
 
@@ -461,6 +488,8 @@ Sigam-me os bons!
 Ideia: Fazer com que ele tropece am alguma coisa ao sair.
 
 #### Porta de cima
+
+Antes de entrar
 
 ```
 Ch.: Eu o vi, eu o vi!
