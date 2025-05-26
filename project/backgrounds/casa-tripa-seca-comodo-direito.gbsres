@@ -8,5 +8,6 @@
   "imageWidth": 176,
   "imageHeight": 144,
   "filename": "casa-tripa-seca-comodo-direito.png",
-  "tileColors": ""
+  "tileColors": "0018c+",
+  "autoColor": false
 }

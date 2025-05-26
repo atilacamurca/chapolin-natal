@@ -157,7 +157,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Precisamos\nverificá-las\nagora.\nSigam me os bons."
+                "Precisamos\nverificá-las\nagora.\nSigam-me os bons."
               ],
               "__section": "text",
               "avatarId": "",
@@ -175,7 +175,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "b8a9be4c-db1b-45f9-8125-2217ccc418dc"
           }

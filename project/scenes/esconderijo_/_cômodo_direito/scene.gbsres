@@ -12,13 +12,576 @@
     "default-bg-2"
   ],
   "spritePaletteIds": [],
-  "collisions": "0018c+",
+  "collisions": "0018+0f13+003+0f!0011+0f!003+0f!0011+0f!003+0f!0011+0f!003+0f!0011+0f!003+0f!0011+0f!003+0f!0011+0f!003+0f!0011+0f!00!0f2+0012+0f!0015+0f!0015+0f!0015+0f!0015+0f!0015+0f!00!0f3+00!0f!00!0f!00!0f!00!0f!002+0f!002+0f!00!0f!00!0f!003+0f13+0017+",
   "autoFadeSpeed": 1,
   "symbol": "scene_22",
   "x": 2144,
   "y": 1656,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "26"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "26",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "12ca4ce8-1cae-40d9-93dc-234b769e5b15"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "f9762361-4d3d-4aec-974a-d56167a2178e",
+              "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+              "__collapse": true
+            },
+            "id": "d0335ab6-09f5-4bb0-a31e-22e6d56f50ce"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+              "__collapse": true
+            },
+            "id": "fa4cb66a-a35d-42b7-b3cf-e0a856c54022"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "9616a26e-89b1-4656-9d85-70490a83c2ba"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
+            },
+            "id": "efcf526d-36ea-4158-b884-7bfe15907448"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapse": true
+            },
+            "id": "d0b91972-12e6-4371-9792-831a448a851f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Que bom que\n chegou\n Chapolin."
+              ],
+              "__section": "text",
+              "avatarId": "3efb3573-7dad-4c34-a7c5-a1a8cbae6e45",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "d2070d6c-d656-448b-8eb0-fff361721e7e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Consegui localizar\nas renas e o trenó",
+                "usando melhor a\nmaior coisa da\nminha cabeça."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "733762e2-5091-4099-8da2-334e71d249ed"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Seu nariz?"
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "3024f16f-bae6-41c3-b4b0-df4972970b0a"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "f9762361-4d3d-4aec-974a-d56167a2178e",
+              "emoteId": "0356aa73-4c63-46ce-8134-afed270ea36a",
+              "__collapse": true
+            },
+            "id": "f159a26f-4f8b-4eab-ba0f-8edc40dfdf35"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Não, Chapolin.\nMeu cérebro.",
+                "Alterei o programa\nde detecção\ndo extrato",
+                "de energia\nvolátil,  e agora\nposso encontrá-lo",
+                "com mais precisão.",
+                "Olha, aqui mostra\nque os presentes\nestão num cômodo",
+                "a esquerda da\nsala de estar\ndesta casa."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "9a5e682a-3db4-4dd3-a350-828a72dff709"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "24"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Sim, já os\nencontrei com a\najuda da Bel."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "9c080627-ab25-4449-a9fc-2c61b013a899"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      " Bravo!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "0459e5d4-25ba-4493-a499-0233b0dbb023"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Nesse caso falta\napenas encontrar",
+                      "o bandido que\nroubou tudo isso."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "05f5d616-9db3-49e8-ba3c-c36a17323a27"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      " Sim."
+                    ],
+                    "__section": "text",
+                    "avatarId": "3efb3573-7dad-4c34-a7c5-a1a8cbae6e45",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "9dac9b61-b023-4d85-a007-548656e8c083"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "E detectei rastros\ndo extrato",
+                      "num cômodo ao\nnorte da sala\nde estar.",
+                      "O bandido deve\nestar lá."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "5819f42f-8582-4c76-b480-aa6d2d3e0d1b"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      " Devo ir agora\n mesmo e\n capturá-lo."
+                    ],
+                    "__section": "text",
+                    "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "213c168b-f217-43c6-afcc-178aa456f9c1"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Sigam-me os bons."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "3808d0e3-ebf8-499f-a0b8-c7f2905aff61"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      " Tenha cuidado\n Chapolin."
+                    ],
+                    "__section": "text",
+                    "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "9565e534-94a7-4d1b-8518-ce993ca72af5"
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+                    "__collapse": true
+                  },
+                  "id": "e4f3a703-d594-45cf-95a8-1a89c545fd25"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "d9e41b5a-631b-4048-a2d5-aac70d914c93"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      " Entendi."
+                    ],
+                    "__section": "text",
+                    "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "19e64403-b0ed-4e27-8183-2dcb55a27fde"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "vou agora mesmo\natrás deles.",
+                      "Sigam-me os bons."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "ae8a1e0f-3aaf-47fa-86bb-0f9c65cff5e5"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      " Tenha cuidado\n Chapolin."
+                    ],
+                    "__section": "text",
+                    "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "cf0efef7-a21b-41bc-aeb6-7c56effcbb27"
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+                    "__collapse": true
+                  },
+                  "id": "6e977345-d31c-4978-9c23-6f64bd0cbe0f"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "67c24724-659b-42aa-9840-b3b92e1beb44"
+                }
+              ]
+            },
+            "id": "7dbf71e6-0f4d-4627-9332-498303892efd"
+          }
+        ],
+        "false": []
+      },
+      "id": "67d27cc6-e734-419b-8a71-9abc16ffde60"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
 }

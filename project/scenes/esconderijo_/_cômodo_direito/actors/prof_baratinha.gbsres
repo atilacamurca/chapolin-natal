@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "9a8a2e7f-acf6-4809-b71f-598db5eb7547",
-  "name": "Rena 2",
+  "id": "f9762361-4d3d-4aec-974a-d56167a2178e",
+  "name": "Prof. Baratinha",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "fbe753c6-3c16-48b3-a5be-b9938b8ef5e8",
+  "spriteSheetId": "4786d4c9-df1f-46c8-9cf0-3894a6d5399c",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,14 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_36",
+  "symbol": "actor_37",
   "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 12,
-  "y": 12,
-  "_index": 3
+  "x": 9,
+  "y": 5,
+  "_index": 4
 }

@@ -91,7 +91,7 @@ Dingo: Não Chapolin, aqui não deveria ter lama, apenas neve.
 Ch.: Hum. Estranho. Aqui tem câmeras?
 Dingo: Sim, e as imagens ficam guardadas na fábrica do Papai Noel,
 a direita da casa dele.
-Ch.: Precisamos verificá-las agora. Sigam me os bons.
+Ch.: Precisamos verificá-las agora. Sigam-me os bons.
 ```
 
 Passando de novo pela casa até a fábrica, Noel nota que o treno
@@ -447,12 +447,12 @@ Prof.: Não, Chapolin. Meu cérebro.
 Alterei o programa de detecção do extrato
 de energia volátil, e agora posso encontrá-lo
 com mais precisão.
-Aqui mostra que os presentes estão num cômodo
+Olha, aqui mostra que os presentes estão num cômodo
 a esquerda da sala de estar desta casa.
 [caso tenha encontrado os presentes]
     Ch.: Sim, já os encontrei com a ajuda da Bel.
-    Papai: Nesse caso falta apenas encontrar o
-    bandido, que roubou tudo isso.
+    Papai: Bravo! Nesse caso falta apenas encontrar o
+    bandido que roubou tudo isso.
     Prof.: Sim, e detectei rastros do extrato
     num cômodo ao norte da sala de estar.
     O bandido deve estar lá.
@@ -460,7 +460,7 @@ a esquerda da sala de estar desta casa.
     Sigam-me os bons.
     Papai: Tenha cuidado Chapolin.
 [caso não tenha encontrado os presentes]
-    Ch.: Ententi, vou agora mesmo atrás deles.
+    Ch.: Entendi. Vou agora mesmo atrás deles.
     Sigam-me os bons.
     Papai: Tenha cuidado Chapolin.
 ```
@@ -499,8 +499,62 @@ Digo, o fantasma do Monge Louco.
 Dingo: Que monge...
 É sua imaginação.
 Ch.: Minha imaginação não é tão religiosa.
+Além disso se eu o encontro de novo, basta
+que eu feche bem os olhos. Como diz um velho
+conhecido ditado:
+Dois olhos veem mais que um coração que não sente.
+Não.
+Olhos que não veem não deveriam se meter em procurar...
+Não...
+Uma pessoa que tem quatro olhos vê mais
+que uma pessoa que tem dois.
+É quase isso.
+```
+
+Depois de entrar
+
+Chapolin encontra mais um par de pegadas.
 
 ```
+Dingo: O que encontrou Chapolin?
+Ch.: Mais pegadas.
+Dingo: Humm, com certeza o Homem Invisível está por aqui.
+Ch.: E como sabe?
+Dingo: Não está vendo que não está vendo ele.
+Ch.: [emote:cético]
+Pode ser também o fantasma do Monge Louco.
+Mas isso não importa. Não te contaram quando eu derrotei 15
+homens invisíveis e 15 fantasmas ao mesmo tempo?
+[Monge Louco reaparece atrás do Chapolin]
+Dingo: Chapolin?
+Ch.: Um momento, deixa eu contar. Era uma mansão parecida com
+essa.
+Dingo: Chapolin?
+Ch.: Eu estava investigando... De repente aparecem todos ao
+mesmo tempo. Ah, desta vez eu não trazia minha marreta...
+Dingo: Chapolin?
+Ch.: Então... sim diga.
+Dingo: O Monge Louco chegou.
+[Chapolin se vira]
+Ch.: Boa noite.
+[Chapolin dá as costas ao Monge]
+[Chapolin começa a se assustar e andar pra trás]
+Dingo: Chapolin, chegou a hora de enfrentá-lo!
+Ch.: Eu?
+Dingo: Sim, claro. Aqui o herói é você.
+Ch.: Sim, eu enfrento.
+Dingo: Sim, você é valente.
+Ch.: Sim, eu enfrento.
+Dingo: Vai, vai.
+Ch.: Sim, eu enfrento.
+Dingo: Mas já!
+Ch.: Se aproveitam de minha nobreza. Deixe que eu o agarro.
+[Dingo sai pela porta]
+```
+
+Nessa parte, fazer com que o Monge Louco apareça num local,
+e assim que o Chapolin o for agarrando, ele desaparece e
+aparece em outro local.
 
 > Ideia: Cada porta leva a um item roubado: trenó, renas e presentes
 
