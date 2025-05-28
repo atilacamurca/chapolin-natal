@@ -135,6 +135,16 @@
       "id": "26",
       "name": "Encontrou Treno e Renas",
       "symbol": "var_encontrou_treno_e_renas"
+    },
+    {
+      "id": "27",
+      "name": "Encontrou Pegadas Comodo Central",
+      "symbol": "var_encontrou_pegadas_comod"
+    },
+    {
+      "id": "28",
+      "name": "Tentou capturar Monge 1 vez",
+      "symbol": "var_tentou_capturar_monge_1"
     }
   ]
 }

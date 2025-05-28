@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "9836328d-0746-48b3-8d88-9552b020b93c",
-  "name": "Pegadas",
+  "id": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+  "name": "Monge Louco",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "4bfdac06-41e1-4ac3-ab13-942cc81864a8",
+  "spriteSheetId": "6b7aa36b-b867-43b7-9882-a7dd6e5a048e",
   "prefabId": "",
-  "direction": "up",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,22 +14,22 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_38",
+  "symbol": "actor_40",
   "script": [],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
-        "actorId": "9836328d-0746-48b3-8d88-9552b020b93c"
+        "actorId": "$self$"
       },
-      "id": "bfdd93d5-2b87-483c-a1b3-a34c70454335"
+      "id": "adb8c6ed-869c-46c0-87d3-af6d6df1e2a8"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 15,
-  "y": 17,
-  "_index": 0
+  "x": 21,
+  "y": 14,
+  "_index": 2
 }

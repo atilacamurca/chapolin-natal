@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "9836328d-0746-48b3-8d88-9552b020b93c",
-  "name": "Pegadas",
+  "id": "ab73dbd9-d98d-4cf7-81ec-5d9864c97b66",
+  "name": "Dingo",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "4bfdac06-41e1-4ac3-ab13-942cc81864a8",
+  "spriteSheetId": "6b7aa36b-b867-43b7-9882-a7dd6e5a048e",
   "prefabId": "",
   "direction": "up",
   "moveSpeed": 1,
@@ -14,22 +14,22 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_38",
+  "symbol": "actor_39",
   "script": [],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
-        "actorId": "9836328d-0746-48b3-8d88-9552b020b93c"
+        "actorId": "ab73dbd9-d98d-4cf7-81ec-5d9864c97b66"
       },
-      "id": "bfdd93d5-2b87-483c-a1b3-a34c70454335"
+      "id": "6ef379f9-2720-45f2-9628-eca326e6f3ff"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 15,
-  "y": 17,
-  "_index": 0
+  "x": 2,
+  "y": 22,
+  "_index": 1
 }

@@ -1,0 +1,187 @@
+{
+  "_resourceType": "trigger",
+  "id": "506090c0-829e-4cf8-8f5a-3aa14f728a87",
+  "name": "Chapolin tenta agarrar Monge 1 vez",
+  "prefabId": "",
+  "x": 19,
+  "y": 12,
+  "symbol": "trigger_46",
+  "prefabScriptOverrides": {},
+  "width": 6,
+  "height": 5,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "and",
+          "valueA": {
+            "type": "eq",
+            "valueA": {
+              "type": "variable",
+              "value": "27"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 1
+            }
+          },
+          "valueB": {
+            "type": "eq",
+            "valueA": {
+              "type": "variable",
+              "value": "28"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 0
+            }
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "76bb403d-fe88-4239-9b6c-8fb6aa0327d8"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
+            },
+            "id": "b565a251-390b-4a71-a84c-e84d68d909ac"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "spriteSheetId": "6e1fd413-a200-4617-9063-b497f9b13016",
+              "__collapse": true
+            },
+            "id": "ce4ed7f0-bf72-4b1e-9e26-ef4c569671e4"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "__collapse": true
+            },
+            "id": "d30c5447-0ec0-4ca7-80f9-ccda61d07a95"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Ha ha ha!"
+              ],
+              "__section": "text",
+              "avatarId": "9d82634d-65cf-4950-80ae-6934d8401e33",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "b1bc3d46-14b2-45c9-b410-b8cc312800a3"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "spriteStateId": "Aparecendo",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "75773379-1191-4a48-9977-42a144de0435"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "3ddbfaf5-63e9-47b9-95e2-fa006c2717c3",
+              "__collapse": true
+            },
+            "id": "6eb66e3d-48f2-4252-91d8-0db76f623fc1"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 2,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "15e69b5c-d193-466d-9bd9-5a1de1bea083"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "__collapse": true
+            },
+            "id": "c019b7fa-c3e2-41a2-a7d0-8c8dea16d420"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "x": {
+                "type": "number",
+                "value": 21
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              },
+              "__collapse": true
+            },
+            "id": "39291724-ed46-43dd-9c53-69f8aab8d351"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "__collapse": true
+            },
+            "id": "fb243be2-3480-45ed-95b8-5e7f0a1547ac"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "spriteStateId": "Mãos erguidas",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "beee47cd-35fe-4f61-a71a-7f26b291c977"
+          }
+        ],
+        "false": []
+      },
+      "id": "ee6597e8-69cd-4b1a-a9f7-da60521bb11a"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

@@ -5,7 +5,7 @@
   "symbol": "sprite_longe_mouco_aa",
   "numFrames": 2,
   "filename": "Longe_Mouco_AA.png",
-  "checksum": "0c56e59f00b4d20468429b43bef34839c664b3fc",
+  "checksum": "f47574e69e13b96b5658ffd7bf12af3f736f168e",
   "width": 32,
   "height": 16,
   "states": [
@@ -30,7 +30,7 @@
                   "flipX": false,
                   "flipY": false,
                   "palette": 0,
-                  "paletteIndex": 0,
+                  "paletteIndex": 4,
                   "objPalette": "OBP0",
                   "priority": false
                 },
@@ -43,7 +43,7 @@
                   "flipX": false,
                   "flipY": false,
                   "palette": 0,
-                  "paletteIndex": 0,
+                  "paletteIndex": 4,
                   "objPalette": "OBP0",
                   "priority": false
                 }
@@ -61,7 +61,7 @@
                   "flipX": false,
                   "flipY": false,
                   "palette": 0,
-                  "paletteIndex": 0,
+                  "paletteIndex": 4,
                   "objPalette": "OBP0",
                   "priority": false
                 },
@@ -74,7 +74,7 @@
                   "flipX": false,
                   "flipY": false,
                   "palette": 0,
-                  "paletteIndex": 0,
+                  "paletteIndex": 4,
                   "objPalette": "OBP0",
                   "priority": false
                 }
@@ -146,6 +146,224 @@
           ]
         }
       ]
+    },
+    {
+      "id": "f0407377-fee4-41a2-a3d7-4cccb2a75a0d",
+      "name": "Mãos erguidas",
+      "animations": [
+        {
+          "id": "b710678d-1a68-4008-962a-d1210b5618f0",
+          "frames": [
+            {
+              "id": "b297ec10-6463-4718-b1a1-b830a44b6c50",
+              "tiles": [
+                {
+                  "id": "a7a7b1e8-9a1e-4b0a-870f-3ccda671ec4c",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                },
+                {
+                  "id": "dd610816-46b8-47e3-a0b1-d8a9854bb82d",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7db23717-e67e-4988-9b56-209ddb5d96e2",
+          "frames": [
+            {
+              "id": "32fe5662-0dd4-4759-b3ce-88c9264b58e0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "066c63f4-3658-41a7-8498-e7972d28914d",
+          "frames": [
+            {
+              "id": "270f5dd1-c0cc-4e06-add0-4be4b1ce7b19",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6cfec267-78df-486a-a1e0-a7b3641139d3",
+          "frames": [
+            {
+              "id": "2be4ba3c-c61d-4a4e-bcc2-a382873306a4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b299ffb9-544b-4bd5-a704-b0067c7ad63a",
+          "frames": [
+            {
+              "id": "c6c51ced-fab6-4f86-94ad-651f4e448d8b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6ea740d7-c752-4698-8439-afa349920a00",
+          "frames": [
+            {
+              "id": "93ca3060-b986-46d0-983e-a0fd9e7e3c9f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c3d6cfb9-51b8-455d-8d1a-cde2b415851e",
+          "frames": [
+            {
+              "id": "bef93c0d-6248-4593-ba33-c44c2acc5e8a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "61ca2ddc-5997-49d4-b1b6-777235fc0e13",
+          "frames": [
+            {
+              "id": "a001da16-1697-42f7-89f7-a4331c286257",
+              "tiles": []
+            }
+          ]
+        }
+      ],
+      "animationType": "fixed",
+      "flipLeft": true
+    },
+    {
+      "id": "263cdf0d-ad20-4d61-a167-a5c4f16050ee",
+      "name": "Aparecendo",
+      "animations": [
+        {
+          "id": "c7a3945a-40f4-4dee-b1bf-95107387213f",
+          "frames": [
+            {
+              "id": "27f4aa09-dbe1-489d-a00f-7421f71f34ab",
+              "tiles": [
+                {
+                  "id": "ab7cf597-b5ce-4888-a779-a993f04a1a82",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                },
+                {
+                  "id": "863850dc-866b-429b-afd6-f3b090164e3a",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 4,
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "e5c2d155-bb2a-4cba-9a75-d641246b21e0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b9e216bd-1d2a-4e31-804a-813c380d20cc",
+          "frames": [
+            {
+              "id": "64b91f8a-e0c3-49b0-acd9-6dc927dda415",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "583524df-5ae2-464a-b513-f32fdd555e8d",
+          "frames": [
+            {
+              "id": "5de57c05-33a0-4677-988c-6c35f784f91d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1d74f787-bfae-4e86-a2e2-406ffd1bef34",
+          "frames": [
+            {
+              "id": "744d4b43-b7be-4606-b970-b5c0274feb00",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "758ad11c-012d-4fc5-83b9-18b22acb0208",
+          "frames": [
+            {
+              "id": "cbe75bb6-7cb7-42b9-9821-b57a6770d2fd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "406fe02a-1304-4628-bc7f-37d038152fff",
+          "frames": [
+            {
+              "id": "594d6c79-6f5a-4729-87ce-37c4e739c796",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "76c651eb-721d-4765-9ff1-e0ecd6c6ced8",
+          "frames": [
+            {
+              "id": "05e5c401-ad35-495a-ae98-066062580a4e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7add5dd4-5980-456c-ba35-822d3f7644a2",
+          "frames": [
+            {
+              "id": "65b5d958-586c-40dd-b523-54af6a06fc13",
+              "tiles": []
+            }
+          ]
+        }
+      ],
+      "animationType": "fixed",
+      "flipLeft": true
     }
   ],
   "numTiles": 2,

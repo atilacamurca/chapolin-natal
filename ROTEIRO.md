@@ -543,7 +543,7 @@ Dingo: Chapolin, chegou a hora de enfrentá-lo!
 Ch.: Eu?
 Dingo: Sim, claro. Aqui o herói é você.
 Ch.: Sim, eu enfrento.
-Dingo: Sim, você é valente.
+Dingo: Claro, você é valente.
 Ch.: Sim, eu enfrento.
 Dingo: Vai, vai.
 Ch.: Sim, eu enfrento.

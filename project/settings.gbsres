@@ -20,12 +20,12 @@
     "default-ui"
   ],
   "defaultSpritePaletteIds": [
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
+    "606ad496-ba9a-4be2-b90d-bf7ac2c4cdff",
+    "4d1c7f6b-8319-4da9-ba2a-048f7b0680a0",
+    "e225fba3-4ba8-4289-be25-bb1b3929eaba",
+    "801a8fc8-bfca-4fa3-933d-4fd71d3e7537",
+    "a8d58a72-589c-463d-a091-afd4d72a7b62",
+    "8e908b3c-9399-4c9c-98ad-36f2ad6dbb01",
     "default-sprite",
     "default-sprite"
   ],
