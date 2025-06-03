@@ -43,6 +43,14 @@
             "id": "6215f783-4d81-443a-ab1b-0ad7ec1cb074"
           },
           {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
+            },
+            "id": "903c9e6e-2b33-452e-9971-47e0ca8ada07"
+          },
+          {
             "command": "EVENT_ACTOR_SET_POSITION",
             "args": {
               "actorId": "ab73dbd9-d98d-4cf7-81ec-5d9864c97b66",
@@ -159,6 +167,24 @@
             "id": "11e8868a-5441-4c06-b436-055163cd686c"
           },
           {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "3e7f466b-d7b5-4716-a0f2-ba4b2cbfd993"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "ff6fd184-7c2e-4c05-8f9c-91976c604d5e"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "$self$",
@@ -226,9 +252,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " Humm"
+                " Hum..."
               ],
-              "__section": "layout",
+              "__section": "text",
               "avatarId": "e2582bf7-f9f2-4c28-97df-c1941d953508",
               "minHeight": 4,
               "maxHeight": 7,
@@ -1188,7 +1214,8 @@
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c"
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
             },
             "id": "91302e72-9aca-4797-ade3-1dc8c471f220"
           },
@@ -1235,7 +1262,8 @@
               "direction": {
                 "type": "direction",
                 "value": "down"
-              }
+              },
+              "__collapse": true
             },
             "id": "aac156bd-e4e1-4fa1-8516-e042bcd8c131"
           },
@@ -1268,7 +1296,8 @@
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7"
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
             },
             "id": "b372af9e-9846-4853-95a6-5a9e2a89416f"
           },
@@ -1277,7 +1306,8 @@
             "args": {
               "actorId": "$self$",
               "spriteStateId": "",
-              "loopAnim": true
+              "loopAnim": true,
+              "__collapse": true
             },
             "id": "56164b09-9d42-4529-8184-9409d404066a"
           }

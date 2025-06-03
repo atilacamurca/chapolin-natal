@@ -556,6 +556,27 @@ Nessa parte, fazer com que o Monge Louco apareça num local,
 e assim que o Chapolin o for agarrando, ele desaparece e
 aparece em outro local.
 
+```
+Monge: Ha ha ha!
+[se desloca para outro lugar]
+Monge: O que foi Chapolin?
+Não disse que iria me capturar?
+```
+
+No outro local, o Monge Louco reaparece e deixa
+o Chapolin de ponta cabeça.
+
+```
+Monge: Agora você me vê.
+[Monge desaparece]
+E agora não.
+[Chapolin o procura olhando para um lado e para o outro]
+Ch.: Cadê você? Apareça.
+[Monge o vira de ponta cabeça]
+[Chapolin tenta escapar; Fazer script para que usuário tenha que apertar o botão A repetidas vezes para se soltar]
+Ch.: Me larga, me larga, me larga!
+```
+
 > Ideia: Cada porta leva a um item roubado: trenó, renas e presentes
 
 > Ideia: Criar triggers pela casa, acionando sustos.

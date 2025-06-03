@@ -135,15 +135,7 @@
             "id": "15e69b5c-d193-466d-9bd9-5a1de1bea083"
           },
           {
-            "command": "EVENT_ACTOR_HIDE",
-            "args": {
-              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
-              "__collapse": true
-            },
-            "id": "c019b7fa-c3e2-41a2-a7d0-8c8dea16d420"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_POSITION",
+            "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
               "x": {
@@ -154,17 +146,11 @@
                 "type": "number",
                 "value": 5
               },
+              "moveType": "horizontal",
+              "useCollisions": false,
               "__collapse": true
             },
-            "id": "39291724-ed46-43dd-9c53-69f8aab8d351"
-          },
-          {
-            "command": "EVENT_ACTOR_SHOW",
-            "args": {
-              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
-              "__collapse": true
-            },
-            "id": "fb243be2-3480-45ed-95b8-5e7f0a1547ac"
+            "id": "c658b060-0b74-46a7-a96b-6e1f56691fa8"
           },
           {
             "command": "EVENT_ACTOR_SET_STATE",
@@ -175,6 +161,51 @@
               "__collapse": true
             },
             "id": "beee47cd-35fe-4f61-a71a-7f26b291c977"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "O que foi\nChapolin?",
+                "Não disse que\niria me capturar?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "d42ec2bf-4b26-4d4c-9b79-6a357008efd4"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "db80b808-001f-4cf1-90ac-e9078e6abfba"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "ec0360e8-2cb7-4bcd-ab1b-7da59598c88d"
           }
         ],
         "false": []
