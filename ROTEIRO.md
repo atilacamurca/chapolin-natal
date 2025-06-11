@@ -575,6 +575,38 @@ Ch.: Cadê você? Apareça.
 [Monge o vira de ponta cabeça]
 [Chapolin tenta escapar; Fazer script para que usuário tenha que apertar o botão A repetidas vezes para se soltar]
 Ch.: Me larga, me larga, me larga!
+[Chapolin consegue se soltar e derrubar o anel do bandido]
+[O anel fica no chão]
+[A Bruxa Baratuxa aparece e pega o anel que lhe pertence]
+Bruxa: Obrigado Chapolin!
+[A Bruxa some da cena]
+[Logo em seguida aparece a Bel]
+Bel: Bravo Chapolin, você é o máximo.
+[emote:amando]
+Ch.: Não contavam com a minha astúcia!
+Aqui está o bandido, e eu vou desmascará-lo agora.
+Bel: Oh! [emote:assustado]
+[Trocar sprite do monge louco para o do Botijão]
+Bel: Mais é o Botijão! [emote:chorando]
+Ch.: Suspeitei desde o princípio.
+Rápido Bel, chame o Sargento Refúgio.
+Bel: Já o fiz. Aqui está ele.
+[Entra Sgt. Refúgio]
+Sgt.: Pode deixar Chapolin, que eu o levarei ao Delegado Morales.
+Botijão: Desculpe Chapolin, eu não queria fazer nada de mal.
+Ch.: Sim, claro.
+Botijão: É verdade. Eu só queria dar alguns presentes
+as crianças pobres do meu bairro.
+Ch.: [emote:triste] É Botijão. Isso é uma atitude muito nobre.
+Mas não justifica que para isso tenha que cometer crimes.
+Botijão: [emote:triste]
+Ch.: Não se envergonha.
+Botijão: Sim.
+Ch.: Então por que o fez?
+Botijão: Eu aguento! [emote:confiante]
+Ch.: [emote:cético]
+
+> Chapolin explica que não pode ajudar a todos que o solicitam
 ```
 
 > Ideia: Cada porta leva a um item roubado: trenó, renas e presentes
