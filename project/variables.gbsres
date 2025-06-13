@@ -150,6 +150,11 @@
       "id": "29",
       "name": "Tentou Capturar Monge 2 Vez",
       "symbol": "var_tentou_capturar_monge_1"
+    },
+    {
+      "id": "30",
+      "name": "Mover Treno",
+      "symbol": "var_mover_treno"
     }
   ]
 }

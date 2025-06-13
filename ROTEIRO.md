@@ -605,8 +605,16 @@ Botijão: Sim.
 Ch.: Então por que o fez?
 Botijão: Eu aguento! [emote:confiante]
 Ch.: [emote:cético]
-
-> Chapolin explica que não pode ajudar a todos que o solicitam
+Olhe Botijão, vou lhe contar uma coisa.
+Sabe quantas pessoas pediram minha ajuda enquanto
+eu desvendava esse mistério de Natal?
+Muiti-ssi-ssí-ssimas.
+A verdade é que, nem mesmo nós heróis, somos
+capazes de resolver todos os problemas do mundo
+ao mesmo tempo.
+Mas devemos fazer o possível para tentar sanar
+o máximo que conseguirmos.
+Sargento, pode levá-lo.
 ```
 
 > Ideia: Cada porta leva a um item roubado: trenó, renas e presentes
@@ -617,3 +625,9 @@ Ch.: [emote:cético]
 >   - Ao chegar perto da janela, um trovão é escutado e visto
 >   - Ao tentar sair pela porta principal, aparece o monge louco
 >   - As luzes apagam, e aparece um fantasma ou esqueleto
+
+## Parte Final
+
+Chapolin e os outros voltam para o norte em frente a casa
+do Papai Noel.
+

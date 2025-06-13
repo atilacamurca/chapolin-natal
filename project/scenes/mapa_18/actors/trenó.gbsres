@@ -1,0 +1,98 @@
+{
+  "_resourceType": "actor",
+  "id": "bf52b124-9a2e-4eb6-9a58-c2d4687c5286",
+  "name": "Trenó",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "39d93510-29b4-497d-9574-317ff83d21e2",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_43",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "30"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "bf52b124-9a2e-4eb6-9a58-c2d4687c5286",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "0fb85456-9521-4220-b9eb-22bb63aa4a76"
+          },
+          {
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "bf52b124-9a2e-4eb6-9a58-c2d4687c5286",
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "__collapseElse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "bf52b124-9a2e-4eb6-9a58-c2d4687c5286"
+                  },
+                  "id": "7b92eadc-5165-4806-94bc-3c1900618522"
+                }
+              ],
+              "false": []
+            },
+            "id": "e07fe2b6-c21c-4ee2-b95e-8508346ff7be"
+          }
+        ],
+        "false": []
+      },
+      "id": "e2e0d6a3-7c9e-421b-b68f-ed7a4ba7af67"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 3,
+  "y": 12,
+  "_index": 1
+}
