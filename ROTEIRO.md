@@ -577,17 +577,17 @@ Ch.: Cadê você? Apareça.
 Ch.: Me larga, me larga, me larga!
 [Chapolin consegue se soltar e derrubar o anel do bandido]
 [O anel fica no chão]
+Monge: Oh não! Deixei cair o anel da bruxa!
 [A Bruxa Baratuxa aparece e pega o anel que lhe pertence]
 Bruxa: Obrigado Chapolin!
 [A Bruxa some da cena]
-[Logo em seguida aparece a Bel]
-Bel: Bravo Chapolin, você é o máximo.
-[emote:amando]
 Ch.: Não contavam com a minha astúcia!
 Aqui está o bandido, e eu vou desmascará-lo agora.
+====
+[Logo em seguida aparece a Bel]
 Bel: Oh! [emote:assustado]
 [Trocar sprite do monge louco para o do Botijão]
-Bel: Mais é o Botijão! [emote:chorando]
+Bel: Mas é o Botijão! [emote:chorando]
 Ch.: Suspeitei desde o princípio.
 Rápido Bel, chame o Sargento Refúgio.
 Bel: Já o fiz. Aqui está ele.
@@ -613,7 +613,7 @@ A verdade é que, nem mesmo nós heróis, somos
 capazes de resolver todos os problemas do mundo
 ao mesmo tempo.
 Mas devemos fazer o possível para tentar sanar
-o máximo que conseguirmos.
+o máximo que conseguirmos, tudo dentro da lei.
 Sargento, pode levá-lo.
 ```
 
@@ -631,3 +631,44 @@ Sargento, pode levá-lo.
 Chapolin e os outros voltam para o norte em frente a casa
 do Papai Noel.
 
+```
+Noel: Chapolin, obrigado por salvar o Natal.
+Eu sabia que poderíamos contar com você.
+Bel: [emote:amando] Ele é o máximo!
+Ch.: Não contavam com a minha astúcia!
+[Começa a nevar]
+Dingo: [emote:assustado]
+Olha pessoal, está começando a nevar!
+É o sinal que o Papai Noel precisa partir,
+pra entregar os presentes a tempo.
+Ch.: Noel, antes de partir. Posso pedir um favor?
+Noel: Já sei, precisa de um presente?
+Ch.: Sim. É pra um amigo meu, que mora numa vila
+aqui perto.
+Noel: Pode deixar. E agora preciso ir.
+Feliz Natal a todos, ho ho ho!
+[Papai Noel parte com as renas e o trenó cheio de presentes]
+```
+
+## Créditos
+
+Chapolin: Um Conto de Natal
+
+Desenvolvido por
+Átila Camurça
+
+Um projeto de fã
+Baseado nas obras do Chespitiro
+
+Criado com GB Studio
+
+Assets:
+
+Gumpy Function
+Icko
+Pixel Pablo
+The Pixel Nook
+MonkeyImage
+GibbonGL
+
+Música e Sons:

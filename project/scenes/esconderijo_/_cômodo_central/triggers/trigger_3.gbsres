@@ -388,7 +388,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
-              "spriteSheetId": "6e1fd413-a200-4617-9063-b497f9b13016",
+              "spriteSheetId": "4d20377c-a9b6-4148-a066-528e8de634fd",
               "__collapse": true
             },
             "id": "e1fff709-7bc7-4c2b-bc02-3f5a72a7e6de"
@@ -412,6 +412,152 @@
               "__collapse": true
             },
             "id": "3e2a2840-4014-4fea-a833-15b2da6a05d0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Oh não!\n Deixei cair o\n anel da bruxa!"
+              ],
+              "__section": "text",
+              "avatarId": "9d82634d-65cf-4950-80ae-6934d8401e33",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "dc82dad8-24ca-47bd-a4da-1ae9d38212d9"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "ca5d8b70-4271-4033-9530-e8fa08063af5",
+              "spriteSheetId": "86de284e-870e-48e0-828a-65a155589e26",
+              "__collapse": true
+            },
+            "id": "3f522ac3-3761-4e19-accc-8cbc92df626e"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "ca5d8b70-4271-4033-9530-e8fa08063af5",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              },
+              "__collapse": true
+            },
+            "id": "088c9dc2-170b-49d3-a20a-4609540dd21b"
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "ca5d8b70-4271-4033-9530-e8fa08063af5",
+              "__collapse": true
+            },
+            "id": "3bd23db8-79b9-44b0-ad76-18292d6521de"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "ca5d8b70-4271-4033-9530-e8fa08063af5",
+              "spriteStateId": "Aparecendo",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "0ed5ec5f-cb83-4af9-be47-d97d67213f61"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "83d410e5-69cf-4378-b853-7f6dcc3ebafc"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "ca5d8b70-4271-4033-9530-e8fa08063af5",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "90025d97-c2cb-495d-b660-6d88375a5d44"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Obrigado\n Chapolin!"
+              ],
+              "__section": "text",
+              "avatarId": "bbdad34f-11f6-4398-8efb-1f2ac0ddb15a",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "72af46a6-b5a9-45fc-9db4-88237a2f9355"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "ca5d8b70-4271-4033-9530-e8fa08063af5",
+              "emoteId": "3b56654e-058d-4539-867d-75381615021e",
+              "__collapse": true
+            },
+            "id": "19131e50-d817-471d-ad31-e842d9fef4e0"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "ca5d8b70-4271-4033-9530-e8fa08063af5",
+              "spriteStateId": "Aparecendo",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "0d264eea-a340-419f-a5b4-a9e620ac168e"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "75128b18-821e-4928-98fe-8bb81abb0f88"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "ca5d8b70-4271-4033-9530-e8fa08063af5",
+              "__collapse": true
+            },
+            "id": "56aa254c-44dd-446b-8a33-099c52426d4e"
           },
           {
             "command": "EVENT_TEXT",
@@ -443,42 +589,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " Oh não!\n Deixei cair o\n anel da burxa!"
-              ],
-              "__section": "text",
-              "avatarId": "9d82634d-65cf-4950-80ae-6934d8401e33",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "dc82dad8-24ca-47bd-a4da-1ae9d38212d9"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_SPRITE",
-            "args": {
-              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
-              "spriteSheetId": "cb578b19-5f15-4323-99e0-6e89ddf9ca61",
-              "__collapse": true
-            },
-            "id": "be64f00e-c033-40a0-86f6-8c13563801c7"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "É o Botijão!"
+                "Aqui está\no bandido,",
+                "e eu vou\ndesmascará-lo\nagora."
               ],
               "__section": "text",
               "avatarId": "",
@@ -498,7 +610,7 @@
               "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "4a555464-54e7-4256-bbbe-ea448333c73e"
+            "id": "c954e95d-4eba-463b-8eb7-42dd9e006f0d"
           },
           {
             "command": "EVENT_PLAYER_SET_SPRITE",

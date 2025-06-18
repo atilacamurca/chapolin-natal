@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "ab73dbd9-d98d-4cf7-81ec-5d9864c97b66",
-  "name": "Dingo",
+  "id": "ca5d8b70-4271-4033-9530-e8fa08063af5",
+  "name": "Sgt. Refúgio / Bruxa",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "6b7aa36b-b867-43b7-9882-a7dd6e5a048e",
   "prefabId": "",
-  "direction": "up",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,22 +14,22 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_39",
+  "symbol": "actor_41",
   "script": [],
   "startScript": [
     {
-      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
-        "actorId": "ab73dbd9-d98d-4cf7-81ec-5d9864c97b66"
+        "actorId": "ca5d8b70-4271-4033-9530-e8fa08063af5"
       },
-      "id": "6ef379f9-2720-45f2-9628-eca326e6f3ff"
+      "id": "87bb4081-8399-425e-b06c-a4dd6d7086e4"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 2,
-  "y": 22,
-  "_index": 1
+  "x": 8,
+  "y": 7,
+  "_index": 3
 }

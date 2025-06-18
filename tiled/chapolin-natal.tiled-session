@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "casa-tripa-seca-comodo-central.tmx",
+    "activeFile": "lado-fora-esconderijo-tripa-seca.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -46,7 +46,7 @@
             "scaleInEditor": 1
         },
         "Overworld_Final.tsx": {
-            "scaleInDock": 3,
+            "scaleInDock": 4,
             "scaleInEditor": 3
         },
         "Pegadas_A.tsx": {
@@ -69,6 +69,10 @@
             "scaleInDock": 3,
             "scaleInEditor": 3
         },
+        "World tilesets outdoors.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 1
+        },
         "casa-da-bruxa-baratuxa.tmx": {
             "scale": 4.665885416666666,
             "selectedLayer": 1,
@@ -81,7 +85,7 @@
             "scale": 6.221180555555555,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 79.96874476753922,
+                "x": 79.88837416978289,
                 "y": 71.93168499190715
             }
         },
@@ -90,7 +94,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 95.92920353982299,
-                "y": 71.94690265486726
+                "y": 71.94690265486724
             }
         },
         "casa-tripa-seca-comodo-central.tmx": {
@@ -113,15 +117,15 @@
             "scale": 4.665885416666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 69.86883964949492,
-                "y": 95.90891332254287
+                "x": 69.8688396494949,
+                "y": 95.90891332254286
             }
         },
         "casa-tripa-seca-sala-estar.tmx": {
             "scale": 4.520416666666667,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 112.71084892616831,
+                "x": 112.60023965342427,
                 "y": 95.89823946907549
             }
         },
@@ -214,11 +218,11 @@
             }
         },
         "lado-fora-esconderijo-tripa-seca.tmx": {
-            "scale": 2.71225,
+            "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 199.83408609088397,
-                "y": 96.04571849940086
+                "x": 194.66666666666666,
+                "y": 92.83333333333334
             }
         },
         "lado-fora-laboratorio-prof-baratinha.tmx": {
@@ -253,26 +257,23 @@
     "map.tileWidth": 8,
     "map.width": 28,
     "openFiles": [
-        "casa-do-papai-noel.tmx",
-        "casa-tripa-seca-sala-estar.tmx",
-        "casa-tripa-seca-comodo-esquerdo.tmx",
-        "casa-tripa-seca-comodo-central.tmx",
-        "casa-do-chapolin.tmx"
+        "World tilesets outdoors.tsx",
+        "lado-fora-esconderijo-tripa-seca.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
+        "World tilesets outdoors.tsx",
+        "lado-fora-esconderijo-tripa-seca.tmx",
         "casa-do-papai-noel.tmx",
         "casa-tripa-seca-sala-estar.tmx",
         "casa-tripa-seca-comodo-esquerdo.tmx",
-        "casa-do-chapolin.tmx",
         "casa-tripa-seca-comodo-central.tmx",
+        "casa-do-chapolin.tmx",
         "casa-da-bruxa-baratuxa.tmx",
         "casa-tripa-seca-comodo-direito.tmx",
         "Gameboy-Forest-Tileset.tsx",
         "RPG_interior.tsx",
-        "RPG_exterior.tsx",
-        "GB_studio_overworld_tiles.tsx",
-        "gravacao-roubo-renas.tmx"
+        "RPG_exterior.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

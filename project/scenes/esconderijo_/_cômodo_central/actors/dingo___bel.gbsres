@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "ab73dbd9-d98d-4cf7-81ec-5d9864c97b66",
+  "name": "Dingo / Bel",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "6b7aa36b-b867-43b7-9882-a7dd6e5a048e",
+  "prefabId": "",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_39",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "ab73dbd9-d98d-4cf7-81ec-5d9864c97b66"
+      },
+      "id": "6ef379f9-2720-45f2-9628-eca326e6f3ff"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 2,
+  "y": 22,
+  "_index": 1
+}
