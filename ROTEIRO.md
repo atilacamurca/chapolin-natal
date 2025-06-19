@@ -583,7 +583,6 @@ Bruxa: Obrigado Chapolin!
 [A Bruxa some da cena]
 Ch.: Não contavam com a minha astúcia!
 Aqui está o bandido, e eu vou desmascará-lo agora.
-====
 [Logo em seguida aparece a Bel]
 Bel: Oh! [emote:assustado]
 [Trocar sprite do monge louco para o do Botijão]
@@ -593,6 +592,7 @@ Rápido Bel, chame o Sargento Refúgio.
 Bel: Já o fiz. Aqui está ele.
 [Entra Sgt. Refúgio]
 Sgt.: Pode deixar Chapolin, que eu o levarei ao Delegado Morales.
+===
 Botijão: Desculpe Chapolin, eu não queria fazer nada de mal.
 Ch.: Sim, claro.
 Botijão: É verdade. Eu só queria dar alguns presentes

@@ -10,6 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [
     "default-bg-5",
+    "",
     "52ce2452-f9ae-4b4a-a2d6-b7880bad3101"
   ],
   "spritePaletteIds": [],

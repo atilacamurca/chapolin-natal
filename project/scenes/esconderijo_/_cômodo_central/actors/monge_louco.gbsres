@@ -354,7 +354,32 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Pode deixar\nChapolin,",
+                " Pode deixar\n Chapolin,"
+              ],
+              "__section": "text",
+              "avatarId": "9969344e-2076-4655-8f33-faf4a133bfa7",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "42a2eb83-5ae1-431a-9820-d27944081152"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
                 "que eu o levarei\nao Delegado\nMorales."
               ],
               "__section": "text",
@@ -375,7 +400,499 @@
               "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "42a2eb83-5ae1-431a-9820-d27944081152"
+            "id": "c0055c49-5a34-44e2-800a-c575ea2b147f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Desculpe\n Chapolin,"
+              ],
+              "__section": "text",
+              "avatarId": "81f8ccec-ccde-4e30-a822-2b289877afa0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "beb7c1d2-4b2a-4b59-ba66-a2b7bdecca50"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "eu não queria\nfazer nada de mal."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "228ad731-eb2b-4cbf-8f16-e9319e52f0b1"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Sim, claro."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "47cc346a-d000-4a76-bddc-c4ae20ad46e0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " É verdade."
+              ],
+              "__section": "text",
+              "avatarId": "81f8ccec-ccde-4e30-a822-2b289877afa0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "84a7f337-869d-46c5-b62a-4f91f1f2a668"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Eu só queria dar\nalguns presentes",
+                "as crianças\npobres do meu\nbairro."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "51ee9263-34a9-4731-ac87-ac32e06aae18"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "87fd04d5-b25c-4e99-871c-e165f86db4d6",
+              "__collapse": true
+            },
+            "id": "9e91014e-b314-4f00-867e-8825d19233fc"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " É Botijão."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "55b6ebdf-8e6f-4210-a8b1-b89ac86684e9"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Isso é uma\natitude muito\nnobre.",
+                "Mas não justifica\nque para isso\ntenha que\ncometer crimes."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "79757890-dd33-4eeb-9024-ebf2fb31b819"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "emoteId": "87fd04d5-b25c-4e99-871c-e165f86db4d6",
+              "__collapse": true
+            },
+            "id": "6e4af91d-7902-44fd-b58a-dcc7985f7c71"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Não se\n envergonha."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "ceed7a81-2c8f-45a6-8afa-5b9df2ca8bb8"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Sim."
+              ],
+              "__section": "text",
+              "avatarId": "81f8ccec-ccde-4e30-a822-2b289877afa0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "fac6a333-eaa5-4360-9be6-c14611b0bf51"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Então por que\n o fez?"
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "3cdf22aa-b5c1-4f96-8828-f1d4019118f0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Eu aguento!"
+              ],
+              "__section": "text",
+              "avatarId": "81f8ccec-ccde-4e30-a822-2b289877afa0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "be3b0cb7-c194-4d1c-8463-20847aee3f9c"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "emoteId": "1c7450e3-c59b-441e-83fe-888e1e60cb20",
+              "__collapse": true
+            },
+            "id": "7f68c2ec-92b9-4908-bb12-1d7aa9076b99"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "0356aa73-4c63-46ce-8134-afed270ea36a",
+              "__collapse": true
+            },
+            "id": "60ae2020-49cf-4d81-bd24-84461f249d77"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Olhe Botijão,"
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "9125a78c-d61f-4b6d-9ce5-0ded08a208f4"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "vou lhe contar\numa coisa.",
+                "Sabe quantas\npessoas pediram\nminha ajuda",
+                "enquanto eu\ndesvendava esse\nmistério de Natal?",
+                "Muiti-ssi-\nssí-ssimas.",
+                "A verdade é que,\nnem mesmo nós\nheróis,",
+                "somos capazes de\nresolver todos os",
+                "problemas do mundo\nao mesmo tempo.",
+                "Mas devemos fazer\no possível para\ntentar sanar",
+                "o máximo que\nconseguirmos,",
+                "tudo dentro\nda lei.",
+                "Sargento,\npode levá-lo."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "d6430da0-aee3-4580-8e6d-550c07fc00b2"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "spriteSheetId": "fbe0795d-2868-4314-a569-0c72665b9c1c",
+              "__collapse": true
+            },
+            "id": "d4a686a9-84d9-49a0-871d-ed9a0f1ea06c"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "434c928c-1709-4b24-9173-26dcc88bc0b2"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "moveType": "diagonal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "74c9d4fd-576a-4abc-b7db-0eb5dca54e65"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 19
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "c3fd733d-2f12-4d25-8fae-dc3c14df94e7"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "__collapse": true
+            },
+            "id": "4f2ee6a9-42ba-456d-9fdd-a0e6c39e2803"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "ca5d8b70-4271-4033-9530-e8fa08063af5",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "127d40a9-e872-40c4-8ac0-f3cdadc7ebe7"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "ca5d8b70-4271-4033-9530-e8fa08063af5",
+              "__collapse": true
+            },
+            "id": "0ec13910-81fa-44b3-a3fe-1c4600278b45"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "31e9cf54-c872-4184-af6c-521017f22062",
+              "x": {
+                "type": "number",
+                "value": 15
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "direction": "right",
+              "fadeSpeed": "2"
+            },
+            "id": "7faa7229-dfeb-4e33-a8f3-587d11df01b6"
           }
         ],
         "false": []
