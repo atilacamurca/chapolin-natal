@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
   "id": "b3792d88-cefe-493f-b190-491a9a89dd68",
-  "name": "",
+  "name": "Efeito de Neve",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "c5060e94-0d3a-40dd-a392-9bbb00a41996",
+  "spriteSheetId": "6b7aa36b-b867-43b7-9882-a7dd6e5a048e",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,

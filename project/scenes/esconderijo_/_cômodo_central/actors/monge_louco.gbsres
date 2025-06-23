@@ -883,11 +883,11 @@
               "sceneId": "31e9cf54-c872-4184-af6c-521017f22062",
               "x": {
                 "type": "number",
-                "value": 15
+                "value": 17
               },
               "y": {
                 "type": "number",
-                "value": 18
+                "value": 13
               },
               "direction": "right",
               "fadeSpeed": "2"

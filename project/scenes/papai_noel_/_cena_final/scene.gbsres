@@ -18,9 +18,493 @@
   ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Chapolin,"
+        ],
+        "__section": "text",
+        "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "0ff2492b-2d36-4a06-b8fd-260dd82b0721"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Obrigado por\nsalvar o Natal.",
+          "Eu sabia que\npoderíamos contar\ncom você."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "03b359a9-7a82-4054-ab35-0c7f72d68bdc"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "a4da17db-3e08-4603-8c3c-3d6aaabd4d5c",
+        "emoteId": "f45b9bf6-ad15-48ef-ac65-42245ee517b2",
+        "__collapse": true
+      },
+      "id": "cb7feffc-915c-4747-bb28-bf70c777e8d1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Ele é o máximo!"
+        ],
+        "__section": "text",
+        "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "655ba29c-1a54-41e2-9aa9-32cc6f079f2e"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "player",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapse": true
+      },
+      "id": "9c2fcc44-11a2-4fa3-b60f-0854c3794fb5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Não contavam com\na minha astúcia!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "67dd912d-c0f4-4a91-83b2-e16d564df4f0"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "b3792d88-cefe-493f-b190-491a9a89dd68",
+        "spriteSheetId": "c5060e94-0d3a-40dd-a392-9bbb00a41996",
+        "__collapse": true
+      },
+      "id": "7c8c97d4-45fe-4310-807f-45fc884b7caf"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "654b3250-6cf5-4bd2-a2a3-3bea5c8907b2",
+        "emoteId": "5d568b77-0cab-4f08-b4de-088f18225457",
+        "__collapse": true
+      },
+      "id": "062b63d0-d494-43e7-b317-69a58faa6d82"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Olha pessoal."
+        ],
+        "__section": "text",
+        "avatarId": "e2582bf7-f9f2-4c28-97df-c1941d953508",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "b6e8c153-187e-483c-8a7d-6dd82a9a72c8"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "está começando\na nevar!",
+          "É o sinal que o\nPapai Noel\nprecisa partir,",
+          "pra entregar os\npresentes a tempo."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "2e46c059-e27f-4b94-a0d9-1a45fb6c4ad0"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        },
+        "__collapse": true
+      },
+      "id": "5663f4ff-8e69-4524-9318-ec11f0e04967"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Noel, antes\n de partir."
+        ],
+        "__section": "text",
+        "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "e96cb386-1288-492e-9941-b25b1c8cc028"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Posso pedir\num favor?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "6ea8eb97-ed58-4e96-b9cd-69a29c4bd5b4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Já sei."
+        ],
+        "__section": "text",
+        "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "a91f4e70-5d69-4187-9a33-08805fd9b886"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "precisa de\num presente?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "94cea6c8-1456-4373-ae56-470fc541a19b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Sim. É pra um\namigo meu,",
+          "que mora numa vila\naqui perto."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "d75ae5fb-0292-446b-be46-aee706d5bb35"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Pode deixar."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "626dfbfe-d5c6-4ac7-92a2-716d945b9115"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "TODO Noel entrega uma bola ao Chapolin!",
+        "__collapse": true
+      },
+      "id": "d279e78b-da02-42d0-9cf8-366f914deb99"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " E agora\n preciso ir."
+        ],
+        "__section": "text",
+        "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "50254a82-d520-4325-aefb-72c37a738cd7"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "5834aac4-c045-4eca-97a6-0e886a48f136",
+        "x": {
+          "type": "number",
+          "value": 22
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "moveType": "vertical",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "b19c090c-e86e-4006-846a-81a4b95cd143"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "5834aac4-c045-4eca-97a6-0e886a48f136",
+        "__collapse": true
+      },
+      "id": "2263dc1b-8f60-464c-884d-2ddcd36fe9da"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "be2f4cd5-ca65-4e30-9503-2c5adbd27e31",
+        "spriteStateId": "Partida",
+        "loopAnim": false,
+        "__collapse": true
+      },
+      "id": "a0152c08-561e-4c43-ac8c-76656ffed06d"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "654b3250-6cf5-4bd2-a2a3-3bea5c8907b2",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapse": true
+      },
+      "id": "9bddbf74-5d4f-4d48-88be-ebe1e02ba265"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Feliz Natal\na todos, ho ho ho!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "3d42acb5-c064-4202-ae24-eba4dc5d6916"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "TODO trenós e renas voam e saem de cena"
+      },
+      "id": "02fb2536-6b86-4438-a81c-2ffae214e57f"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "003+0f6+007+0f9+006+0f2+003+0f!004+0f8+009+0f6+00!0f5+004+0f!007+0f8+007+0f3+007+0f!00e+0f!007+0f3+003+0f2+002+0f!00e+0f!005+0f2+00!0f2+003+0f2+002+0f7+008+0f!005+0f2+00!0f2+003+0f2+002+0f2+004+0fa+005+0f2+00!0f2+003+0f2+0017+0f2+00!0f4+00!0f2+0017+0f2+00!0f4+00!0f2+0017+0f2+00!0f!003+0f3+0017+0f2+00!0fa+006+0fa+004+0f2+00!0f2+001f+0f2+005+0f2+0018+0f4+001d+0f!004d+0f2+001f+0f2+0035+0f3+001d+0f!002+0f!001d+0f!003+0f!001b+0f!002+0f3+001b+0f!00!0f!001f+0f2+001f+0f!00!0f2+001d+0f!002+0f!001d+0f!003+0f!001b+0f!00!0f4+005+0f2+002+0f2+0010+0f!00!0f!001f+0f22+"
+  "collisions": "003+0f6+007+0f9+006+0f2+003+0f!004+0f8+009+0f6+00!0f5+004+0f!007+0f8+007+0f3+007+0f!00e+0f!007+0f3+003+0f2+002+0f!00e+0f!005+0f2+00!0f2+003+0f2+002+0f7+008+0f!005+0f2+00!0f2+003+0f2+002+0f2+004+0fa+005+0f2+00!0f2+003+0f2+0017+0f2+00!0f4+00!0f2+0017+0f2+00!0f4+00!0f2+0017+0f2+00!0f!003+0f3+0017+0f2+00!0fa+006+0fa+004+0f2+00!0f2+001f+0f2+005+0f2+0018+0f4+001d+0f!004d+0f2+001f+0f2+0035+0f3+001d+0f!002+0f!001d+0f!003+0f!001b+0f!002+0f3+001b+0f!00!0f!001f+0f2+001f+0f!00!0f2+001d+0f!002+0f!001d+0f!003+0f!001b+0f!00!0f4+005+0f2+002+0f2+0010+0f!00!0f!001f+0f22+",
+  "playerSpriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c"
 }

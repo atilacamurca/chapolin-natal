@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "dfd6a4da-db04-456a-81b2-ce064611c2f5",
   "prefabId": "",
-  "direction": "down",
+  "direction": "left",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -21,7 +21,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 18,
-  "y": 15,
+  "x": 22,
+  "y": 13,
   "_index": 0
 }
