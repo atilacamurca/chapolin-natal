@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "Papai Noel / Cena Final",
   "symbol": "scene_24",
-  "x": 2383.9617224880385,
-  "y": 1604.0574162679427,
+  "x": 2384,
+  "y": 1608,
   "width": 33,
   "height": 32,
   "backgroundId": "f6575dda-853a-4fb8-8827-995385732203",
@@ -146,11 +146,19 @@
       "id": "67dd912d-c0f4-4a91-83b2-e16d564df4f0"
     },
     {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "TODO Verificar problemas com efeito de neve",
+        "__collapse": true
+      },
+      "id": "11c48dfa-589d-41e8-887b-77a0bddbc443"
+    },
+    {
       "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
         "actorId": "b3792d88-cefe-493f-b190-491a9a89dd68",
-        "spriteSheetId": "c5060e94-0d3a-40dd-a392-9bbb00a41996",
-        "__collapse": true
+        "spriteSheetId": "6b7aa36b-b867-43b7-9882-a7dd6e5a048e",
+        "__collapse": false
       },
       "id": "7c8c97d4-45fe-4310-807f-45fc884b7caf"
     },
@@ -426,13 +434,13 @@
         "actorId": "5834aac4-c045-4eca-97a6-0e886a48f136",
         "x": {
           "type": "number",
-          "value": 22
+          "value": 16
         },
         "y": {
           "type": "number",
-          "value": 16
+          "value": 18
         },
-        "moveType": "vertical",
+        "moveType": "diagonal",
         "useCollisions": false,
         "__collapse": true
       },
@@ -469,6 +477,63 @@
       "id": "9bddbf74-5d4f-4d48-88be-ebe1e02ba265"
     },
     {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "be2f4cd5-ca65-4e30-9503-2c5adbd27e31",
+        "spriteStateId": "Voando de Lado",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "5f3c8bdf-317b-4b59-804d-4642a4828b84"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "be2f4cd5-ca65-4e30-9503-2c5adbd27e31",
+        "speed": 15,
+        "__collapse": true
+      },
+      "id": "968987d0-8f31-416b-8f71-d76ccce8d6e3"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "adfc70bd-2359-42fa-9e2c-4b751667c6b1",
+        "spriteSheetId": "b984bcd6-329a-45d1-a070-8640bb3fc7d4",
+        "__collapse": true
+      },
+      "id": "56b06709-8422-44a5-8de1-6b7b3dd76bd6"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "adfc70bd-2359-42fa-9e2c-4b751667c6b1",
+        "spriteStateId": "Sendo Carregada Lado",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "b4790445-c75d-4dc6-9934-ac44d443c346"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "13b9a0eb-535f-4d02-8aef-f1a6b60902fc",
+        "spriteSheetId": "b984bcd6-329a-45d1-a070-8640bb3fc7d4",
+        "__collapse": true
+      },
+      "id": "9110c4c0-4f35-410f-a286-6996e9271faf"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "13b9a0eb-535f-4d02-8aef-f1a6b60902fc",
+        "spriteStateId": "Sendo Carregada Lado",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "281ea4bb-fe52-43a0-85bd-5f3fb22ce2f0"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -497,9 +562,22 @@
     {
       "command": "EVENT_COMMENT",
       "args": {
-        "text": "TODO trenós e renas voam e saem de cena"
+        "text": "TODO trenós e renas voam e saem de cena",
+        "__collapse": true
       },
       "id": "02fb2536-6b86-4438-a81c-2ffae214e57f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "30",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "85a20e43-a509-452e-8f27-c89cb84438ee"
     }
   ],
   "playerHit1Script": [],
