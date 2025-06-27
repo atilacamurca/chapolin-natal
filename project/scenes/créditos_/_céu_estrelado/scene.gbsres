@@ -1,0 +1,206 @@
+{
+  "_resourceType": "scene",
+  "id": "fea2423c-e8ae-4c2f-84cf-4734f05efe63",
+  "_index": 24,
+  "name": "Créditos / Céu Estrelado",
+  "backgroundId": "6df25c8c-e620-4518-982d-8db26dc608ce",
+  "tilesetId": "",
+  "width": 60,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_25",
+  "x": 880,
+  "y": 816,
+  "script": [
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true,
+        "__label": "Timer para Estrelas 1"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "tilesetId": "44d47691-5ce4-475a-b913-dff1419ff89e",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "bb698a67-3622-4e26-a73b-6a1deb93a603"
+          }
+        ]
+      },
+      "id": "d48ce1c6-ed54-4a18-b580-8aff1a43221e"
+    },
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT_DRAW",
+            "args": {
+              "text": "   Chapolin:\n Um Conto de Natal",
+              "x": 5,
+              "y": 14,
+              "location": "background",
+              "__collapse": true
+            },
+            "id": "120e08de-94df-4267-9932-defa72665038"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "    Chapolin:\n Um Conto de Natal",
+                " Desenvolvido por\n  Átila Camurça"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "text",
+              "closeButton": "a",
+              "closeDelayTime": 3,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "61917986-045f-40ef-a2c1-ecc096e06876"
+          }
+        ]
+      },
+      "id": "8b5e0433-b3c8-4d3e-9c8d-c24f5818a3c6"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 48
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "moveType": "horizontal",
+        "useCollisions": false,
+        "__collapse": true
+      },
+      "id": "83641b4a-bcbf-4b86-b223-107c16fd3e7e"
+    },
+    {
+      "command": "EVENT_LOOP",
+      "args": {
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "property",
+                  "target": "player",
+                  "property": "xpos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 48
+                }
+              },
+              "__collapseElse": true,
+              "__disableElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 10
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 8
+                    },
+                    "__collapse": true
+                  },
+                  "id": "644925a4-fe44-4c6f-8b3a-6d63f36a681c"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 48
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 8
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": false,
+                    "__collapse": true
+                  },
+                  "id": "bb3bfde6-3345-413a-a2d9-decec3683f25"
+                }
+              ],
+              "false": []
+            },
+            "id": "a2fd5e1d-9ec7-490f-bd5d-9c5301236755"
+          }
+        ]
+      },
+      "id": "e078b441-4956-44a5-b9ac-58336d6a81a0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "39d93510-29b4-497d-9574-317ff83d21e2",
+  "autoFadeEventCollapse": true
+}

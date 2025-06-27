@@ -34,7 +34,7 @@
         },
         "__collapseElse": true,
         "__disableElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -70,17 +70,27 @@
               },
               "__collapseElse": true,
               "__disableElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
                 {
-                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "command": "EVENT_SWITCH_SCENE",
                   "args": {
-                    "actorId": "$self$",
+                    "sceneId": "fea2423c-e8ae-4c2f-84cf-4734f05efe63",
+                    "x": {
+                      "type": "number",
+                      "value": 7
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 14
+                    },
+                    "direction": "right",
+                    "fadeSpeed": 4,
                     "__collapse": true
                   },
-                  "id": "8a447c93-e7f0-4b7f-8269-07be96b33539"
+                  "id": "37581f4f-dcaa-42b4-a1b7-67ee4ca9c48b"
                 }
               ],
               "false": []

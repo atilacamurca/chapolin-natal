@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "81206928-85fe-4eac-ac85-64e864e825a8",
+  "name": "Estrela_Tileset",
+  "symbol": "tileset_estrela_tileset",
+  "width": 8,
+  "height": 4,
+  "imageWidth": 64,
+  "imageHeight": 32,
+  "filename": "Estrela_Tileset.png"
+}

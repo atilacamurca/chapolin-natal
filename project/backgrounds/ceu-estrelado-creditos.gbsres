@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6df25c8c-e620-4518-982d-8db26dc608ce",
+  "name": "ceu-estrelado-creditos",
+  "symbol": "bg_ceu_estrelado_creditos",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144,
+  "filename": "ceu-estrelado-creditos.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "3cffbde3-1b19-4d9d-a5fb-eef7ffb4938d",
+  "name": "Estrela_Cadente_Tileset",
+  "symbol": "tileset_estrela_cadente_til",
+  "width": 8,
+  "height": 4,
+  "imageWidth": 64,
+  "imageHeight": 32,
+  "filename": "Estrela_Cadente_Tileset.png"
+}

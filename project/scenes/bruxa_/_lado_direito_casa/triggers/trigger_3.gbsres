@@ -42,7 +42,8 @@
                 "value": 0
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "__collapse": true
             },
             "id": "e137be22-1ac3-4516-b236-148ccac822cf"
           }
@@ -80,7 +81,8 @@
                       "value": 13
                     },
                     "moveType": "horizontal",
-                    "useCollisions": false
+                    "useCollisions": false,
+                    "__collapse": true
                   },
                   "id": "b3a6ff14-7cc1-4cce-ad40-34ebfd31d758"
                 }

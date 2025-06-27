@@ -1,0 +1,46 @@
+{
+  "_resourceType": "actor",
+  "id": "65c9e615-7426-45ad-ad9b-1cf468728f3f",
+  "name": "Rena 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b984bcd6-329a-45d1-a070-8640bb3fc7d4",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_53",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "d85c93eb-1f7c-440b-aa46-c819b3d28985"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "$self$",
+        "spriteStateId": "Sendo Carregada Lado",
+        "loopAnim": true,
+        "__collapse": true
+      },
+      "id": "f8b40513-05bb-40f3-83e4-56608eefb593"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 12,
+  "y": 10,
+  "_index": 1
+}

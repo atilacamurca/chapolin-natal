@@ -157,8 +157,8 @@
       "command": "EVENT_ACTOR_SET_SPRITE",
       "args": {
         "actorId": "b3792d88-cefe-493f-b190-491a9a89dd68",
-        "spriteSheetId": "6b7aa36b-b867-43b7-9882-a7dd6e5a048e",
-        "__collapse": false
+        "spriteSheetId": "c5060e94-0d3a-40dd-a392-9bbb00a41996",
+        "__collapse": true
       },
       "id": "7c8c97d4-45fe-4310-807f-45fc884b7caf"
     },
@@ -175,7 +175,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Olha pessoal."
+          " Olha pessoal."
         ],
         "__section": "text",
         "avatarId": "e2582bf7-f9f2-4c28-97df-c1941d953508",
@@ -455,6 +455,22 @@
       "id": "2263dc1b-8f60-464c-884d-2ddcd36fe9da"
     },
     {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "5834aac4-c045-4eca-97a6-0e886a48f136",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "7ebad61e-96f8-403b-83a4-77ba4837b33b"
+    },
+    {
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "be2f4cd5-ca65-4e30-9503-2c5adbd27e31",
@@ -532,6 +548,30 @@
         "__collapse": true
       },
       "id": "281ea4bb-fe52-43a0-85bd-5f3fb22ce2f0"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapse": true
+      },
+      "id": "b67e1136-5ea1-4882-879a-4055740de879"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "654b3250-6cf5-4bd2-a2a3-3bea5c8907b2",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapse": true
+      },
+      "id": "001bfd16-c956-40cc-ace8-763cdac01d16"
     },
     {
       "command": "EVENT_TEXT",

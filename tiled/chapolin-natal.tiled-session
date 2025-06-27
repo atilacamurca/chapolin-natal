@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "lado-fora-esconderijo-tripa-seca.tmx",
+    "activeFile": "Estrela_Cadente_Tileset.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -17,6 +17,26 @@
             "scaleInDock": 8,
             "scaleInEditor": 8
         },
+        "Estrela_1_T.tsx": {
+            "scaleInDock": 11,
+            "scaleInEditor": 1
+        },
+        "Estrela_Cadente_Tileset.tmx": {
+            "scale": 16.951562499999998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 31.973453774541433,
+                "y": 16.01622269333579
+            }
+        },
+        "Estrela_Completa_Tileset.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
+        "Estrela_Placeholder.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 1
+        },
         "Fabrica_Tileset.tsx": {
             "scaleInDock": 5.5,
             "scaleInEditor": 8
@@ -26,7 +46,7 @@
             "scaleInEditor": 3
         },
         "GB_studio_overworld_tiles.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 2,
             "scaleInEditor": 3
         },
         "GameBoy Style Interiors.tsx": {
@@ -129,6 +149,14 @@
                 "y": 95.89823946907549
             }
         },
+        "ceu-estrelado-creditos.tmx": {
+            "scale": 3.3903125,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 143.05465941561437,
+                "y": 72.11724582910868
+            }
+        },
         "fabrica-papai-noel.tmx": {
             "scale": 6.221180555555555,
             "selectedLayer": 3,
@@ -221,8 +249,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 194.66666666666666,
-                "y": 92.83333333333334
+                "x": 200,
+                "y": 95.83333333333333
             }
         },
         "lado-fora-laboratorio-prof-baratinha.tmx": {
@@ -251,29 +279,34 @@
         }
     },
     "last.imagePath": "/home/atila/Jogos/gbstudio/chapolin-natal/tiled",
-    "map.height": 24,
+    "map.height": 4,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 8,
     "map.tileWidth": 8,
-    "map.width": 28,
+    "map.width": 8,
     "openFiles": [
         "World tilesets outdoors.tsx",
-        "lado-fora-esconderijo-tripa-seca.tmx"
+        "lado-fora-esconderijo-tripa-seca.tmx",
+        "ceu-estrelado-creditos.tmx",
+        "Estrela_1_T.tsx",
+        "Estrela_Placeholder.tsx",
+        "Estrela_Completa_Tileset.tsx",
+        "Estrela_Cadente_Tileset.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
         "World tilesets outdoors.tsx",
         "lado-fora-esconderijo-tripa-seca.tmx",
+        "ceu-estrelado-creditos.tmx",
+        "Estrela_1_T.tsx",
+        "Estrela_Placeholder.tsx",
+        "Estrela_Completa_Tileset.tsx",
+        "Estrela_Cadente_Tileset.tmx",
         "casa-do-papai-noel.tmx",
         "casa-tripa-seca-sala-estar.tmx",
         "casa-tripa-seca-comodo-esquerdo.tmx",
         "casa-tripa-seca-comodo-central.tmx",
-        "casa-do-chapolin.tmx",
-        "casa-da-bruxa-baratuxa.tmx",
-        "casa-tripa-seca-comodo-direito.tmx",
-        "Gameboy-Forest-Tileset.tsx",
-        "RPG_interior.tsx",
-        "RPG_exterior.tsx"
+        "casa-do-chapolin.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
