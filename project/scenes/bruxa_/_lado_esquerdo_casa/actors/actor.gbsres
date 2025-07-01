@@ -17,62 +17,116 @@
   "symbol": "actor_23",
   "script": [
     {
-      "command": "EVENT_MENU",
-      "args": {
-        "variable": "L0",
-        "items": 2,
-        "option1": "Ir para o Leste",
-        "option2": "Cancelar",
-        "option3": "",
-        "option4": "",
-        "option5": "",
-        "option6": "",
-        "option7": "",
-        "option8": "",
-        "cancelOnB": true,
-        "layout": "dialogue"
-      },
-      "id": "10e377aa-5f93-4525-8849-42cc486c7a4a"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "L0"
+            "value": "17"
           },
           "valueB": {
             "type": "number",
             "value": 1
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_SWITCH_SCENE",
+            "command": "EVENT_MENU",
             "args": {
-              "sceneId": "0ee0746a-d16f-4ba2-9e4c-11020fbef2cd",
-              "x": {
-                "type": "number",
-                "value": 6
-              },
-              "y": {
-                "type": "number",
-                "value": 25
-              },
-              "direction": "left",
-              "fadeSpeed": "2"
+              "variable": "L0",
+              "items": 2,
+              "option1": "Ir para o Leste",
+              "option2": "Cancelar",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "__collapse": true
             },
-            "id": "dd8342c7-a4f5-48c7-b3b4-769dd6a1df2b"
+            "id": "10e377aa-5f93-4525-8849-42cc486c7a4a"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "0ee0746a-d16f-4ba2-9e4c-11020fbef2cd",
+                    "x": {
+                      "type": "number",
+                      "value": 6
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 25
+                    },
+                    "direction": "left",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "dd8342c7-a4f5-48c7-b3b4-769dd6a1df2b"
+                }
+              ],
+              "false": []
+            },
+            "id": "b8255f00-91bd-4c9e-a4f5-d49db33a7551"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Melhor investigar\nantes de partir."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "429d6273-cd28-40ed-8862-ecbc4a63831a"
+          }
+        ]
       },
-      "id": "b8255f00-91bd-4c9e-a4f5-d49db33a7551"
+      "id": "4342fdf4-81e9-4051-95ab-eeceb7d25f69"
     }
   ],
   "startScript": [],

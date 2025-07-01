@@ -167,7 +167,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Precisamos\nverificá-las\nagora.\nSigam me os bons."
+                "Precisamos\nverificá-las\nagora mesmo.",
+                "Sigam me os bons."
               ],
               "__section": "text",
               "avatarId": "",

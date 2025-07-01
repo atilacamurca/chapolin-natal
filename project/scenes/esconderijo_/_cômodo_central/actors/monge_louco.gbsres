@@ -56,15 +56,6 @@
             "id": "8525758f-0103-46b8-8bae-43070fb74009"
           },
           {
-            "command": "EVENT_ACTOR_SET_SPRITE",
-            "args": {
-              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
-              "spriteSheetId": "cb578b19-5f15-4323-99e0-6e89ddf9ca61",
-              "__collapse": true
-            },
-            "id": "71787844-a3c4-469d-b891-d614af9e59eb"
-          },
-          {
             "command": "EVENT_ACTOR_SET_DIRECTION",
             "args": {
               "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
@@ -75,6 +66,97 @@
               "__collapse": true
             },
             "id": "c6239db6-0b6e-43e0-aba4-fd5f97f946b7"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "d144ddcd-1b0d-4042-8427-162c9f56f385",
+              "__collapse": true
+            },
+            "id": "7a5dcac7-45d5-4828-8e04-027338db6ddc"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "d8418f41-81ba-436e-a29e-03401f0c94b5"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "ddabffda-aed8-4683-b801-c32e8b5be306"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "2edcff6d-fa76-4599-b70f-cec0831932a0"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "27931ae6-1455-4bb9-b58a-bd46f38edf2f"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "78a68878-a0d5-4177-ac14-a1a88860cf3f"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 2
+              },
+              "__collapse": true
+            },
+            "id": "7159d1e6-fd2e-42e3-9312-b7d91eff468e"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "2ee924b4-8738-4868-a77e-0be1a8f88bd3"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "spriteSheetId": "cb578b19-5f15-4323-99e0-6e89ddf9ca61",
+              "__collapse": true
+            },
+            "id": "71787844-a3c4-469d-b891-d614af9e59eb"
           },
           {
             "command": "EVENT_ACTOR_SET_POSITION",
@@ -861,7 +943,25 @@
               },
               "y": {
                 "type": "number",
-                "value": 18
+                "value": 9
+              },
+              "moveType": "diagonal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "fdd72379-219e-4e76-a693-263634e2b4eb"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "ca5d8b70-4271-4033-9530-e8fa08063af5",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 19
               },
               "moveType": "vertical",
               "useCollisions": false,
@@ -890,7 +990,8 @@
                 "value": 13
               },
               "direction": "right",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": true
             },
             "id": "7faa7229-dfeb-4e33-a8f3-587d11df01b6"
           }

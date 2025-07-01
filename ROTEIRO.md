@@ -332,6 +332,8 @@ Ch.: Já vou descer.
 
 Após descer da mesa, Chapolin sente que vai recuperar seu tamanho normal.
 
+**TODO**
+
 ```
 Ch.: Estou a ponto de recuperar meu tamanho normal.
 ```

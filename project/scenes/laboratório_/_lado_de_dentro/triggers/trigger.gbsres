@@ -42,7 +42,8 @@
                 "value": 15
               },
               "direction": "right",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": true
             },
             "id": "30f4071e-bbb5-49b1-a758-3a786c6dc112"
           }

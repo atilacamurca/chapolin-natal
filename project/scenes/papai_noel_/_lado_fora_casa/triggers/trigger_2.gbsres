@@ -21,56 +21,6 @@
           },
           "valueB": {
             "type": "number",
-            "value": 0
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_SET_DIRECTION",
-            "args": {
-              "actorId": "$self$",
-              "direction": {
-                "type": "direction",
-                "value": "right"
-              }
-            },
-            "id": "6e2fec1a-77b2-4510-96c6-1f46eaa13e38"
-          },
-          {
-            "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 3
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              }
-            },
-            "id": "48cf6b4a-4644-49b9-b884-fac375a621ff"
-          }
-        ],
-        "false": []
-      },
-      "id": "da9017fe-f43e-4a31-946b-0a9b2c399432"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "2"
-          },
-          "valueB": {
-            "type": "number",
             "value": 1
           }
         },

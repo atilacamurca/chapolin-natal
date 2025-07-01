@@ -31,10 +31,23 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true,
+        "__disableElse": true
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "6",
+              "value": {
+                "type": "number",
+                "value": 2
+              },
+              "__collapse": true
+            },
+            "id": "7807c278-d608-4389-b318-04f8c53f684b"
+          },
           {
             "command": "EVENT_TEXT",
             "args": {
@@ -56,7 +69,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "b29732a2-3e7c-46df-a4b0-2199569d4fe7"
           },
@@ -81,7 +95,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "6f2ea803-174e-4f17-b0d5-2aaff5c1984f"
           },
@@ -89,7 +104,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " Como?"
+                " Nossa!\n Mas como?"
               ],
               "__section": "text",
               "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
@@ -106,7 +121,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "ab7b09f5-29b9-485c-ac84-4834c66445a6"
           },
@@ -131,7 +147,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "942e6445-bbbd-448d-ac70-84c656526cdb"
           },
@@ -156,7 +173,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "cee4953f-f701-49a2-ab4b-4a9410360b1d"
           },
@@ -182,7 +200,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "70e03aac-8e7a-40d8-a334-5779ea9b8490"
           },
@@ -207,7 +226,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "c708c84a-5ac5-412a-ab6e-a83d82b8e888"
           }
@@ -215,6 +235,111 @@
         "false": []
       },
       "id": "c02b485a-1bd4-40f8-810d-b324169a8882"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " E então\n Chapolin,",
+                " descobriu algo?"
+              ],
+              "__section": "text",
+              "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "0e53a033-b7ed-4c84-a104-6c1cea90f9b6"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Sim."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "848e0b34-0241-42f5-858f-40409b5f07dd"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Há muita lama\nem todo lugar.",
+                "E a lama vêm do\npântano.",
+                "Vou investigar\nisto agora mesmo."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "06a7a9e2-6dc6-4efc-a9f4-012d5a7b2ccc"
+          }
+        ],
+        "false": []
+      },
+      "id": "5b04fb59-b25e-446d-984d-6eb9ab48cfd8"
     }
   ],
   "startScript": [

@@ -34,7 +34,8 @@
             "args": {
               "actorId": "$self$",
               "spriteStateId": "",
-              "loopAnim": false
+              "loopAnim": false,
+              "__collapse": true
             },
             "id": "99fa58a4-2cd4-4062-9de8-ad6ae6e58ad7"
           },
@@ -50,7 +51,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Oh, e agora,\nquem poderá \nme ajudar?"
+                " Oh, e agora,\n quem poderá \n me ajudar?"
               ],
               "__section": "text",
               "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",

@@ -72,7 +72,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "E você, quem é?"
+                " E você, quem é?"
               ],
               "__section": "text",
               "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
@@ -98,10 +98,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Dingo, ajudante do\nPapai Noel.\nE você?"
+                " Dingo, ajudante\n do Papai Noel.\n E você?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "e2582bf7-f9f2-4c28-97df-c1941d953508",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -249,7 +249,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [

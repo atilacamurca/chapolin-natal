@@ -46,7 +46,7 @@
               },
               "__collapseElse": true,
               "__disableElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -61,6 +61,14 @@
                     "__collapse": true
                   },
                   "id": "509ddf61-3395-4ec0-a7e0-65b8e940ffa2"
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+                    "__collapse": true
+                  },
+                  "id": "4a567ed4-4ac8-4018-8209-241e49068e1e"
                 },
                 {
                   "command": "EVENT_ACTOR_EMOTE",
@@ -139,7 +147,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Sim, havia lama\nno curral e perto\nonde ficava\no trenó."
+                      "Sim, havia lama\nno curral",
+                      "e perto onde\nficava o trenó."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -165,7 +174,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Isso parece lama\ndo pântano. É lá\nque vive a\nBruxa Baratuxa."
+                      "Isso parece lama\ndo pântano.",
+                      "É lá que vive a\nBruxa Baratuxa."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -217,7 +227,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Sim Chapolin.\nSerá que ela\nestá por trás\ndisso tudo?"
+                      "Sim Chapolin.\nSerá que ela",
+                      "está por trás\ndisso tudo?"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -269,7 +280,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "No sul. Use a\nplaca de viagem\nrápida",
+                      "Ao sul. Use a\nplaca de viagem\nrápida",
                       "em frente a\ncasa do\nPapai Noel."
                     ],
                     "__section": "text",
@@ -317,6 +328,24 @@
                     "__collapse": true
                   },
                   "id": "b75eff60-fab6-4164-88d0-6b03ee2366cb"
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+                    "__collapse": true
+                  },
+                  "id": "2f61b31b-32fb-423a-96de-812b592bcf72"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "58889074-b419-4ecd-8ce9-fcea026d7632"
                 }
               ],
               "false": []

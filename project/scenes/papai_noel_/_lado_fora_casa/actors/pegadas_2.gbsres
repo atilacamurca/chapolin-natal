@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "6b7aa36b-b867-43b7-9882-a7dd6e5a048e",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,12 +15,26 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_16",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        },
+        "__collapse": true
+      },
+      "id": "f784637f-42ab-4a35-8d5d-e3e45f75a5d8"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "453931e2-4bf6-48bb-a328-094e27538c1e"
     },

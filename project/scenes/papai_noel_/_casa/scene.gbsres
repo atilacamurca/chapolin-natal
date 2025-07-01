@@ -7,13 +7,13 @@
   "tilesetId": "",
   "width": 24,
   "height": 18,
-  "type": "ADVENTURE",
+  "type": "TOPDOWN",
   "paletteIds": [
     "dmg",
     "dmg"
   ],
   "spritePaletteIds": [],
-  "collisions": "0069+0f!002+0f!00c+0f8+00!0f2+00!0fa+00!0f9+00!0f2+00!0fc+00!0f2+0013+0f2+0016+0f2+00c+0f12+006+0f!00a+0f!00c+0f!00a+0f!00c+0f!006+0f!003+0f!00c+0f7+00!0f!003+0f4+008+0f7+00!0f3+004+0f!0010+0f3+004+0f!0012+0f!004+0f!004+0ff+",
+  "collisions": "0069+0f!002+0f!00c+0f8+00!0f2+00!0fa+00!0f9+00!0f2+00!0fc+00!0f2+0013+0f2+0016+0f2+00c+0f12+006+0f!00a+0f!00c+0f!00a+0f!00c+0f!006+0f!003+0f!00!0f2+009+0f7+00!0f!003+0f4+008+0f7+00!0f3+004+0f!0010+0f3+004+0f!0012+0f!004+0f!004+0ff+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
   "x": 2056,
@@ -221,7 +221,8 @@
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7"
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
             },
             "id": "ac25f94f-4d29-48ff-a6fa-1820d450c94d"
           },
@@ -229,7 +230,8 @@
             "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
             "args": {
               "actorId": "$self$",
-              "speed": 15
+              "speed": 15,
+              "__collapse": true
             },
             "id": "0f849cf4-7108-4169-9fe6-12da43abee65"
           },
@@ -240,9 +242,24 @@
               "direction": {
                 "type": "direction",
                 "value": "up"
-              }
+              },
+              "__collapse": true
             },
             "id": "0d26de22-2172-4771-94d5-b954c681aeca"
+          },
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "number",
+                "value": 5
+              },
+              "__collapse": true
+            },
+            "id": "5acd7c94-ea4a-4a76-9c7d-cd1b75b42f6e"
           },
           {
             "command": "EVENT_TEXT",
@@ -265,7 +282,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "db23d532-e8f0-479a-b863-afb3f4f2bfa6"
           },
@@ -273,7 +291,8 @@
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
               "actorId": "$self$",
-              "emoteId": "01846474-d91f-4e1e-9761-b8cab7da6985"
+              "emoteId": "01846474-d91f-4e1e-9761-b8cab7da6985",
+              "__collapse": true
             },
             "id": "0ac45bb4-29d7-405c-8f1b-933f838ca84c"
           },
@@ -301,7 +320,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "39de5209-9a70-4521-8b29-f4d20e90fa21"
           },
@@ -326,7 +346,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "fe45f118-77ba-4344-8ff6-d51ff91d2962"
           },
@@ -351,7 +372,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "e758bc25-0fc4-4e9f-a5ce-533ebb9999b2"
           },
@@ -376,7 +398,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "2447b674-afdf-4e8a-b679-45cfa6967e2b"
           },
@@ -401,7 +424,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "200cfe2b-4c25-4ec8-b2f0-e19746bfda96"
           }

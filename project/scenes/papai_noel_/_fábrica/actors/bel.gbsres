@@ -32,7 +32,7 @@
         },
         "__collapseElse": true,
         "__disableElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -43,7 +43,8 @@
               "value": {
                 "type": "number",
                 "value": 1
-              }
+              },
+              "__collapse": true
             },
             "id": "3ce4791f-67be-4540-a8ff-96c0137ea0eb"
           },
@@ -53,14 +54,14 @@
               "text": [
                 " Algum problema\n aqui?"
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -77,10 +78,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Chapolin?! O que\nfaz aqui?"
+                " Chapolin?!\n O que\n faz aqui?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -105,14 +106,14 @@
               "text": [
                 "Estou procurando\na irmã de\numa pessoa."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -129,10 +130,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "A irmã do Dingo?\nSou eu."
+                " A irmã do\n Dingo? Sou eu."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -157,14 +158,14 @@
               "text": [
                 "Não me diga que\nseu nome é Bel."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -181,10 +182,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Sim, sou eu mesma."
+                " Sim, sou\n eu mesma."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -210,14 +211,14 @@
                 "Eu disse pra\nnão me dizer.",
                 "Mas qual é\nseu problema?"
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -272,14 +273,14 @@
               "text": [
                 "Puxa! Agora\njá são três."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -324,14 +325,14 @@
               "text": [
                 "As renas, o treno\ne os presentes.\nTodos roubados."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -381,14 +382,14 @@
               "text": [
                 "Precisamos ver\nas imagens\ndas câmeras\nagora mesmo."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -422,7 +423,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "0ea9250a-93b9-4c5e-a6f5-dc5fc69761d6"
           }

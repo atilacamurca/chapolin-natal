@@ -4,7 +4,7 @@
   "name": "Bruxa",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "877c6186-5c6c-4f30-80c4-ced04452f142",
+  "spriteSheetId": "86de284e-870e-48e0-828a-65a155589e26",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -30,7 +30,8 @@
             "value": 0
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [

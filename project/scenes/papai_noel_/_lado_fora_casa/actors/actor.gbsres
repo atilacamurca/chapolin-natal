@@ -17,62 +17,115 @@
   "symbol": "actor_11",
   "script": [
     {
-      "command": "EVENT_MENU",
-      "args": {
-        "variable": "L0",
-        "items": 2,
-        "option1": "Ir para o Sul",
-        "option2": "Cancelar",
-        "option3": "",
-        "option4": "",
-        "option5": "",
-        "option6": "",
-        "option7": "",
-        "option8": "",
-        "cancelOnB": true,
-        "layout": "dialogue"
-      },
-      "id": "d4e41435-0ed4-45dc-a3ac-9887335d4901"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "L0"
+            "value": "7"
           },
           "valueB": {
             "type": "number",
             "value": 1
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_SWITCH_SCENE",
+            "command": "EVENT_MENU",
             "args": {
-              "sceneId": "fe0de12d-1934-4520-89e2-05f8c6a457ac",
-              "x": {
-                "type": "number",
-                "value": 4
-              },
-              "y": {
-                "type": "number",
-                "value": 17
-              },
-              "direction": "up",
-              "fadeSpeed": "2"
+              "variable": "L0",
+              "items": 2,
+              "option1": "Ir para o Sul",
+              "option2": "Cancelar",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "__collapse": true
             },
-            "id": "d2ac59c7-75a2-431d-b921-48ac78f67011"
+            "id": "d4e41435-0ed4-45dc-a3ac-9887335d4901"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "fe0de12d-1934-4520-89e2-05f8c6a457ac",
+                    "x": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "direction": "up",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "d2ac59c7-75a2-431d-b921-48ac78f67011"
+                }
+              ],
+              "false": []
+            },
+            "id": "e7f81d87-6c1c-40b9-b110-0674e1454935"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Melhor investigar\nantes de partir."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "4af07c5f-0454-4e9b-bc5c-0dc97d3e0d6e"
+          }
+        ]
       },
-      "id": "e7f81d87-6c1c-40b9-b110-0674e1454935"
+      "id": "ce4270e2-161b-4322-a11f-83890a556bde"
     }
   ],
   "startScript": [],
