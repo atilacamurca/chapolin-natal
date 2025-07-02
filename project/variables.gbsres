@@ -155,6 +155,16 @@
       "id": "30",
       "name": "Mover Treno",
       "symbol": "var_mover_treno"
+    },
+    {
+      "id": "31",
+      "name": "Voltou ao Tamanho Normal",
+      "symbol": "var_voltou_ao_tamanho_norma"
+    },
+    {
+      "id": "32",
+      "name": "Encontrou Localização Extrato",
+      "symbol": "var_encontrou_localiza_o_ex"
     }
   ]
 }

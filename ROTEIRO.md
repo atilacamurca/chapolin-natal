@@ -332,23 +332,18 @@ Ch.: Já vou descer.
 
 Após descer da mesa, Chapolin sente que vai recuperar seu tamanho normal.
 
-**TODO**
-
 ```
 Ch.: Estou a ponto de recuperar meu tamanho normal.
 ```
 
-Chapolin abre a porta do laboratório e sai para entregar a chave ao Prof. Baratinha.
+**TODO**
+
+Chapolin abre a porta do laboratório e o Prof. Baratinha entra, junto com o Dingo.
 
 ```
 Dingo: Chapolin, vejo que ainda está sob os efeitos das pastilhas de nanicolina, não é?
 Ch.: Se aproveitam de minha nobreza.
-Aqui está a chave Prof.
-Prof.: Obrigado Chapolin. Não temos tempo a perder, vamos entrar no laboratório
-e investigar onde o extrato de energia volátil está mais concentrado.
 ```
-
-Todos entram no laboratório.
 
 > [Ideia]: Colocar referências de livros citados nas obras do Chapolin na
 > biblioteca do Professor Baratinha.
@@ -360,7 +355,7 @@ Todos entram no laboratório.
 >   - Don Juan Tenorio, Jose Zorrilla
 >   - Cyrano de Bergerac, Edmond Rostand
 
-Ao interagir com o Professor, perto do computador.
+Professor vai até o computador.
 
 ```
 Prof.: Veja Chapolin, acabei de localizar uma casa com alta concentração
@@ -374,6 +369,7 @@ Prof.: Parece que sim. Mas o Tripa Seca não pode ter roubado meu invento.
 Ch.: E como pode ter tanta certeza?
 Prof.: Porque o Tripa Seca foi preso mês passado.
 Ch.: Claro, fui eu quem o prendeu. [emote:reticências]
+**TODO**
 Nossa. Isso quer dizer que outro malfeitor está por trás disso.
 Preciso investigar o local imediatamente. Onde fica?
 Prof.: A Oeste daqui. Use a placa de viagem rápida lá fora.
