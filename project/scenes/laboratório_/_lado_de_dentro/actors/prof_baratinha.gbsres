@@ -30,9 +30,9 @@
             "value": 0
           }
         },
-        "__collapseElse": false,
+        "__collapseElse": true,
         "__collapse": false,
-        "__disableElse": true
+        "__disableElse": false
       },
       "children": {
         "true": [
@@ -144,14 +144,14 @@
           {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
-              "actorId": "$self$",
+              "actorId": "player",
               "x": {
                 "type": "number",
                 "value": 18
               },
               "y": {
                 "type": "number",
-                "value": 18
+                "value": 19
               },
               "moveType": "horizontal",
               "useCollisions": false,
@@ -487,15 +487,291 @@
             "id": "1eaa952f-00a0-4a3a-8cc3-c358afc273c4"
           },
           {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "50747b7e-94b2-4d6c-82f8-38d6d604eada"
+          },
+          {
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
               "actorId": "player",
-              "emoteId": "e287eb22-05b8-4d46-8ecd-a1c63d1dd5b4"
+              "emoteId": "e287eb22-05b8-4d46-8ecd-a1c63d1dd5b4",
+              "__collapse": true
             },
             "id": "69ae2ff5-2916-4b43-8227-ca2ae01cda98"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Nossa.",
+                "Isso quer dizer\nque outro",
+                "malfeitor está\npor trás disso."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "f42561be-3427-47ff-8db8-ed0e3db705ec"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "aa662ce4-0033-407a-bdc6-0aecd3e5c2ff",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+              "__collapse": true
+            },
+            "id": "6ae463fc-5b17-4280-8246-bcbac1a7eb82"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " O Homem\n invisível!"
+              ],
+              "__section": "text",
+              "avatarId": "e2582bf7-f9f2-4c28-97df-c1941d953508",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "9326a73d-bafb-4779-b7aa-2479511d7956"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Pode ser."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "46e9a79c-82bc-4da5-aa27-0da9bdf0f15f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Preciso\ninvestigar",
+                "o local\nimediatamente.",
+                "Onde fica?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "a8ef8b0b-3e2f-48f3-979b-095ae9207516"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " A Oeste daqui."
+              ],
+              "__section": "text",
+              "avatarId": "3efb3573-7dad-4c34-a7c5-a1a8cbae6e45",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "a0ac7252-84d4-4d11-9ebf-b867d824bbdd"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Use a placa de\nviagem rápida\nlá fora."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "14c58bdb-ab18-48a3-8ace-30da54e57287"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Claro."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "931410c3-2b18-43e7-92d1-6298aea2e7c1"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Sigam-me os bons."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "a0705eff-b8e2-4b9e-96c6-be58aa3cd7c5"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "211fed41-2f31-4c7d-aee0-257d39ca02f0"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "player",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "84754887-2cb9-410f-8b78-65f7513b8eda"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "O esconderijo fica\na Oeste daqui. ",
+                "Use a placa de\nviagem rápida\nlá fora."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f8aaa199-ea94-4948-a243-e1db675a794f"
+          }
+        ]
       },
       "id": "4b0e5f7c-986d-4877-9442-a6e5fb693ee6"
     }

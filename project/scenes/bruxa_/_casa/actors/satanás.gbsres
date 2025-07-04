@@ -31,7 +31,8 @@
           }
         },
         "__collapseElse": false,
-        "__disableElse": false
+        "__disableElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -140,6 +141,16 @@
             "id": "30c9677f-7018-4be8-8a55-5ae733e859c3"
           },
           {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Sendo Carregada",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "f2670186-60c9-44d1-b59c-7d8ef84d3957"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "2674c85a-6b84-4e47-99c2-d7d1f1ba19b3",
@@ -174,6 +185,16 @@
               "__collapse": true
             },
             "id": "9ca479cf-6b2d-402d-9fd3-046637be285b"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "982b15c9-b3c2-437d-80f8-44050320e838"
           }
         ],
         "false": [

@@ -61,12 +61,21 @@
                   "id": "1bb32fa4-b61d-4885-a3fe-03d95946ac66"
                 },
                 {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+                    "__collapse": true
+                  },
+                  "id": "e0baf8f5-da96-45b9-beb4-bd80eb036f6f"
+                },
+                {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Não tarda e ele\nlogo sente que\nalgo de errado\nnão está certo."
+                      "Não tarda e ele\nlogo sente que",
+                      "algo de errado\nnão está certo."
                     ],
-                    "__section": "layout",
+                    "__section": "text",
                     "avatarId": "",
                     "minHeight": 4,
                     "maxHeight": 7,
@@ -99,11 +108,13 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Nossa! Minhas \nanteninhas de\nvinil estão\ndetectando o\nperigo. E ele vem",
-                      "do Polo Norte.\nDevo ir\nimediatamente para",
+                      "Nossa! Minhas \nanteninhas de",
+                      "vinil estão\ndetectando o\nperigo. ",
+                      "E ele vem\ndo Polo Norte.",
+                      "Devo ir\nimediatamente para",
                       "a placa de viagem\nrápida que\nfica lá fora."
                     ],
-                    "__section": "layout",
+                    "__section": "text",
                     "avatarId": "",
                     "minHeight": 3,
                     "maxHeight": 7,
@@ -142,6 +153,24 @@
                     "__collapse": true
                   },
                   "id": "1963b817-cd84-4532-8159-187bde4e349b"
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+                    "__collapse": true
+                  },
+                  "id": "6d2c7e49-92db-40cf-8a62-842459cedd41"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "f9d2af5f-cfde-4776-a246-a40fff73e713"
                 }
               ]
             },

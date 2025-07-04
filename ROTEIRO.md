@@ -336,8 +336,6 @@ Após descer da mesa, Chapolin sente que vai recuperar seu tamanho normal.
 Ch.: Estou a ponto de recuperar meu tamanho normal.
 ```
 
-**TODO**
-
 Chapolin abre a porta do laboratório e o Prof. Baratinha entra, junto com o Dingo.
 
 ```
@@ -369,14 +367,17 @@ Prof.: Parece que sim. Mas o Tripa Seca não pode ter roubado meu invento.
 Ch.: E como pode ter tanta certeza?
 Prof.: Porque o Tripa Seca foi preso mês passado.
 Ch.: Claro, fui eu quem o prendeu. [emote:reticências]
-**TODO**
 Nossa. Isso quer dizer que outro malfeitor está por trás disso.
+Dingo: O Homem invisível!
+Ch.: Pode ser.
 Preciso investigar o local imediatamente. Onde fica?
 Prof.: A Oeste daqui. Use a placa de viagem rápida lá fora.
 Ch.: Claro. Sigam-me os bons.
 ```
 
 ## Esconderijo do Tripa Seca
+
+**TODO**
 
 Ao chegar no esconderijo do Tripa Seca, Chapolin encontra-se com Bel.
 

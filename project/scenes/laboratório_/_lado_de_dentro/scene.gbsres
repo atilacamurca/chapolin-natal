@@ -264,6 +264,15 @@
             "id": "7c8a2cf2-77ab-40be-a67b-3ca4c5fb73b1"
           },
           {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "e2497868-08ba-4f9b-b226-138c05ecc968",
+              "spriteSheetId": "4786d4c9-df1f-46c8-9cf0-3894a6d5399c",
+              "__collapse": true
+            },
+            "id": "1c7008b0-7572-4e23-b2c9-18b9b0197c21"
+          },
+          {
             "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
               "actorId": "e2497868-08ba-4f9b-b226-138c05ecc968",

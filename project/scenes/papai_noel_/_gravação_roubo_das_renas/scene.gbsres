@@ -248,7 +248,8 @@
     {
       "command": "EVENT_SCENE_POP_STATE",
       "args": {
-        "fadeSpeed": 2
+        "fadeSpeed": 2,
+        "__collapse": true
       },
       "id": "04b3ccb0-c7b7-42b2-b8e8-8591a8eac309"
     }

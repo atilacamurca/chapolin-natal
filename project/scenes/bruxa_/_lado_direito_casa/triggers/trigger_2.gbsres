@@ -25,7 +25,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -42,7 +42,8 @@
                 "value": 0
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "__collapse": true
             },
             "id": "9764c7cf-dba8-41cc-ad86-46ca58d83ff3"
           }
@@ -165,10 +166,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Não grita se não\nvocê acorda eles."
+                " Não grita!",
+                " se não você\n acorda eles."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -200,10 +202,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Já acordaram."
+                " Já acordaram."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -226,10 +228,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Corre Chapolin!"
+                " Corre Chapolin!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -255,7 +257,7 @@
               "duration": 0.5,
               "frames": 30,
               "__scriptTabs": "end",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "script": [
@@ -294,7 +296,7 @@
               "duration": 0.5,
               "frames": 30,
               "__scriptTabs": "end",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "script": [

@@ -98,7 +98,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " Dingo, ajudante\n do Papai Noel.\n E você?"
+                " Dingo, ajudante\n do Papai Noel.",
+                " E você?"
               ],
               "__section": "text",
               "avatarId": "e2582bf7-f9f2-4c28-97df-c1941d953508",
@@ -124,7 +125,32 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Não, eu não.",
+                " Não, eu não."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "31f6ad25-22ea-4eb1-b2ff-80c701bab1b3"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
                 "Ah, sim, sou o\nChapolin Colorado.",
                 "Diga, viu algo\nsuspeito por aqui?"
               ],
@@ -144,7 +170,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "0f1a4eeb-20e0-4598-97cc-63fa17da32da"
           },
@@ -257,7 +283,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "As câmeras\nficam na fábrica\ndo Papai Noel,\na direita\nda casa dele."
+                "As câmeras\nficam na fábrica",
+                "do Papai Noel,\na direita\nda casa dele."
               ],
               "__section": "text",
               "avatarId": "",
@@ -274,7 +301,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "303a6f1e-4967-4b68-be16-d950c6abb0ca"
           }

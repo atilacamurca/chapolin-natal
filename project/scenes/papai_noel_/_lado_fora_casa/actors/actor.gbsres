@@ -23,7 +23,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "7"
+            "value": "8"
           },
           "valueB": {
             "type": "number",
@@ -31,7 +31,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

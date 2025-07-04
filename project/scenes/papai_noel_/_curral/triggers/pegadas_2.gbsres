@@ -41,6 +41,14 @@
             "id": "14a9f5a7-cec2-4020-92c1-896412f60020"
           },
           {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
+            },
+            "id": "8f30265d-ba5e-4f86-8dcd-0c4cbf348c50"
+          },
+          {
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
               "actorId": "$self$",
@@ -76,10 +84,23 @@
             "id": "76c9148a-3708-4c50-bc71-f8850a554bee"
           },
           {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "73d60911-7042-47e6-b993-ab8498ca0b4f",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__collapse": true
+            },
+            "id": "be44a971-326f-411f-b59a-2aa7d34f893b"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Não Chapolin,\naqui não\ndeveria ter lama,\napenas neve."
+                "Não Chapolin,\naqui não",
+                "deveria ter lama,\napenas neve."
               ],
               "__section": "text",
               "avatarId": "",
@@ -100,6 +121,18 @@
               "__collapse": true
             },
             "id": "93ce2c14-c832-4571-9e8a-5c6541616fad"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              },
+              "__collapse": true
+            },
+            "id": "84645580-90bc-4037-92b8-0e01af09642d"
           },
           {
             "command": "EVENT_TEXT",
@@ -131,7 +164,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Sim, elas ficam\nna fábrica do\nPapai Noel,\na direita\nda casa dele."
+                "Sim, elas ficam\nna fábrica do\nPapai Noel,",
+                "a direita\nda casa dele."
               ],
               "__section": "text",
               "avatarId": "",
@@ -157,7 +191,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Precisamos\nverificá-las\nagora.\nSigam-me os bons."
+                "Precisamos\nverificá-las\nagora.",
+                "Sigam-me os bons."
               ],
               "__section": "text",
               "avatarId": "",
@@ -175,9 +210,39 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "b8a9be4c-db1b-45f9-8125-2217ccc418dc"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "2d89c7df-3ad2-4d74-825b-8a58e6042a90"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "cc873fba-a149-42a3-9857-4f27a9bee4fc"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "73d60911-7042-47e6-b993-ab8498ca0b4f",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              },
+              "__collapse": true
+            },
+            "id": "d1e3313d-9b63-440e-8001-463c25015789"
           }
         ],
         "false": []

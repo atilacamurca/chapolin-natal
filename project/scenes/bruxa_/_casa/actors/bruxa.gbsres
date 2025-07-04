@@ -129,7 +129,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "O Chapolin\nColorado?\nBem dizem que\no Chapolin ajuda\nqualquer pessoa."
+                "O Chapolin\nColorado?",
+                "Bem dizem que\no Chapolin ajuda\nqualquer pessoa."
               ],
               "__section": "text",
               "avatarId": "",
@@ -208,10 +209,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Puxa! Me\nconte tudo."
+                " Puxa!",
+                " Me conte tudo."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -234,8 +236,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Eu estava dando\na comida dos meus\nfilhinhos quando\nfui atacada\nà traição.",
-                "Quando recobrei os\nsentidos haviam\nme roubado o\nanel mágico."
+                "Eu estava dando\na comida dos meus\nfilhinhos,",
+                "quando fui atacada\nà traição.",
+                "Quando recobrei os\nsentidos haviam",
+                "me roubado o\nanel mágico."
               ],
               "__section": "text",
               "avatarId": "",
@@ -261,10 +265,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Re-puxa!\nE onde estavam\nseus filhinhos?"
+                " Re-puxa!",
+                " E onde estavam\n seus filhinhos?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -287,10 +292,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "No lago, aqui a\ndireita da casa."
+                " No lago,",
+                " aqui a direita\n da minha casa."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "bbdad34f-11f6-4398-8efb-1f2ac0ddb15a",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -365,10 +371,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Ah, sim. Porquê\ntem dentes de\ncrocodilo."
+                " Ah, sim."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -391,10 +397,37 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "E olhos de\ncrocodilo. E cauda\nde crocodilo."
+                "Porquê tem dentes\nde crocodilo."
               ],
               "__section": "text",
               "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "ec6273e1-17d2-4fc2-9459-ba359a584714"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " E olhos de\n crocodilo.",
+                " E cauda\n de crocodilo."
+              ],
+              "__section": "text",
+              "avatarId": "bbdad34f-11f6-4398-8efb-1f2ac0ddb15a",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -426,10 +459,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Recontra-puxa!"
+                " Recontra-puxa!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -452,10 +485,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Porque são\ncrocodilos."
+                " Porque são\n crocodilos."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "bbdad34f-11f6-4398-8efb-1f2ac0ddb15a",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -478,8 +511,34 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Suspeitei desde\no príncipio.",
-                "Mas não importa,\nporque o Chapolin\nnão pode ser\nderrotado, nunca,\njamais.",
+                " Suspeitei desde\n o príncipio."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "8638848c-3e84-4988-a50a-0df486e96c37"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Mas não importa,\nporque o Chapolin",
+                "não pode ser\nderrotado, nunca,\njamais!",
                 "Sigam-me os bons."
               ],
               "__section": "text",

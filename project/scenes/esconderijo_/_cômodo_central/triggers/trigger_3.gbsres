@@ -414,6 +414,14 @@
             "id": "3e2a2840-4014-4fea-a833-15b2da6a05d0"
           },
           {
+            "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "__collapse": true
+            },
+            "id": "40ad038b-a1ca-48bd-8657-df22645f8fe8"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [

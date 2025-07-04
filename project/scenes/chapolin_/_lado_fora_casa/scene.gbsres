@@ -33,7 +33,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -44,7 +44,7 @@
               "duration": 10,
               "frames": 30,
               "__scriptTabs": "end",
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Chapolin recebe chamdo Polo Norte"
             },
             "children": {
@@ -53,9 +53,10 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Não tarda e ele\nlogo sente que\nalgo de errado\nnão está certo."
+                      "Não tarda e ele\nlogo sente que",
+                      "algo de errado\nnão está certo."
                     ],
-                    "__section": "layout",
+                    "__section": "text",
                     "avatarId": "",
                     "minHeight": 4,
                     "maxHeight": 7,
@@ -88,8 +89,10 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Nossa! Minhas \nanteninhas de\nvinil estão\ndetectando o\nperigo. E ele vem",
-                      "do Polo Norte.\nDevo ir\nimediatamente para",
+                      "Nossa! Minhas \nanteninhas de",
+                      "vinil estão\ndetectando o\nperigo.",
+                      "E ele vem\ndo Polo Norte.",
+                      "Devo ir\nimediatamente para",
                       "a placa de viagem\nrápida que\nfica aqui fora."
                     ],
                     "__section": "text",

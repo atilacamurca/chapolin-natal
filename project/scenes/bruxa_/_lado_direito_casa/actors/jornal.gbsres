@@ -225,10 +225,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Como chegou\naté aqui!?"
+                " Como chegou\n até aqui!?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -448,13 +448,16 @@
               "text": [
                 "Não, Chapolin.\nNa parte de trás.",
                 "Ah, sim. Puxa!",
-                "Prof. Baratinha\ndesenvolve o\nextrato de energia\nvolátil.",
+                "Prof. Baratinha\ndesenvolve o",
+                "extrato de energia\nvolátil.",
                 "Sim, você ouviu\nfalar desse\ninvento?",
                 "Não.",
-                "É incrível.\nVocê o injeta\nem objetos ou\nseres vivos",
+                "É incrível.\nVocê o injeta",
+                "em objetos ou\nseres vivos",
                 "e eles ficam leves\ncomo uma pena.",
-                "Deve ter sido\nassim que levaram\nas renas,",
-                "o trenó e os\npresentes com\ntanta facilidade."
+                "Deve ter sido\nassim que levaram",
+                "as renas, o trenó\ne os presentes",
+                "com tanta\nfacilidade."
               ],
               "__section": "text",
               "avatarId": "",
@@ -472,7 +475,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "1ec5e162-f146-40fb-bd9e-b83c1308af27"
           },

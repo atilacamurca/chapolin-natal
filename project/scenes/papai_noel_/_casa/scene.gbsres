@@ -43,14 +43,14 @@
               "text": [
                 " Eu!"
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -108,14 +108,14 @@
                 "Não contavam com\na minha astúcia!",
                 "Sigam-me os bons!"
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -262,10 +262,19 @@
             "id": "5acd7c94-ea4a-4a76-9c7d-cd1b75b42f6e"
           },
           {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "52de3880-77e8-41e2-b040-29d00073b78f",
+              "__collapse": true
+            },
+            "id": "a0d5873c-316d-40e2-9a70-541b477fa70d"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Não se machucou\nChapolin?"
+                " Não se machucou\n Chapolin?"
               ],
               "__section": "text",
               "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",
@@ -305,14 +314,14 @@
                 "Fiz \nintencionalmente\npara ver se o",
                 "tapete estava bem\ncolocado."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -329,7 +338,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Que bom que chegou\nChapolin, imagina\nque minhas renas\nforam raptadas!"
+                "Que bom que chegou\nChapolin, imagina",
+                "que minhas renas\nforam raptadas!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -355,7 +365,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Palma, palma, não\npriemos cânico!\nE onde estavam?"
+                "Palma, palma, não\npriemos cânico!",
+                "E onde estavam?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -364,7 +375,7 @@
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -407,7 +418,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Precisamos\ninvestigar\nimediatamente.\nSigam-me os bons!"
+                "Precisamos\ninvestigar",
+                "imediatamente.\nSigam-me os bons!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -416,7 +428,7 @@
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -425,7 +437,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "200cfe2b-4c25-4ec8-b2f0-e19746bfda96"
           }

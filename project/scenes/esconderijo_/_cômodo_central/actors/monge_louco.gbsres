@@ -292,6 +292,18 @@
             "id": "823a6765-5229-4485-8181-e9a7e7a6e541"
           },
           {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "player",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              },
+              "__collapse": true
+            },
+            "id": "d6078071-08d7-495b-9302-fdf6c375dd06"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -433,6 +445,30 @@
             "id": "7f7cba95-601c-4e86-9b72-05fca28e94f5"
           },
           {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "player",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__collapse": true
+            },
+            "id": "17247705-9a40-4801-9a65-b13e78f18bc8"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "ab73dbd9-d98d-4cf7-81ec-5d9864c97b66",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__collapse": true
+            },
+            "id": "a05df1ff-ed3e-4800-af09-11e1b8590cf0"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -483,6 +519,18 @@
               "__collapse": true
             },
             "id": "c0055c49-5a34-44e2-800a-c575ea2b147f"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "86480239-3688-4ce7-a70b-5ffba6afaf5f",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              },
+              "__collapse": true
+            },
+            "id": "acaed515-1783-4554-b925-4b118238a329"
           },
           {
             "command": "EVENT_TEXT",
@@ -1005,7 +1053,8 @@
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "adb8c6ed-869c-46c0-87d3-af6d6df1e2a8"
     }

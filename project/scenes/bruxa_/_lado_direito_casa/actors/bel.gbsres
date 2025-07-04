@@ -52,7 +52,8 @@
             "args": {
               "text": [
                 "Chapolin, do outro\nlado do lago\nfoi onde a",
-                "Bruxa Baratuxa foi\nroubada. Por que\nvocê não vai\naté lá para\ninvestigar."
+                "Bruxa Baratuxa foi\nroubada.",
+                "Por que você não\nvai até lá para\ninvestigar."
               ],
               "__section": "text",
               "avatarId": "",
@@ -80,14 +81,14 @@
               "text": [
                 "Sim, mas não vejo\nnenhum caminho."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -142,14 +143,14 @@
               "text": [
                 "Eu?"
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -212,14 +213,14 @@
               "text": [
                 "Sim, eu passo."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -264,14 +265,14 @@
               "text": [
                 "Sim, eu passo."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -316,14 +317,14 @@
               "text": [
                 "Sim, eu passo."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -350,7 +351,7 @@
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
               "actorId": "08eb18c7-feb6-48e7-8389-4a4f8b3c130b",
-              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+              "emoteId": "0df1fa13-6aea-474b-8878-302e46356f8d",
               "__collapse": true
             },
             "id": "b9dc36ec-e1c1-4630-b5e5-fe62e6e310c6"
@@ -397,14 +398,14 @@
                 "Se aproveitam de\nminha nobreza.",
                 "Abram espaço."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -489,6 +490,72 @@
         "false": []
       },
       "id": "a2cf7b6d-3e25-4e9b-9b0c-1bf5bd95d1f6"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "and",
+          "valueA": {
+            "type": "eq",
+            "valueA": {
+              "type": "variable",
+              "value": "13"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 1
+            }
+          },
+          "valueB": {
+            "type": "eq",
+            "valueA": {
+              "type": "variable",
+              "value": "16"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 1
+            }
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Não encontrou\nnenhuma pista",
+                "Chapolin? Deve ter\nalgo do outro",
+                "lado deste lago."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "d54dd4a4-1e49-4155-a221-40f7873913e6"
+          }
+        ],
+        "false": []
+      },
+      "id": "699265a7-dd4c-4593-bea4-6899aac3360a"
     }
   ],
   "startScript": [],
