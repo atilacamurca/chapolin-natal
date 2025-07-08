@@ -377,8 +377,6 @@ Ch.: Claro. Sigam-me os bons.
 
 ## Esconderijo do Tripa Seca
 
-**TODO**
-
 Ao chegar no esconderijo do Tripa Seca, Chapolin encontra-se com Bel.
 
 ```
@@ -419,15 +417,15 @@ do sofá, andar perto do Chapolin e voltar a se esconder
 atrás do sofá. Após o ocorrido Chapolin vai falar com a Bel.
 
 ```
-Bel: O que deu em você, Chapolin?
+Dingo: O que deu em você, Chapolin?
 Ch.: Ca-ca-ca-ca...
-Bel: Ca-ca-ca-ca-o-quê?
+Dingo: Ca-ca-ca-ca-o-quê?
 Ch.: Ca-ca-ca-caveira!
-Bel: Qual caveira?
+Dingo: Qual caveira?
 Ch.: Ali no sofá...
 [emote:interrogação]
 Sumiu.
-Bel: Ah, Chapolin. Não diga bobagens
+Dingo: Ah, Chapolin. Não diga bobagens
 e continue procurando pistas.
 Ch.: Se aproveitam de minha nobreza.
 ```
@@ -492,10 +490,10 @@ Antes de entrar
 
 ```
 Ch.: Eu o vi, eu o vi!
-Dingo: Quem Chapolin?
+Bel: Quem Chapolin?
 Ch.: O fantasma do Longe Mouco.
 Digo, o fantasma do Monge Louco.
-Dingo: Que monge...
+Bel: Que monge...
 É sua imaginação.
 Ch.: Minha imaginação não é tão religiosa.
 Além disso se eu o encontro de novo, basta
@@ -508,6 +506,8 @@ Não...
 Uma pessoa que tem quatro olhos vê mais
 que uma pessoa que tem dois.
 É quase isso.
+Bel: Melhor voltar
+a investigar.
 ```
 
 Depois de entrar

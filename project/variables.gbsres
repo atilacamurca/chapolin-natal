@@ -165,6 +165,11 @@
       "id": "32",
       "name": "Encontrou Localização Extrato",
       "symbol": "var_encontrou_localiza_o_ex"
+    },
+    {
+      "id": "33",
+      "name": "Longe Mouco Porta Grande",
+      "symbol": "var_longe_mouco_porta_grand"
     }
   ]
 }

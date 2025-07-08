@@ -4,7 +4,7 @@
   "name": "Bel",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "82a8bd58-0be3-48f0-afa6-9dd7c3fa6d17",
+  "spriteSheetId": "ba45f3fe-3c52-4e60-b72b-ddf5856192f9",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
@@ -30,7 +30,8 @@
             "value": 0
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -47,11 +48,21 @@
             "id": "f93dcc02-5a28-4251-9700-7998b56a9cc0"
           },
           {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
+            },
+            "id": "9cb9320b-2a9a-4a89-b0ba-54c6e48ff0df"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Olha Chapolin,\nali fica o\nesconderijo do\nTripa Seca.",
-                "Sabia que dizem\nque essa casa\né meio\nmal-assombrada."
+                "Olha Chapolin,\nali fica o",
+                "esconderijo do\nTripa Seca.",
+                "Sabia que dizem\nque essa casa",
+                "é meio\nmal-assombrada."
               ],
               "__section": "text",
               "avatarId": "",
@@ -254,6 +265,24 @@
             "id": "9f33fad3-8f95-4a42-a716-29f16de7b68c"
           },
           {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "f8a38245-6ea3-4bbe-8adb-9988c0673920"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "player",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "b686bbcb-173a-47cc-9c53-b74e16d30fcb"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "player",
@@ -299,6 +328,14 @@
             "id": "35bc493c-5739-4f1f-94c4-b1c798e5c2a0"
           },
           {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
+            },
+            "id": "d65a75e6-1621-4fd9-903d-eade13f16bbb"
+          },
+          {
             "command": "EVENT_ACTOR_SET_DIRECTION",
             "args": {
               "actorId": "player",
@@ -337,6 +374,24 @@
               "__collapse": true
             },
             "id": "991f0c74-790f-40ca-9fbe-4ff4e17c9d1e"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "4bfb613a-c728-479b-bbf8-fc51ff8e944b"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "player",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "1a0a1197-fa9b-4ac5-a03d-49b6f25a2b93"
           }
         ],
         "false": []
