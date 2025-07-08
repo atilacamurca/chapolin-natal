@@ -283,6 +283,15 @@
             "children": {}
           },
           {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 3,
+              "__collapse": true
+            },
+            "id": "2fa53cc3-4cd0-4ce9-97f2-eaf821a54be3"
+          },
+          {
             "command": "EVENT_WAIT",
             "args": {
               "time": 0.5,
@@ -300,6 +309,15 @@
             },
             "id": "a797ce07-43d6-41c7-829a-72d845425a1c",
             "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 15,
+              "__collapse": true
+            },
+            "id": "2a543f9c-4689-44ed-ac73-afea59354dfb"
           },
           {
             "command": "EVENT_ACTOR_SET_STATE",
@@ -598,7 +616,7 @@
             "args": {
               "text": [
                 "Além disso, se eu\no encontro de novo",
-                "basta que eu\nfeche bem os olhos",
+                "basta que eu feche\nbem os olhos.",
                 "Como diz um velho\nconhecido ditado:",
                 "Dois olhos veem\nmais que um",
                 "coração que\nnão sente."
