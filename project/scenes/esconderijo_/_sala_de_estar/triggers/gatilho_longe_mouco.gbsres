@@ -3,12 +3,12 @@
   "id": "f1e8b878-3c32-43df-810e-460351a75a03",
   "name": "Gatilho Longe Mouco",
   "prefabId": "b05a2014-f920-4b10-829f-26b6bfb689af",
-  "x": 9,
-  "y": 6,
+  "x": 11,
+  "y": 3,
   "symbol": "trigger_49",
   "prefabScriptOverrides": {},
   "width": 1,
-  "height": 3,
+  "height": 6,
   "script": [],
   "leaveScript": [
     {

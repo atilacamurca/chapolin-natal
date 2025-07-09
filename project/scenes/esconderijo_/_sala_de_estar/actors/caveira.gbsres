@@ -1,0 +1,35 @@
+{
+  "_resourceType": "actor",
+  "id": "8ce56c6d-c22f-4207-8447-42956108bba3",
+  "name": "Caveira",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "cc76fc23-f4e3-4823-95c2-89e66bde4140",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_59",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3c9e11a4-dad6-4b54-b264-b481caf8e63d"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 11,
+  "_index": 3
+}

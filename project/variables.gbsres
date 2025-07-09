@@ -170,6 +170,11 @@
       "id": "33",
       "name": "Longe Mouco Porta Grande",
       "symbol": "var_longe_mouco_porta_grand"
+    },
+    {
+      "id": "34",
+      "name": "Encontrou Caveira",
+      "symbol": "var_encontrou_caveira"
     }
   ]
 }
