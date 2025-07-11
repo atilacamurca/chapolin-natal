@@ -25,25 +25,24 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_SET_STATE",
+            "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "actorId": "$self$",
-              "spriteStateId": "",
-              "loopAnim": false,
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
               "__collapse": true
             },
-            "id": "99fa58a4-2cd4-4062-9de8-ad6ae6e58ad7"
+            "id": "525f73d4-af58-4b46-829e-68c86d3416f6"
           },
           {
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
               "actorId": "$self$",
-              "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+              "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+              "__collapse": true
             },
             "id": "53e27368-477e-4303-b559-37b659f6d268"
           },
@@ -68,7 +67,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "d751f3c7-6a93-45ed-a18f-ec35f30bc105"
           }
@@ -90,7 +90,8 @@
           "value": 15
         },
         "direction": "up",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": true
       },
       "id": "325a1b59-5dbd-4039-9186-008823bd244c"
     }

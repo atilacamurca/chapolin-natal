@@ -36,18 +36,18 @@
               "value": {
                 "type": "number",
                 "value": 1
-              }
+              },
+              "__collapse": true
             },
             "id": "bce1eb5b-118d-40e6-b2f7-397e9eec0073"
           },
           {
-            "command": "EVENT_ACTOR_SET_STATE",
+            "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "actorId": "$self$",
-              "spriteStateId": "",
-              "loopAnim": false
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
             },
-            "id": "ee95567b-ea33-454a-8058-248269b8f457"
+            "id": "86a036d4-a9f6-4ba8-9fac-b1e77410712d"
           },
           {
             "command": "EVENT_ACTOR_EMOTE",
@@ -85,10 +85,23 @@
             "id": "c00c0801-29b3-4f12-9d5c-3f00b8bec0f8"
           },
           {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "73d60911-7042-47e6-b993-ab8498ca0b4f",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__collapse": true
+            },
+            "id": "4594254a-d57f-4c27-8daa-31da2ac41a57"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Não Chapolin,\naqui não\ndeveria ter lama,\napenas neve."
+                "Não Chapolin,\naqui não",
+                "deveria ter lama,\napenas neve."
               ],
               "__section": "text",
               "avatarId": "",
@@ -111,13 +124,25 @@
             "id": "588d1881-4f19-4528-8760-e2d731b0ecc1"
           },
           {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              },
+              "__collapse": true
+            },
+            "id": "ed5bd67e-8003-4ce3-97dc-241ae93e688c"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Hum. Estranho.\nAqui tem câmeras?"
+                " Hum. Estranho."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -140,8 +165,62 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Sim, e as imagens\nficam guardadas\nna fábrica do",
-                "Papai Noel,\na direita\nda casa dele."
+                "Aqui tem câmeras?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "0850208b-d6f5-48b4-a23b-ce3e5bec50ae"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Sim!"
+              ],
+              "__section": "text",
+              "avatarId": "e2582bf7-f9f2-4c28-97df-c1941d953508",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "66c0d5b5-642d-4c8c-9e93-1c980d6b66db"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "E as imagens\nficam guardadas",
+                "na fábrica do\nPapai Noel,",
+                "a direita\nda casa dele.",
+                "Minha irmã deve\nestar lá."
               ],
               "__section": "text",
               "avatarId": "",
@@ -167,8 +246,34 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Precisamos\nverificá-las\nagora mesmo.",
-                "Sigam me os bons."
+                " Entendi."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "d2a51043-bf5a-4beb-a542-cb96dacf78eb"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Precisamos\nverificá-las",
+                "agora mesmo.\nSigam me os bons."
               ],
               "__section": "text",
               "avatarId": "",
@@ -191,13 +296,34 @@
             "id": "b356d1cc-ed8a-45ce-9b16-de892c248321"
           },
           {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "a2c356a8-98f5-4e35-a847-1fa301cc8df9"
+          },
+          {
             "command": "EVENT_ACTOR_SET_STATE",
             "args": {
               "actorId": "$self$",
               "spriteStateId": "",
-              "loopAnim": true
+              "loopAnim": true,
+              "__collapse": true
             },
             "id": "7dceebac-4f57-4efa-8c96-1d4b1141bac8"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "73d60911-7042-47e6-b993-ab8498ca0b4f",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              },
+              "__collapse": true
+            },
+            "id": "d62a9775-c868-40d7-9226-2be549ea8cf4"
           }
         ],
         "false": []

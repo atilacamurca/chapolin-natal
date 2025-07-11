@@ -38,6 +38,26 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "93fe56c9-300e-411f-a895-522d4dc6ee91"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
+            },
+            "id": "337a010c-e1bf-4a0d-8227-08b5fe7a75b2"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -62,18 +82,6 @@
               "__collapse": true
             },
             "id": "1d4c8f6b-d91a-435e-a2d2-40513aefa1a0"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "2",
-              "value": {
-                "type": "number",
-                "value": 1
-              },
-              "__collapse": true
-            },
-            "id": "93fe56c9-300e-411f-a895-522d4dc6ee91"
           },
           {
             "command": "EVENT_TEXT",
@@ -163,6 +171,15 @@
               "__collapse": true
             },
             "id": "c3d50492-ffff-487f-876b-110b071135b9"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 2,
+              "__collapse": true
+            },
+            "id": "e9dbb904-ed20-400c-ade7-350c9e34875c"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -260,6 +277,15 @@
               "__collapse": true
             },
             "id": "5acd7c94-ea4a-4a76-9c7d-cd1b75b42f6e"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "5506dd9f-4898-4189-8a20-83ee194793ea"
           },
           {
             "command": "EVENT_ACTOR_EMOTE",
@@ -437,9 +463,27 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "200cfe2b-4c25-4ec8-b2f0-e19746bfda96"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "e4d1a905-5dc5-4288-84c8-92b4d091e55d"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "77afc525-cc02-42b9-9c4d-cec78fb6fa80"
           }
         ],
         "false": []

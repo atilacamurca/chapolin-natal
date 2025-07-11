@@ -91,6 +91,8 @@ Dingo: Não Chapolin, aqui não deveria ter lama, apenas neve.
 Ch.: Hum. Estranho. Aqui tem câmeras?
 Dingo: Sim, e as imagens ficam guardadas na fábrica do Papai Noel,
 a direita da casa dele.
+Minha irmã deve
+estar lá.
 Ch.: Precisamos verificá-las agora. Sigam-me os bons.
 ```
 
@@ -99,7 +101,7 @@ acaba de desaparecer.
 
 ```
 Noel: Nossa! Olha Chapolin. O treno também acaba de sumir!
-Ch.: Como? As renas foram levadas ontem a noite?!
+Ch.: Como? Se as renas foram levadas ontem a noite?!
 Noel: Não sei. Mas com certeza saberemos mais ao olhar as câmeras.
 Anda Chapolin, vá até a fábrica de presentes.
 Ch.: Sim, claro. Sem tempo a perder.
@@ -140,6 +142,15 @@ Ao rever as imagens não se vê ninguém na cena, apenas as renas sendo levadas.
 Assim como o trenó e os presentes.
 
 **Ideia**: Mostrar cena animada com itens sendo levados.
+
+Ao terminar de ver as imagens.
+
+```
+Ch.: Nossa!
+Não pude ver ninguém nas imagens.
+Apenas as renas flutuando.
+Será que é obra do Homem Invisível?
+```
 
 Voltando para a entrada da fábrica, Chapolin encontra **Bel** perto de onde estavam
 alguns presentes, também com pegadas de lama.
@@ -184,7 +195,10 @@ Bruxa: O Chapolin Colorado? Bem dizem que o Chapolin ajuda qualquer pessoa.
 Ch.: O que quer dizer?
 Bruxa: É que me roubaram Chapolin, e eu estava justamente me preparando
 para procurar o bandido.
-Ch.: Puxa! Me conte tudo.
+Ch.: Puxa!
+**TODO**
+Será que foi o Homem Invisível?
+Me conte tudo.
 Bruxa: Eu estava dando a comida dos meus filhinhos quando fui atacada
 à traição. Quando recobrei os sentidos haviam me roubado o anel mágico.
 Ch.: Re-puxa! E onde estavam seus filhinhos?

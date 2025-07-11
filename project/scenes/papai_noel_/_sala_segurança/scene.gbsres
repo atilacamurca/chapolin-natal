@@ -12,7 +12,7 @@
     "dmg"
   ],
   "spritePaletteIds": [],
-  "collisions": "0028+0f3+004+0f6+00!0f3+006+0f4+006+0f!002+0f!00d+0f2+00!0f!002+0f4+0013+0f!0011+0f4+0012+0f2+0012+0f2+003+0f!00!0f4+00!0f!007+0f2+003+0f8+007+0f2+0012+0f!00!0f2+00e+0f2+003+0f!00e+0f!004+0ff+003f+",
+  "collisions": "0028+0f3+004+0f6+00!0f3+006+0f4+006+0f!002+0f4+00a+0f2+007+0f!0013+0f!0011+0f4+0012+0f2+0012+0f2+003+0f!00!0f4+00!0f!007+0f2+003+0f8+007+0f2+0012+0f!00!0f2+00e+0f2+003+0f!00e+0f!004+0ff+003f+",
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
   "x": 2544,
@@ -51,7 +51,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Nossa!"
+                "Nossa!",
+                "Não pude ver nin-\nguém nas imagens.",
+                "Apenas as renas\nflutuando.",
+                "...",
+                "Será que é obra do\nHomem Invisível?"
               ],
               "__section": "text",
               "avatarId": "",

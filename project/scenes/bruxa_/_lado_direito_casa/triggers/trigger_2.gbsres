@@ -163,6 +163,27 @@
             "id": "bea1c217-3310-444a-9061-9f727bc9ac67"
           },
           {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+              "__collapse": true
+            },
+            "id": "9c0d1306-4be3-4bdc-805a-a7e6ef98d1be"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              },
+              "__collapse": true
+            },
+            "id": "6ce50b23-a26c-49fb-a43d-be563c4347a3"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -249,6 +270,18 @@
               "__collapse": true
             },
             "id": "29565783-b890-4f97-ad3b-9b0759b07851"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              },
+              "__collapse": true
+            },
+            "id": "bcdc48e6-d0fc-4951-9b2f-f1dfdea228fa"
           },
           {
             "command": "EVENT_SET_TIMER_SCRIPT",

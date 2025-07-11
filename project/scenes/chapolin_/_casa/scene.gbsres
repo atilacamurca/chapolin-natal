@@ -36,7 +36,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -52,14 +52,6 @@
             },
             "children": {
               "script": [
-                {
-                  "command": "EVENT_ACTOR_MOVE_CANCEL",
-                  "args": {
-                    "actorId": "$self$",
-                    "__collapse": true
-                  },
-                  "id": "1bb32fa4-b61d-4885-a3fe-03d95946ac66"
-                },
                 {
                   "command": "EVENT_PLAYER_SET_SPRITE",
                   "args": {
@@ -94,6 +86,18 @@
                     "__collapse": true
                   },
                   "id": "154f00a5-3b6e-4865-8342-2832b1ccdb97"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "c3ab0052-0fb2-43dc-945a-2adc7c520d41"
                 },
                 {
                   "command": "EVENT_ACTOR_EMOTE",
@@ -204,7 +208,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Era apenas mais um\ndia na vida do\nnosso herói, o\nChapolin Colorado."
+                "Era apenas mais um\ndia na vida do",
+                "nosso herói, o\nChapolin Colorado."
               ],
               "__section": "text",
               "avatarId": "",

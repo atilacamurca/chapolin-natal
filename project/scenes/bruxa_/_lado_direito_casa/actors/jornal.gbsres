@@ -227,14 +227,14 @@
               "text": [
                 " Como chegou\n até aqui!?"
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -251,10 +251,110 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Pela ponte.",
-                "Que ponte?",
-                "Essa aqui\natrás de mim.",
-                "E por que não\ndisse que havia\numa ponte?",
+                " Pela ponte."
+              ],
+              "__section": "text",
+              "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "dc125e83-4a19-4519-ab8b-8cec9752dd96"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Que ponte?"
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "f20ec74e-d2d7-4ac2-85e5-ad15ec572777"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Essa aqui\natrás de mim."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "2d2de94f-a9e1-43d1-a83d-79a9e266f4ed"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "E por que não\ndisse que havia\numa ponte?"
+              ],
+              "__section": "layout",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "0e6bba10-57b6-47b1-8146-df07ac9aaf9d"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
                 "Porque você\nnão perguntou."
               ],
               "__section": "text",
@@ -275,7 +375,7 @@
               "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "dc125e83-4a19-4519-ab8b-8cec9752dd96"
+            "id": "36cde9e4-02c2-42ba-b69e-f84f7c1a700d"
           },
           {
             "command": "EVENT_ACTOR_EMOTE",
@@ -422,14 +522,14 @@
               "text": [
                 "Fortaleza vence\no Ceará por\ndois a zero."
               ],
-              "__section": "text",
+              "__section": "layout",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
               "textHeight": 5,
-              "position": "bottom",
+              "position": "top",
               "clearPrevious": true,
               "showFrame": "true",
               "speedIn": -1,
@@ -441,6 +541,15 @@
               "__collapse": true
             },
             "id": "bab1d012-1d88-474d-840c-9e6d03fad0d6"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "08eb18c7-feb6-48e7-8389-4a4f8b3c130b",
+              "emoteId": "0356aa73-4c63-46ce-8134-afed270ea36a",
+              "__collapse": true
+            },
+            "id": "d354b8e7-5311-4ee4-96fd-1bbf2e29c7b1"
           },
           {
             "command": "EVENT_TEXT",
@@ -475,7 +584,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "1ec5e162-f146-40fb-bd9e-b83c1308af27"
           },

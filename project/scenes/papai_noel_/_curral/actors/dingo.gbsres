@@ -31,7 +31,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -170,7 +170,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "0f1a4eeb-20e0-4598-97cc-63fa17da32da"
           },
@@ -178,7 +178,33 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Sim, ouvi barulhos\nestranhos ontem\na noite.",
+                "Sim."
+              ],
+              "__section": "text",
+              "avatarId": "e2582bf7-f9f2-4c28-97df-c1941d953508",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "eda32fd8-f395-452a-a20a-e9521399a18a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Ouvi barulhos\nestranhos ontem\na noite.",
                 "Quando cheguei no\ncurral as renas\nhaviam sumido."
               ],
               "__section": "text",
@@ -200,6 +226,32 @@
               "__collapse": true
             },
             "id": "f462ae00-a347-413f-96c5-48b378ff59d3"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Hum..."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "13c10110-da3a-428d-831f-f1086ee333ab"
           },
           {
             "command": "EVENT_TEXT",

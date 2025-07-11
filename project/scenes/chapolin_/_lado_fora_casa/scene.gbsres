@@ -33,7 +33,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -49,6 +49,14 @@
             },
             "children": {
               "script": [
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+                    "__collapse": true
+                  },
+                  "id": "f0181d1f-41e6-4db7-b99a-6e8aae8c469d"
+                },
                 {
                   "command": "EVENT_TEXT",
                   "args": {
@@ -75,6 +83,18 @@
                     "__collapse": true
                   },
                   "id": "364d9918-39c2-4d77-bae6-1f6a3c83bf7a"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "48a25317-1a1d-4eac-93a0-2793392d817b"
                 },
                 {
                   "command": "EVENT_ACTOR_EMOTE",
@@ -134,6 +154,24 @@
                     "__collapse": true
                   },
                   "id": "8a512eae-c434-4bf0-a5ef-0c89fc23d1e5"
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+                    "__collapse": true
+                  },
+                  "id": "83a4e4c7-190c-474a-98dc-5eaf012ab868"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "523c7169-7940-4494-8526-62905abb8416"
                 }
               ]
             },
@@ -149,5 +187,5 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": true
 }

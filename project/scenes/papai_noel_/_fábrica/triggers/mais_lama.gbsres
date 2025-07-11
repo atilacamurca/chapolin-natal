@@ -121,10 +121,10 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Como assim?"
+                      " Como assim?"
                     ],
                     "__section": "text",
-                    "avatarId": "",
+                    "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
                     "minHeight": 4,
                     "maxHeight": 7,
                     "textX": 1,
@@ -144,10 +144,48 @@
                   "id": "6db2b80c-05fe-441d-8451-d5833bb5900b"
                 },
                 {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "right"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "64ad94c2-f421-44fc-a75a-1b043e35936d"
+                },
+                {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Sim, havia lama\nno curral",
+                      " Sim,"
+                    ],
+                    "__section": "text",
+                    "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "7bdeddef-6b24-4cc5-9f0f-ee9175faa101"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "havia lama\nno curral",
                       "e perto onde\nficava o trenó."
                     ],
                     "__section": "text",
@@ -168,7 +206,33 @@
                     "closeDelayFrames": 30,
                     "__collapse": true
                   },
-                  "id": "7bdeddef-6b24-4cc5-9f0f-ee9175faa101"
+                  "id": "33c5b4a1-ead0-48ec-97f5-45a9ad912c83"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      " Hum..."
+                    ],
+                    "__section": "text",
+                    "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "2225ee65-5688-4eb9-830d-6b4c7bdd7723"
                 },
                 {
                   "command": "EVENT_TEXT",
@@ -201,10 +265,10 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "A Bruxa Baratuxa?"
+                      " A Bruxa\n Baratuxa?"
                     ],
                     "__section": "text",
-                    "avatarId": "",
+                    "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
                     "minHeight": 4,
                     "maxHeight": 7,
                     "textX": 1,
@@ -227,8 +291,34 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Sim Chapolin.\nSerá que ela",
-                      "está por trás\ndisso tudo?"
+                      " Sim Chapolin."
+                    ],
+                    "__section": "text",
+                    "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "a5bd67fe-29a7-40d7-934b-b8232aa621f6"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Será que ela\nestá por trás",
+                      "disso tudo?"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -254,10 +344,10 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Onde fica\no pântano?"
+                      " Onde fica\n o pântano?"
                     ],
                     "__section": "text",
-                    "avatarId": "",
+                    "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
                     "minHeight": 4,
                     "maxHeight": 7,
                     "textX": 1,
@@ -280,8 +370,34 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Ao sul. Use a\nplaca de viagem\nrápida",
-                      "em frente a\ncasa do\nPapai Noel."
+                      " Ao sul."
+                    ],
+                    "__section": "text",
+                    "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "4b5a85cf-7d9a-4aba-85fe-56f0555b8ef5"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Use a placa de\nviagem rápida",
+                      "em frente a casa\ndo Papai Noel."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -299,7 +415,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "53e3acd6-396a-4950-823f-2f946459b5c6"
                 },
@@ -307,7 +423,33 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Sim, agora mesmo.\nSigam-me os bons!"
+                      " Sim, agora\n mesmo."
+                    ],
+                    "__section": "text",
+                    "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "d8294085-0bcd-4e08-8aee-a1077d762693"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Sigam-me os bons!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -328,6 +470,30 @@
                     "__collapse": true
                   },
                   "id": "b75eff60-fab6-4164-88d0-6b03ee2366cb"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "b72c1924-f82f-49dc-82e1-fed728fa9fdf"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "799d7397-c7a7-4ac0-b2ff-59c9fb3544d9",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "fcdcbb2f-00e2-44b8-8a7a-65ccd8718405"
                 },
                 {
                   "command": "EVENT_PLAYER_SET_SPRITE",

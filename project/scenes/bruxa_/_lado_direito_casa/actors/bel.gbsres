@@ -31,7 +31,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -46,6 +46,14 @@
               "__collapse": true
             },
             "id": "13a0f846-e1a5-4a8e-a2bd-e9862a654242"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
+            },
+            "id": "170fb533-b58b-43fe-8bf8-f493848e15e7"
           },
           {
             "command": "EVENT_TEXT",

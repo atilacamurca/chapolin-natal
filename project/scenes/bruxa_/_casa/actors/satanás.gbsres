@@ -32,7 +32,7 @@
         },
         "__collapseElse": false,
         "__disableElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -47,6 +47,14 @@
               "__collapse": true
             },
             "id": "1db5b29a-b4f0-41ed-b9b3-623cf5ab7e90"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
+            },
+            "id": "3a32d03a-1535-4574-874d-29b998c1cff2"
           },
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -151,6 +159,15 @@
             "id": "f2670186-60c9-44d1-b59c-7d8ef84d3957"
           },
           {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "5d568b77-0cab-4f08-b4de-088f18225457",
+              "__collapse": true
+            },
+            "id": "aebda155-9237-402a-9791-8b9147c838d0"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "2674c85a-6b84-4e47-99c2-d7d1f1ba19b3",
@@ -185,6 +202,14 @@
               "__collapse": true
             },
             "id": "9ca479cf-6b2d-402d-9fd3-046637be285b"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "ae94f9bf-3eb8-4599-92ea-b2a68eb74b4f"
           },
           {
             "command": "EVENT_ACTOR_SET_STATE",
