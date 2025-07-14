@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "casa-tripa-seca-comodo-central.tmx",
+    "activeFile": "casa-tripa-seca-comodo-esquerdo.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -77,6 +77,10 @@
             "scaleInDock": 5.5,
             "scaleInEditor": 1
         },
+        "Presente_T.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 11
+        },
         "RPG_exterior.tsx": {
             "scaleInDock": 3,
             "scaleInEditor": 5.5
@@ -135,9 +139,9 @@
         },
         "casa-tripa-seca-comodo-esquerdo.tmx": {
             "scale": 4.665885416666666,
-            "selectedLayer": 0,
+            "selectedLayer": 6,
             "viewCenter": {
-                "x": 69.8688396494949,
+                "x": 194.8183289613217,
                 "y": 95.90891332254286
             }
         },
@@ -285,25 +289,24 @@
     "map.tileWidth": 8,
     "map.width": 8,
     "openFiles": [
-        "World tilesets outdoors.tsx",
-        "lado-fora-esconderijo-tripa-seca.tmx",
         "ceu-estrelado-creditos.tmx",
-        "casa-tripa-seca-comodo-central.tmx"
+        "casa-tripa-seca-comodo-esquerdo.tmx",
+        "Presente_T.tsx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
+        "ceu-estrelado-creditos.tmx",
+        "Presente_T.tsx",
+        "casa-tripa-seca-comodo-esquerdo.tmx",
         "World tilesets outdoors.tsx",
         "lado-fora-esconderijo-tripa-seca.tmx",
-        "ceu-estrelado-creditos.tmx",
         "casa-tripa-seca-comodo-central.tmx",
         "Estrela_1_T.tsx",
         "Estrela_Cadente_Tileset.tmx",
         "Estrela_Completa_Tileset.tsx",
         "Estrela_Placeholder.tsx",
         "casa-do-papai-noel.tmx",
-        "casa-tripa-seca-sala-estar.tmx",
-        "casa-tripa-seca-comodo-esquerdo.tmx",
-        "casa-do-chapolin.tmx"
+        "casa-tripa-seca-sala-estar.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

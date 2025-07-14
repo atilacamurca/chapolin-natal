@@ -53,15 +53,7 @@
       "id": "080b9104-9d85-4628-94e1-bb82579e95e0"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_DEACTIVATE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "afedba7b-504d-4d2a-88c6-df795fc2058a"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
