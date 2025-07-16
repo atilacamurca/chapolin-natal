@@ -19,9 +19,19 @@
   "symbol": "scene_4",
   "x": 2152,
   "y": 912,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "36ee62c8-d654-4be7-b93f-e471b4556c67",
+        "__collapse": true
+      },
+      "id": "8d75e19c-f700-4c5c-9b0c-fb879911aee9"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7"
+  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+  "autoFadeEventCollapse": true
 }

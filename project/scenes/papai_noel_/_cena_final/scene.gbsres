@@ -20,6 +20,14 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "36ee62c8-d654-4be7-b93f-e471b4556c67",
+        "__collapse": true
+      },
+      "id": "ce2e9f29-db22-4e48-8985-ff20cc6c1f36"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -624,5 +632,6 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "collisions": "003+0f6+007+0f9+006+0f2+003+0f!004+0f8+009+0f6+00!0f5+004+0f!007+0f8+007+0f3+007+0f!00e+0f!007+0f3+003+0f2+002+0f!00e+0f!005+0f2+00!0f2+003+0f2+002+0f7+008+0f!005+0f2+00!0f2+003+0f2+002+0f2+004+0fa+005+0f2+00!0f2+003+0f2+0017+0f2+00!0f4+00!0f2+0017+0f2+00!0f4+00!0f2+0017+0f2+00!0f!003+0f3+0017+0f2+00!0fa+006+0fa+004+0f2+00!0f2+001f+0f2+005+0f2+0018+0f4+001d+0f!004d+0f2+001f+0f2+0035+0f3+001d+0f!002+0f!001d+0f!003+0f!001b+0f!002+0f3+001b+0f!00!0f!001f+0f2+001f+0f!00!0f2+001d+0f!002+0f!001d+0f!003+0f!001b+0f!00!0f4+005+0f2+002+0f2+0010+0f!00!0f!001f+0f22+",
-  "playerSpriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c"
+  "playerSpriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+  "autoFadeEventCollapse": true
 }

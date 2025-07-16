@@ -17,8 +17,18 @@
   "symbol": "scene_11",
   "x": 976,
   "y": 1368,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "8c1e68f8-3020-463b-b75c-4bb88101c17b",
+        "__collapse": true
+      },
+      "id": "1e0c3bec-be51-486d-8e04-144a23a0ca0f"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

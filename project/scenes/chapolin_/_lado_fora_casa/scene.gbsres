@@ -58,6 +58,18 @@
                   "id": "f0181d1f-41e6-4db7-b99a-6e8aae8c469d"
                 },
                 {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "48a25317-1a1d-4eac-93a0-2793392d817b"
+                },
+                {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
@@ -83,18 +95,6 @@
                     "__collapse": true
                   },
                   "id": "364d9918-39c2-4d77-bae6-1f6a3c83bf7a"
-                },
-                {
-                  "command": "EVENT_ACTOR_SET_DIRECTION",
-                  "args": {
-                    "actorId": "$self$",
-                    "direction": {
-                      "type": "direction",
-                      "value": "down"
-                    },
-                    "__collapse": true
-                  },
-                  "id": "48a25317-1a1d-4eac-93a0-2793392d817b"
                 },
                 {
                   "command": "EVENT_ACTOR_EMOTE",

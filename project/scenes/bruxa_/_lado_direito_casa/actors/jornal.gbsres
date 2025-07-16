@@ -621,7 +621,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "No jornal diz que\né num laboratório\nao leste, não\nmuito longe daqui."
+                "No jornal diz que\né num laboratório\na leste, não\nmuito longe daqui."
               ],
               "__section": "text",
               "avatarId": "",

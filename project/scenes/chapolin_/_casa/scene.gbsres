@@ -47,7 +47,7 @@
               "duration": 10,
               "frames": 30,
               "__scriptTabs": "end",
-              "__collapse": false,
+              "__collapse": true,
               "__label": "Chapolin recebe chamdo Polo Norte"
             },
             "children": {
@@ -59,6 +59,18 @@
                     "__collapse": true
                   },
                   "id": "e0baf8f5-da96-45b9-beb4-bd80eb036f6f"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "c3ab0052-0fb2-43dc-945a-2adc7c520d41"
                 },
                 {
                   "command": "EVENT_TEXT",
@@ -86,18 +98,6 @@
                     "__collapse": true
                   },
                   "id": "154f00a5-3b6e-4865-8342-2832b1ccdb97"
-                },
-                {
-                  "command": "EVENT_ACTOR_SET_DIRECTION",
-                  "args": {
-                    "actorId": "$self$",
-                    "direction": {
-                      "type": "direction",
-                      "value": "down"
-                    },
-                    "__collapse": true
-                  },
-                  "id": "c3ab0052-0fb2-43dc-945a-2adc7c520d41"
                 },
                 {
                   "command": "EVENT_ACTOR_EMOTE",

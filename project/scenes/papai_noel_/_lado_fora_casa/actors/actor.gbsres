@@ -31,7 +31,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -69,7 +69,8 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false,
+              "__disableElse": true
             },
             "children": {
               "true": [
@@ -86,9 +87,17 @@
                       "value": 17
                     },
                     "direction": "up",
-                    "fadeSpeed": "2"
+                    "fadeSpeed": "2",
+                    "__collapse": true
                   },
                   "id": "d2ac59c7-75a2-431d-b921-48ac78f67011"
+                },
+                {
+                  "command": "EVENT_MUSIC_STOP",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "id": "5d901d4a-6bf9-4ea6-a6b4-01802b11228f"
                 }
               ],
               "false": []
