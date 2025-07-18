@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "casa-tripa-seca-comodo-esquerdo.tmx",
+    "activeFile": "fabrica-papai-noel.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -141,8 +141,8 @@
             "scale": 4.665885416666666,
             "selectedLayer": 6,
             "viewCenter": {
-                "x": 194.8183289613217,
-                "y": 95.90891332254286
+                "x": 49.82977060891891,
+                "y": 95.90891332254287
             }
         },
         "casa-tripa-seca-sala-estar.tmx": {
@@ -157,16 +157,16 @@
             "scale": 3.3903125,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 143.05465941561437,
-                "y": 72.11724582910868
+                "x": 240.09586136971154,
+                "y": 71.82228776845794
             }
         },
         "fabrica-papai-noel.tmx": {
-            "scale": 6.221180555555555,
-            "selectedLayer": 3,
+            "scale": 4,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 80.04911536529555,
-                "y": 71.93168499190715
+                "x": 66,
+                "y": 60.125
             }
         },
         "gameboy_outdoor_assets_v1.2.tsx": {
@@ -291,13 +291,15 @@
     "openFiles": [
         "ceu-estrelado-creditos.tmx",
         "casa-tripa-seca-comodo-esquerdo.tmx",
-        "Presente_T.tsx"
+        "Presente_T.tsx",
+        "fabrica-papai-noel.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
         "ceu-estrelado-creditos.tmx",
-        "Presente_T.tsx",
         "casa-tripa-seca-comodo-esquerdo.tmx",
+        "Presente_T.tsx",
+        "fabrica-papai-noel.tmx",
         "World tilesets outdoors.tsx",
         "lado-fora-esconderijo-tripa-seca.tmx",
         "casa-tripa-seca-comodo-central.tmx",
@@ -305,8 +307,7 @@
         "Estrela_Cadente_Tileset.tmx",
         "Estrela_Completa_Tileset.tsx",
         "Estrela_Placeholder.tsx",
-        "casa-do-papai-noel.tmx",
-        "casa-tripa-seca-sala-estar.tmx"
+        "casa-do-papai-noel.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

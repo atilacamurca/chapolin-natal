@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "faba3453-b6a9-4804-aa81-1573b251ba33",
+  "name": "Engrenagem_Esteira_T",
+  "symbol": "tileset_engrenagem_esteira_",
+  "width": 2,
+  "height": 1,
+  "imageWidth": 16,
+  "imageHeight": 8,
+  "filename": "Engrenagem_Esteira_T.png"
+}

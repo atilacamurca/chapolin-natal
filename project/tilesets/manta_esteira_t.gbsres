@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "5bc7d374-333b-4931-8545-af4cb249c838",
+  "name": "Manta_Esteira_T",
+  "symbol": "tileset_manta_esteira_t",
+  "width": 8,
+  "height": 1,
+  "imageWidth": 64,
+  "imageHeight": 8,
+  "filename": "Manta_Esteira_T.png"
+}

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "152e0f7b-8173-45a7-86ca-2c9716035512",
+  "name": "Monitor_Esteira_T",
+  "symbol": "tileset_monitor_esteira_t",
+  "width": 4,
+  "height": 1,
+  "imageWidth": 32,
+  "imageHeight": 8,
+  "filename": "Monitor_Esteira_T.png"
+}
