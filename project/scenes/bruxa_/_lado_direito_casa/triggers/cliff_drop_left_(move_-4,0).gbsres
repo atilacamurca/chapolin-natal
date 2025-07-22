@@ -1,0 +1,124 @@
+{
+  "_resourceType": "trigger",
+  "id": "5d553e5e-b69e-44f8-bafb-cf500c67e4a2",
+  "name": "Cliff Drop Left (Move -4,0)",
+  "prefabId": "",
+  "x": 19,
+  "y": 0,
+  "symbol": "trigger_52",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 4,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "6c224ee1-4dce-4873-990d-b10d12868819",
+              "__collapse": true
+            },
+            "id": "a7afa249-33c1-4383-bf02-0eb9fd074260"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "08f1dfe7-e4bd-463f-8507-8bd698f0a55d"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 2.2,
+              "__collapse": true
+            },
+            "id": "3017ca91-31c5-4f8e-b268-f6ec8bcab244"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": -4
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "52377c41-492d-4b97-a747-ecafa6260589"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Aterrizando",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "0696faf2-556d-46e8-8596-439f488b3c26"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "31c79fef-524a-42d4-831d-a9b92cbb129e"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "590eaad0-6902-450e-89e0-07d4a6dc16f0"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "89185c3d-d5c4-4c7d-8b4e-ec48c71d905d"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "40de2e9e-8e35-4022-8532-fe3d8c7fb6b8"
+          }
+        ],
+        "false": []
+      },
+      "id": "419bfe5b-569a-4fcb-9d8f-eb43c11ca534"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

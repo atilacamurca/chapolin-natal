@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "fabrica-papai-noel.tmx",
+    "activeFile": "lado-direito-casa-bruxa.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -195,7 +195,7 @@
         },
         "lado-direito-casa-bruxa.tmx": {
             "scale": 4.520416666666667,
-            "selectedLayer": 0,
+            "selectedLayer": 5,
             "viewCenter": {
                 "x": 107.95465019817493,
                 "y": 87.9343718315052
@@ -292,7 +292,8 @@
         "ceu-estrelado-creditos.tmx",
         "casa-tripa-seca-comodo-esquerdo.tmx",
         "Presente_T.tsx",
-        "fabrica-papai-noel.tmx"
+        "fabrica-papai-noel.tmx",
+        "lado-direito-casa-bruxa.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
@@ -300,14 +301,14 @@
         "casa-tripa-seca-comodo-esquerdo.tmx",
         "Presente_T.tsx",
         "fabrica-papai-noel.tmx",
+        "lado-direito-casa-bruxa.tmx",
         "World tilesets outdoors.tsx",
         "lado-fora-esconderijo-tripa-seca.tmx",
         "casa-tripa-seca-comodo-central.tmx",
         "Estrela_1_T.tsx",
         "Estrela_Cadente_Tileset.tmx",
         "Estrela_Completa_Tileset.tsx",
-        "Estrela_Placeholder.tsx",
-        "casa-do-papai-noel.tmx"
+        "Estrela_Placeholder.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

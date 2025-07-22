@@ -60,6 +60,20 @@
             "id": "89ab71c9-87b1-4085-b8a7-e8c58d2c534f"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 9,
+              "__collapse": true
+            },
+            "id": "fcc4a55d-e17f-45fa-8bb6-acd48b73f741"
+          },
+          {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "1007d3a3-82d0-47ef-91da-2a15e2bc5359",

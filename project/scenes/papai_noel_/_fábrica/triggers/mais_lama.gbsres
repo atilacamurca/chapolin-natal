@@ -71,6 +71,21 @@
                   "id": "4a567ed4-4ac8-4018-8209-241e49068e1e"
                 },
                 {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 2,
+                    "__collapse": true
+                  },
+                  "id": "3c18a487-8920-42a8-9f97-9b481b6faf58",
+                  "children": {}
+                },
+                {
                   "command": "EVENT_ACTOR_EMOTE",
                   "args": {
                     "actorId": "$self$",

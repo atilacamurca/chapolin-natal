@@ -2,11 +2,18 @@
   "_resourceType": "trigger",
   "id": "6347cc9f-b238-44d6-bf14-8aebb30bec11",
   "name": "Pegadas",
-  "prefabId": "",
+  "prefabId": "e65868c5-08c9-4181-bd7f-bd165ffe38a6",
   "x": 5,
   "y": 8,
   "symbol": "trigger_7",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "a1b7e8c4-7455-4960-9171-44e1fb4c68e8": {
+      "id": "a1b7e8c4-7455-4960-9171-44e1fb4c68e8",
+      "args": {
+        "priority": "high"
+      }
+    }
+  },
   "width": 2,
   "height": 2,
   "script": [
@@ -48,6 +55,20 @@
               "__collapse": true
             },
             "id": "86a036d4-a9f6-4ba8-9fac-b1e77410712d"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 2,
+              "__collapse": true
+            },
+            "id": "1cf07322-fa28-4f91-9610-305f1c7d5f12"
           },
           {
             "command": "EVENT_ACTOR_EMOTE",

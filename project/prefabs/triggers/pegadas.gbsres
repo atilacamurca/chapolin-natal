@@ -1,14 +1,9 @@
 {
-  "_resourceType": "trigger",
-  "id": "a4568137-9799-441b-8401-50cae629d14b",
+  "_resourceType": "triggerPrefab",
+  "id": "e65868c5-08c9-4181-bd7f-bd165ffe38a6",
   "name": "Pegadas",
-  "prefabId": "",
-  "x": 7,
-  "y": 6,
-  "symbol": "trigger_8",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 2,
+  "_index": 2,
   "script": [
     {
       "command": "EVENT_IF",
@@ -36,9 +31,11 @@
               "value": {
                 "type": "number",
                 "value": 1
-              }
+              },
+              "__collapse": true
             },
-            "id": "14a9f5a7-cec2-4020-92c1-896412f60020"
+            "id": "ec8a0420-f93d-4481-849f-401282ed325e",
+            "children": {}
           },
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
@@ -46,7 +43,23 @@
               "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
               "__collapse": true
             },
-            "id": "8f30265d-ba5e-4f86-8dcd-0c4cbf348c50"
+            "id": "588851f1-d29d-4b58-995b-357fdb0e83fc",
+            "children": {}
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 2,
+              "__collapse": true
+            },
+            "id": "a1b7e8c4-7455-4960-9171-44e1fb4c68e8",
+            "children": {}
           },
           {
             "command": "EVENT_ACTOR_EMOTE",
@@ -55,7 +68,8 @@
               "emoteId": "483a17d4-3e69-48dc-bf0f-9cf91d199acc",
               "__collapse": true
             },
-            "id": "9d6c2b8f-1c54-4946-8cc7-c18b8d76f049"
+            "id": "886c4144-5366-4fb8-bf20-3f75253e873d",
+            "children": {}
           },
           {
             "command": "EVENT_TEXT",
@@ -81,7 +95,8 @@
               "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "76c9148a-3708-4c50-bc71-f8850a554bee"
+            "id": "50ee38a3-3264-44ea-aede-1e523a56758c",
+            "children": {}
           },
           {
             "command": "EVENT_ACTOR_SET_DIRECTION",
@@ -93,7 +108,8 @@
               },
               "__collapse": true
             },
-            "id": "be44a971-326f-411f-b59a-2aa7d34f893b"
+            "id": "29da8606-f299-462a-8032-30c276c985c0",
+            "children": {}
           },
           {
             "command": "EVENT_TEXT",
@@ -120,7 +136,8 @@
               "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "93ce2c14-c832-4571-9e8a-5c6541616fad"
+            "id": "1d157756-83cb-4a8c-ba09-fc24c0f9bbc0",
+            "children": {}
           },
           {
             "command": "EVENT_ACTOR_SET_DIRECTION",
@@ -132,13 +149,41 @@
               },
               "__collapse": true
             },
-            "id": "84645580-90bc-4037-92b8-0e01af09642d"
+            "id": "88243abd-c761-4356-be81-908e1356764f",
+            "children": {}
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Hum. Estranho.\nAqui tem câmeras?"
+                " Hum. Estranho."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "45625a9e-b270-4207-860b-6c656fec3016",
+            "children": {}
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Aqui tem câmeras?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -158,14 +203,44 @@
               "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "0ad582ce-42ec-49ba-ad2e-ecf822586209"
+            "id": "c4e18068-60d5-4854-a17a-b1f1817ea086",
+            "children": {}
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Sim, elas ficam\nna fábrica do\nPapai Noel,",
-                "a direita\nda casa dele."
+                " Sim!"
+              ],
+              "__section": "text",
+              "avatarId": "e2582bf7-f9f2-4c28-97df-c1941d953508",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "416d9bc9-8930-4fe8-87fd-e4beb33c9da6",
+            "children": {}
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "E as imagens\nficam guardadas",
+                "na fábrica do\nPapai Noel,",
+                "a direita\nda casa dele.",
+                "Minha irmã deve\nestar lá."
               ],
               "__section": "text",
               "avatarId": "",
@@ -185,14 +260,42 @@
               "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "fda5f178-7284-41fc-a54a-3eb10bd45a8c"
+            "id": "6325ec5d-846d-4317-ae70-9587c35d4b70",
+            "children": {}
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Precisamos\nverificá-las\nagora.",
-                "Sigam-me os bons."
+                " Entendi."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "8847d8e6-9c92-4c38-9834-03c04955d978",
+            "children": {}
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Precisamos\nverificá-las",
+                "agora mesmo.\nSigam me os bons."
               ],
               "__section": "text",
               "avatarId": "",
@@ -212,7 +315,8 @@
               "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "b8a9be4c-db1b-45f9-8125-2217ccc418dc"
+            "id": "ce416941-0daa-4c18-b446-453d1319b13e",
+            "children": {}
           },
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
@@ -220,7 +324,8 @@
               "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
               "__collapse": true
             },
-            "id": "2d89c7df-3ad2-4d74-825b-8a58e6042a90"
+            "id": "99cd3386-3b7c-49ec-b60f-042dbddfa97b",
+            "children": {}
           },
           {
             "command": "EVENT_ACTOR_SET_STATE",
@@ -230,7 +335,8 @@
               "loopAnim": true,
               "__collapse": true
             },
-            "id": "cc873fba-a149-42a3-9857-4f27a9bee4fc"
+            "id": "262a926a-3bbc-4ebc-b366-40a77b091ccc",
+            "children": {}
           },
           {
             "command": "EVENT_ACTOR_SET_DIRECTION",
@@ -242,14 +348,14 @@
               },
               "__collapse": true
             },
-            "id": "d1e3313d-9b63-440e-8001-463c25015789"
+            "id": "93319edb-fa85-45c7-9ea9-e8b9dadb894a",
+            "children": {}
           }
         ],
         "false": []
       },
-      "id": "b974eee2-fc43-4082-bd03-4571aa02225c"
+      "id": "afedf306-d76b-46c0-b2ef-f27730113340"
     }
   ],
-  "leaveScript": [],
-  "_index": 3
+  "leaveScript": []
 }

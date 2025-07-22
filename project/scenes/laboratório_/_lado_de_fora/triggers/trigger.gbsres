@@ -26,7 +26,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -97,6 +97,20 @@
               "__collapse": true
             },
             "id": "bf3cced8-1848-48b3-96f9-4d873017003d"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 15,
+              "__collapse": true
+            },
+            "id": "3b1dde26-cb6b-4df8-a676-eb648f46115a"
           },
           {
             "command": "EVENT_TEXT",
@@ -737,6 +751,28 @@
               "__collapse": true
             },
             "id": "037ac699-e908-491b-82b2-5f6472d1f16a"
+          },
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Efeito Sonoro\n$06 I06 - Downwards Slide",
+              "__collapse": true
+            },
+            "id": "cf6d2522-9d17-4d24-bbbb-0fcbcabcff50"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 6,
+              "__collapse": true
+            },
+            "id": "935ed248-de82-4a29-b400-b3eda63dfff4"
           },
           {
             "command": "EVENT_PLAYER_SET_SPRITE",

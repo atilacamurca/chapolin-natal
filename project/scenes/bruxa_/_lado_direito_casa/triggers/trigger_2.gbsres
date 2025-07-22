@@ -85,6 +85,20 @@
             "id": "f70179dd-4aa1-4233-87c7-4fa229352dde"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 46,
+              "__collapse": true
+            },
+            "id": "17572a35-f1e8-41fd-86e2-2d8cd1964ec3"
+          },
+          {
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
@@ -290,7 +304,7 @@
               "duration": 0.5,
               "frames": 30,
               "__scriptTabs": "end",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "script": [

@@ -35,8 +35,9 @@
             "value": 0
           }
         },
-        "__collapseElse": true,
-        "__collapse": false
+        "__collapseElse": false,
+        "__collapse": true,
+        "__disableElse": true
       },
       "children": {
         "true": [
@@ -52,6 +53,14 @@
             },
             "children": {
               "script": [
+                {
+                  "command": "EVENT_TIMER_DISABLE",
+                  "args": {
+                    "timer": 1,
+                    "__collapse": true
+                  },
+                  "id": "22cab934-7576-4e8d-a658-939a2d3cfd97"
+                },
                 {
                   "command": "EVENT_PLAYER_SET_SPRITE",
                   "args": {
@@ -98,6 +107,14 @@
                     "__collapse": true
                   },
                   "id": "154f00a5-3b6e-4865-8342-2832b1ccdb97"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_CANCEL",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true
+                  },
+                  "id": "42976d9a-5c9e-41ef-82fd-6b061c9e7733"
                 },
                 {
                   "command": "EVENT_ACTOR_EMOTE",
@@ -186,6 +203,14 @@
       "id": "25acbd05-a2a0-446a-89eb-4c669112f64f"
     },
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "8a1165d5-b36a-449b-85fd-dfe7a06131d7",
+        "__collapse": true
+      },
+      "id": "26b288fe-e2b9-4887-b5b2-1bcf942230df"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -199,8 +224,9 @@
             "value": 0
           }
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": true,
+        "__disableElse": true
       },
       "children": {
         "true": [
@@ -247,14 +273,6 @@
         "false": []
       },
       "id": "0f707398-de42-4eba-9b25-b2a005f8d95c"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "8a1165d5-b36a-449b-85fd-dfe7a06131d7",
-        "__collapse": true
-      },
-      "id": "26b288fe-e2b9-4887-b5b2-1bcf942230df"
     }
   ],
   "playerHit1Script": [],
