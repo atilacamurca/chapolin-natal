@@ -77,7 +77,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Quem ousa invadir\nnovamente a casa\nda Bruxa Baratuxa?"
+                "Quem ousa invadir\nnovamente",
+                "a casa da\nBruxa Baratuxa?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -130,7 +131,8 @@
             "args": {
               "text": [
                 "O Chapolin\nColorado?",
-                "Bem dizem que\no Chapolin ajuda\nqualquer pessoa."
+                "Bem dizem que\no Chapolin",
+                "ajuda qualquer\npessoa."
               ],
               "__section": "text",
               "avatarId": "",
@@ -182,8 +184,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "É que me roubaram\nChapolin, e eu\nestava justamente",
-                "me preparando\npara procurar\no bandido."
+                "É que me roubaram\nChapolin,",
+                "e eu estava \njustamente",
+                "me preparando para\nprocurar o bandido"
               ],
               "__section": "text",
               "avatarId": "",
@@ -615,8 +618,8 @@
             "args": {
               "text": [
                 "Mas não importa,\nporque o Chapolin",
-                "não pode ser\nderrotado, nunca,\njamais!",
-                "Sigam-me os bons."
+                "não pode ser\nderrotado,",
+                "nunca, jamais!\nSigam-me os bons."
               ],
               "__section": "text",
               "avatarId": "",

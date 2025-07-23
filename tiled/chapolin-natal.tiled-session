@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "lado-direito-casa-bruxa.tmx",
+    "activeFile": "lado-esquerdo-casa-bruxa.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -54,7 +54,7 @@
             "scaleInEditor": 4
         },
         "Gameboy-Forest-Tileset.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 3,
             "scaleInEditor": 4
         },
         "Laboratorio.tsx": {
@@ -165,8 +165,8 @@
             "scale": 4,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 66,
-                "y": 60.125
+                "x": 80,
+                "y": 71.875
             }
         },
         "gameboy_outdoor_assets_v1.2.tsx": {
@@ -213,7 +213,7 @@
             "scale": 5.090056818181818,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 75.44120109393315,
+                "x": 91.94396383323102,
                 "y": 87.9165038789976
             }
         },
@@ -293,7 +293,9 @@
         "casa-tripa-seca-comodo-esquerdo.tmx",
         "Presente_T.tsx",
         "fabrica-papai-noel.tmx",
-        "lado-direito-casa-bruxa.tmx"
+        "lado-direito-casa-bruxa.tmx",
+        "lado-esquerdo-casa-bruxa.tmx",
+        "lado-fora-casa-bruxa.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
@@ -302,13 +304,13 @@
         "Presente_T.tsx",
         "fabrica-papai-noel.tmx",
         "lado-direito-casa-bruxa.tmx",
+        "lado-fora-casa-bruxa.tmx",
+        "lado-esquerdo-casa-bruxa.tmx",
         "World tilesets outdoors.tsx",
         "lado-fora-esconderijo-tripa-seca.tmx",
         "casa-tripa-seca-comodo-central.tmx",
         "Estrela_1_T.tsx",
-        "Estrela_Cadente_Tileset.tmx",
-        "Estrela_Completa_Tileset.tsx",
-        "Estrela_Placeholder.tsx"
+        "Estrela_Cadente_Tileset.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

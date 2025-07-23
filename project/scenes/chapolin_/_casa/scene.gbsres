@@ -22,6 +22,14 @@
   "y": 736,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "8a1165d5-b36a-449b-85fd-dfe7a06131d7",
+        "__collapse": true
+      },
+      "id": "26b288fe-e2b9-4887-b5b2-1bcf942230df"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -36,7 +44,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true,
+        "__collapse": false,
         "__disableElse": true
       },
       "children": {
@@ -48,11 +56,23 @@
               "duration": 10,
               "frames": 30,
               "__scriptTabs": "end",
-              "__collapse": true,
+              "__collapse": false,
               "__label": "Chapolin recebe chamdo Polo Norte"
             },
             "children": {
               "script": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "1963b817-cd84-4532-8159-187bde4e349b"
+                },
                 {
                   "command": "EVENT_TIMER_DISABLE",
                   "args": {
@@ -60,6 +80,14 @@
                     "__collapse": true
                   },
                   "id": "22cab934-7576-4e8d-a658-939a2d3cfd97"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_CANCEL",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": true
+                  },
+                  "id": "42976d9a-5c9e-41ef-82fd-6b061c9e7733"
                 },
                 {
                   "command": "EVENT_PLAYER_SET_SPRITE",
@@ -109,12 +137,18 @@
                   "id": "154f00a5-3b6e-4865-8342-2832b1ccdb97"
                 },
                 {
-                  "command": "EVENT_ACTOR_MOVE_CANCEL",
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
                   "args": {
-                    "actorId": "$self$",
+                    "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 51,
                     "__collapse": true
                   },
-                  "id": "42976d9a-5c9e-41ef-82fd-6b061c9e7733"
+                  "id": "1ffa5654-2ac3-465f-aa6f-605d92d76ae6"
                 },
                 {
                   "command": "EVENT_ACTOR_EMOTE",
@@ -156,26 +190,6 @@
                   "id": "b0177b66-bbcc-4b56-9f26-cdfc3c7287f6"
                 },
                 {
-                  "command": "EVENT_TIMER_DISABLE",
-                  "args": {
-                    "timer": 1,
-                    "__collapse": true
-                  },
-                  "id": "7fa5d736-c949-4cf3-ac80-d6b3f57c96e0"
-                },
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "0",
-                    "value": {
-                      "type": "number",
-                      "value": 1
-                    },
-                    "__collapse": true
-                  },
-                  "id": "1963b817-cd84-4532-8159-187bde4e349b"
-                },
-                {
                   "command": "EVENT_PLAYER_SET_SPRITE",
                   "args": {
                     "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
@@ -201,14 +215,6 @@
         "false": []
       },
       "id": "25acbd05-a2a0-446a-89eb-4c669112f64f"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "8a1165d5-b36a-449b-85fd-dfe7a06131d7",
-        "__collapse": true
-      },
-      "id": "26b288fe-e2b9-4887-b5b2-1bcf942230df"
     },
     {
       "command": "EVENT_IF",

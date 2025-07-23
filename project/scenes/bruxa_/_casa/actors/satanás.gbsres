@@ -149,6 +149,20 @@
             "id": "30c9677f-7018-4be8-8a55-5ae733e859c3"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 49,
+              "__collapse": true
+            },
+            "id": "93f81fe6-0d43-4fee-8776-ddd522f518e5"
+          },
+          {
             "command": "EVENT_ACTOR_SET_STATE",
             "args": {
               "actorId": "$self$",

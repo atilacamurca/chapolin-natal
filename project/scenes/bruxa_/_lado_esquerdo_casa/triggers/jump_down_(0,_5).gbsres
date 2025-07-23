@@ -1,0 +1,134 @@
+{
+  "_resourceType": "trigger",
+  "id": "8416bffc-f052-4233-8471-71cc54bf31e6",
+  "name": "Jump Down (0, 5)",
+  "prefabId": "a3871040-3297-4cdd-afef-faeba2c70c59",
+  "x": 6,
+  "y": 8,
+  "symbol": "trigger_55",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "6c224ee1-4dce-4873-990d-b10d12868819",
+              "__collapse": true
+            },
+            "id": "faece475-990f-4c31-8089-df9f828bf06c",
+            "children": {}
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "b87399c0-8844-480a-b23c-c179f86d6ce2",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 2.2,
+              "__collapse": true
+            },
+            "id": "333c1310-e0e7-4fe1-893e-c465a5b7339e",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "5b3d9870-5211-411c-9372-00038babd989",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Aterrizando",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "1143e920-c89f-453f-af4f-538704557be5",
+            "children": {}
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "02582c26-c13a-4c64-b349-73c04102e701",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "50934b29-2e65-4684-ae39-b48f866587ed",
+            "children": {}
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "e4c08416-d3fe-4d10-9790-d3cdaeeba2c9",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "f3520f9b-bc6b-4dc8-87cd-a1ec9f67bbcb",
+            "children": {}
+          }
+        ],
+        "false": []
+      },
+      "id": "4ac3cb87-01a7-4ccb-93a0-daa1e860bb90"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

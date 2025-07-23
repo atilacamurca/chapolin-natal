@@ -1,0 +1,148 @@
+{
+  "_resourceType": "trigger",
+  "id": "125ad917-848e-4697-aaa8-81943ba31871",
+  "name": "",
+  "prefabId": "",
+  "x": 17,
+  "y": 13,
+  "symbol": "trigger_57",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "6f2c014a-6174-4e6c-b5be-8add140f1047",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 4,
+              "__collapse": true
+            },
+            "id": "04d1856b-2e66-4d7a-b09a-64e59edc35fd"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "6c224ee1-4dce-4873-990d-b10d12868819",
+              "__collapse": true
+            },
+            "id": "b45c63a1-e701-405c-8be4-d2870f50ee2c",
+            "children": {}
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "7244dfd6-0bc5-41fc-a13a-dc8fd0ade059",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 2.2,
+              "__collapse": true
+            },
+            "id": "08c09aad-c9da-4d38-acc6-5ef6713cf2b9",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 4
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "5a8346e3-e6fa-4064-b020-cf52d2caa59d",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Aterrizando",
+              "loopAnim": false,
+              "__collapse": true
+            },
+            "id": "645ec123-8f00-412d-b93b-9a3247a551a0",
+            "children": {}
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.1,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "de9a8188-c2df-48fe-a36c-ee904be7de42",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "03ad9b37-bc91-4396-b9be-f5bc8aa64444",
+            "children": {}
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "6d76ca44-d600-476b-9c32-bbe51ee824d1",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "0d98c41c-0991-42c1-952d-718189c4c986",
+            "children": {}
+          }
+        ],
+        "false": []
+      },
+      "id": "c7f5c6d9-50e1-4d11-8fd8-fef4bdfc21f1"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 5
+}

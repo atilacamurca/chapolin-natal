@@ -360,6 +360,14 @@
             "id": "a0d5873c-316d-40e2-9a70-541b477fa70d"
           },
           {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "36ee62c8-d654-4be7-b93f-e471b4556c67",
+              "__collapse": true
+            },
+            "id": "56a246c1-47ee-4cf1-81a4-168a6c57c6a4"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -547,14 +555,6 @@
               "__collapse": true
             },
             "id": "77afc525-cc02-42b9-9c4d-cec78fb6fa80"
-          },
-          {
-            "command": "EVENT_MUSIC_PLAY",
-            "args": {
-              "musicId": "36ee62c8-d654-4be7-b93f-e471b4556c67",
-              "__collapse": true
-            },
-            "id": "56a246c1-47ee-4cf1-81a4-168a6c57c6a4"
           }
         ],
         "false": []
