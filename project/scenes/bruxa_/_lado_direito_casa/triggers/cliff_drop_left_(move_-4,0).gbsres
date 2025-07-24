@@ -24,6 +24,20 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "6f2c014a-6174-4e6c-b5be-8add140f1047",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 4,
+              "__collapse": true
+            },
+            "id": "d061ac13-f03c-43d8-a146-a67fd4e206d7"
+          },
+          {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
               "spriteSheetId": "6c224ee1-4dce-4873-990d-b10d12868819",

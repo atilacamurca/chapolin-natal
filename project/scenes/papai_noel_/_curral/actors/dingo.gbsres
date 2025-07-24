@@ -31,7 +31,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -178,7 +178,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Sim."
+                " Sim."
               ],
               "__section": "text",
               "avatarId": "e2582bf7-f9f2-4c28-97df-c1941d953508",

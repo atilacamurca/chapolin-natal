@@ -327,15 +327,31 @@
                       {
                         "command": "EVENT_INC_VALUE",
                         "args": {
-                          "variable": "22"
+                          "variable": "22",
+                          "__collapse": true
                         },
                         "id": "b949c7f3-f034-4d7e-8608-b957c865f810"
+                      },
+                      {
+                        "command": "EVENT_SOUND_PLAY_EFFECT",
+                        "args": {
+                          "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+                          "priority": "medium",
+                          "pitch": 4,
+                          "frequency": 200,
+                          "duration": 0.5,
+                          "wait": true,
+                          "effect": 17,
+                          "__collapse": true
+                        },
+                        "id": "5cef6428-7fe5-4e8c-80cc-e064e960780c"
                       },
                       {
                         "command": "EVENT_WAIT",
                         "args": {
                           "time": 0.5,
-                          "frames": 30
+                          "frames": 30,
+                          "__collapse": true
                         },
                         "id": "031fc6ca-f2a9-4521-927e-03c6acc0fa0d"
                       }
@@ -347,6 +363,20 @@
               ]
             },
             "id": "cfb6764d-1562-4595-b18e-6f268951e512"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 20,
+              "__collapse": true
+            },
+            "id": "2eb2b01e-11d8-4ece-83d4-aaf71dfff571"
           },
           {
             "command": "EVENT_PLAYER_SET_SPRITE",

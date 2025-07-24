@@ -286,6 +286,20 @@
             "id": "29565783-b890-4f97-ad3b-9b0759b07851"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 34,
+              "__collapse": true
+            },
+            "id": "ab2c7dbe-4e70-4b54-ad49-5473b90bae4c"
+          },
+          {
             "command": "EVENT_ACTOR_SET_DIRECTION",
             "args": {
               "actorId": "$self$",

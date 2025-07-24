@@ -30,7 +30,7 @@
             "value": 1
           }
         },
-        "__collapseElse": false,
+        "__collapseElse": true,
         "__collapse": true
       },
       "children": {
@@ -203,7 +203,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " Sim, deixa comigo."
+                " Sim, deixa\n comigo."
               ],
               "__section": "text",
               "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
@@ -221,7 +221,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "f04dacc3-3e90-4706-aeba-452b8446e095"
           }

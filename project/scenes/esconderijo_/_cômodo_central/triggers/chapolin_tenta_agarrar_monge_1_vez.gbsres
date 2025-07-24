@@ -81,6 +81,20 @@
             "id": "d30c5447-0ec0-4ca7-80f9-ccda61d07a95"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "348c643e-343a-48f5-88d3-06b72f067235",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "8f5037f3-6c06-4844-bad9-54eea7593f95"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [

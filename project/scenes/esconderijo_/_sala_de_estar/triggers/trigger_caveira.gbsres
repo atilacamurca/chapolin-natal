@@ -60,6 +60,24 @@
             "id": "f7a68587-313a-430e-81b3-e5450daa8db1"
           },
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "316bfc30-a5ea-406f-b67f-0e6eaec144fe"
+          },
+          {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
               "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
@@ -87,6 +105,20 @@
               "__collapse": true
             },
             "id": "2a47664d-0e60-4249-bfce-148b28f86ac4"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 55,
+              "__collapse": true
+            },
+            "id": "4a7e55b3-6419-43bd-9042-8d37df629997"
           },
           {
             "command": "EVENT_ACTOR_SET_SPRITE",
@@ -186,24 +218,6 @@
               ]
             },
             "id": "bd2cbe9e-6c63-49d9-855a-bb9bcfffbbeb"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 18
-              },
-              "y": {
-                "type": "number",
-                "value": 13
-              },
-              "moveType": "horizontal",
-              "useCollisions": false,
-              "__collapse": true
-            },
-            "id": "316bfc30-a5ea-406f-b67f-0e6eaec144fe"
           },
           {
             "command": "EVENT_ACTOR_SET_DIRECTION",

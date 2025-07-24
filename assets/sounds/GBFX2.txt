@@ -1,12 +1,12 @@
 GBFX2
 more complex FX HAMMER sound effects for Game Boy
 / by Yogi (Tronimal)
-59 sound effects, CC-BY 4.0 license 
+59 sound effects, CC-BY 4.0 license
 
 $=Hex Value used in FX Hammer ROM
 I=Index Value used in GB Studio
 
-Designed for CH2 
+Designed for CH2
 / DUTY2
 $00 I00 - Rising
 $01 I01 - Higher Pitch
@@ -23,9 +23,9 @@ $0B I11 - Falling
 $0C I12 - Pull
 $0D I13 - Echo
 $0E I14 - Sparkle
-$0F I15 - Bell
+$0F I15 - Bell (Ta-nan!)
 
-Designed for CH4 
+Designed for CH4
 / NOISE
 $10 I16 - Metallic Hit
 $11 I17 - Smash
@@ -44,7 +44,7 @@ $1D I29 - Metallic Downhill
 $1E I30 - Burst
 $1F I31 - Swoosh
 
-Designed for CH2 & CH4 simultaneously 
+Designed for CH2 & CH4 simultaneously
 / DUTY2 & NOISE
 $20 I32 - Smooth Clap
 $21 I33 - Punch
@@ -63,7 +63,7 @@ $2D I45 - Drop
 $2E I46 - Enter
 $2F I47 - Metallic Shield
 
-Designed for CH2 
+Designed for CH2
 / DUTY2
 $30 I48 - Validation
 $31 I49 - Clutch
