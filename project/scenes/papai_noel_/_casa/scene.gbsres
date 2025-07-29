@@ -10,7 +10,10 @@
   "type": "TOPDOWN",
   "paletteIds": [
     "dmg",
-    "dmg"
+    "38534ed0-9b7f-4681-b586-48a78decb07a",
+    "8e908b3c-9399-4c9c-98ad-36f2ad6dbb01",
+    "default-ui",
+    "52ce2452-f9ae-4b4a-a2d6-b7880bad3101"
   ],
   "spritePaletteIds": [],
   "collisions": "0069+0f!002+0f!00c+0f8+00!0f2+00!0fa+00!0f9+00!0f2+00!0fc+00!0f2+0013+0f2+0016+0f2+00c+0f12+006+0f!00a+0f!00c+0f!00a+0f!00c+0f!006+0f!003+0f!00!0f2+009+0f7+00!0f!003+0f4+008+0f7+00!0f3+004+0f!0010+0f3+004+0f!0012+0f!004+0f!004+0ff+",

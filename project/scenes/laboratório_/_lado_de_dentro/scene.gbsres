@@ -9,7 +9,12 @@
   "height": 24,
   "type": "TOPDOWN",
   "paletteIds": [
-    "default-bg-5"
+    "default-bg-5",
+    "38534ed0-9b7f-4681-b586-48a78decb07a",
+    "8e908b3c-9399-4c9c-98ad-36f2ad6dbb01",
+    "default-bg-4",
+    "default-bg-2",
+    "52ce2452-f9ae-4b4a-a2d6-b7880bad3101"
   ],
   "spritePaletteIds": [],
   "collisions": "0090+0f13+005+0f!0011+0f7+0016+0f8+0010+0f!006+0f!0010+0f8+006+0fc+00c+0f!00a+0f!00c+0fc+00c+0f!009+0f2+00c+0f4+006+0f8+00a+0f7+006+0f!0010+0f!00!0f6+0010+0f2+0016+0f4+0014+0f!002+0f!0014+0f!002+0f!0014+0f!002+0f7+006+0f9+",

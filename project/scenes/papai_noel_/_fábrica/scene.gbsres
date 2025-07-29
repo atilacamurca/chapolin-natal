@@ -9,6 +9,8 @@
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [
+    "",
+    "38534ed0-9b7f-4681-b586-48a78decb07a",
     "dmg"
   ],
   "spritePaletteIds": [],

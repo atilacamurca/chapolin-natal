@@ -2,24 +2,27 @@
   "_resourceType": "scene",
   "id": "29911495-ddc6-48c5-95d5-6606b9c02e5a",
   "_index": 5,
-  "name": "Papai Noel / Curral",
-  "backgroundId": "e4d7fe66-9054-4de4-ba93-87d9e80e33cb",
-  "tilesetId": "",
-  "width": 24,
-  "height": 22,
   "type": "TOPDOWN",
-  "paletteIds": [
-    "default-bg-5"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "003+0f15+003+0f!00d+0f!002+0f!002+0f!003+0f!00d+0f!002+0f!002+0f!002+0f2+00d+0f!002+0f!002+0f3+00!0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!005+0f!004+0f!002+0f!002+0f!002+0f2+002+0f!005+0f!004+0f!002+0f!002+0f5+002+0f7+004+0f4+002+0f!002+0f3+0015+0f!00!0f!0015+0f!002+0f!0017+0f!0016+0f!0016+0f!0017+0f2+0017+0f!002+0f2+00!0f2+00!0f2+004+0f2+00!0f2+002+0f!002+0f2+002+0f!002+0f!002+0f4+002+0f!002+0f3+",
-  "autoFadeSpeed": 1,
+  "name": "Papai Noel / Curral",
   "symbol": "scene_6",
   "x": 1880,
   "y": 832,
+  "width": 24,
+  "height": 22,
+  "backgroundId": "e4d7fe66-9054-4de4-ba93-87d9e80e33cb",
+  "tilesetId": "",
+  "paletteIds": [
+    "default-bg-5",
+    "",
+    "52ce2452-f9ae-4b4a-a2d6-b7880bad3101",
+    "38534ed0-9b7f-4681-b586-48a78decb07a"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7"
+  "collisions": "003+0f15+003+0f!00d+0f!002+0f!002+0f!003+0f!00d+0f!002+0f!002+0f!002+0f2+00d+0f!002+0f!002+0f3+00!0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!00d+0f!002+0f!002+0f2+002+0f!005+0f!004+0f!002+0f!002+0f!002+0f2+002+0f!005+0f!004+0f!002+0f!002+0f5+002+0f7+004+0f4+002+0f!002+0f3+0015+0f!00!0f!0015+0f!002+0f!0017+0f!0016+0f!0016+0f!0017+0f2+0017+0f!002+0f2+00!0f2+00!0f2+004+0f2+00!0f2+002+0f!002+0f2+002+0f!002+0f!002+0f4+002+0f!002+0f3+"
 }
