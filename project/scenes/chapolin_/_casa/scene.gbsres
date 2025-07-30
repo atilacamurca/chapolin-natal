@@ -2,24 +2,27 @@
   "_resourceType": "scene",
   "id": "53c9ee01-697e-4cdf-a75b-633c362cba06",
   "_index": 0,
+  "type": "TOPDOWN",
   "name": "Chapolin / Casa",
-  "backgroundId": "c76018b0-10a4-4391-8543-fd06ae5e50e4",
-  "tilesetId": "",
+  "symbol": "scene_1",
+  "x": 1656,
+  "y": 736,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "c76018b0-10a4-4391-8543-fd06ae5e50e4",
+  "tilesetId": "",
   "paletteIds": [
     "c837eaff-b9dc-44a4-ac06-50d82b594f4c",
-    "38534ed0-9b7f-4681-b586-48a78decb07a"
+    "38534ed0-9b7f-4681-b586-48a78decb07a",
+    "",
+    "8e908b3c-9399-4c9c-98ad-36f2ad6dbb01"
   ],
   "spritePaletteIds": [
     ""
   ],
-  "collisions": "003f+0f2+004+0f4+009+0f!002+0f!002+0f!004+0f!008+0f!002+0f4+004+0f6+00!0f3+0010+0f2+0012+0f2+0012+0f8+006+0f7+006+0f!006+0f!00c+0f!006+0f7+006+0f!00c+0f!003+0f4+00c+0f!002+0f!00a+0f7+002+0f!00a+0f!008+0f!00a+0f!009+0f5+004+0f!007+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_1",
-  "x": 1656,
-  "y": 736,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -284,6 +287,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
-  "autoFadeEventCollapse": true
+  "collisions": "003f+0f2+004+0f4+009+0f!002+0f!002+0f!004+0f!008+0f!002+0f4+004+0f6+00!0f3+0010+0f2+0012+0f2+0012+0f8+006+0f7+006+0f!006+0f!00c+0f!006+0f7+006+0f!00c+0f!003+0f4+00c+0f!002+0f!00a+0f7+002+0f!00a+0f!008+0f!00a+0f!009+0f5+004+0f!007+"
 }

@@ -2,25 +2,24 @@
   "_resourceType": "scene",
   "id": "e1f38797-6a93-4fee-b88c-157ad59bf70e",
   "_index": 16,
+  "type": "TOPDOWN",
   "name": "Laboratório / Em cima da Mesa",
-  "backgroundId": "36827f05-c0de-46cd-9ba2-426f57a7fc7d",
-  "tilesetId": "",
+  "symbol": "scene_17",
+  "x": 1664,
+  "y": 208,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "36827f05-c0de-46cd-9ba2-426f57a7fc7d",
+  "tilesetId": "",
   "paletteIds": [
     "default-bg-5",
     "38534ed0-9b7f-4681-b586-48a78decb07a",
     "8e908b3c-9399-4c9c-98ad-36f2ad6dbb01",
-    null,
+    "",
     "e225fba3-4ba8-4289-be25-bb1b3929eaba"
   ],
   "spritePaletteIds": [],
-  "collisions": "00de+0f9+00a+0f2+007+0f!00a+0f!007+0f7+005+0f!00e+0f!004+0f!00f+0f!003+0f!0010+0f!002+0f5+003+0fa+00!",
   "autoFadeSpeed": 1,
-  "symbol": "scene_17",
-  "x": 1664,
-  "y": 208,
   "script": [
     {
       "command": "EVENT_IF",
@@ -56,5 +55,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "00c9+0fa+009+0f!009+0f2+009+0f2+007+0f!00a+0f!007+0f7+005+0f!00e+0f!004+0f!00f+0f!003+0f!0010+0f!002+0f5+003+0fa+00!"
 }

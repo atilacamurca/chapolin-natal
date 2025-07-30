@@ -236,6 +236,18 @@
             "id": "67a739a0-a5da-4b28-b819-e12aa6230447"
           },
           {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "player",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapse": true
+            },
+            "id": "809a188e-f1cd-46e7-9824-e65f61ad755f"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [

@@ -230,11 +230,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Que bom que\nchegou Chapolin.",
-                "Imagina que tran-\nquei  o Labora-\ntório e deixei\na chave lá dentro."
+                " Que bom que\n chegou Polegar."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "3efb3573-7dad-4c34-a7c5-a1a8cbae6e45",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -257,11 +256,37 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Nossa!",
-                "Não me diga que\nvocê é o Prof.\nBaratinha."
+                "Imagina, tranquei\no Laboratório",
+                "e deixei a chave\nlá dentro."
               ],
               "__section": "text",
               "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "467d3dc3-5af0-4c9e-a34c-d7a9e13bc8f6"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Nossa!"
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -284,10 +309,36 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Sim, sou eu.\nComo me conhece?"
+                "Me diga, você é o\nProf. Baratinha?"
               ],
               "__section": "text",
               "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "2e045370-4a7d-4567-9c92-f1178b9cd0b9"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Sim, sou eu."
+              ],
+              "__section": "text",
+              "avatarId": "3efb3573-7dad-4c34-a7c5-a1a8cbae6e45",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -310,9 +361,62 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
+                "Como me conhece?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "dcead760-023d-4e3d-8d99-8c5a7b8f696a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Deixe que eu\n lhe diga."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "2f15da22-6f0f-4868-b647-b99fdadb3b9b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
                 "Encontrei um\npedaço de jornal",
-                "em uma cena de\ncrime que\nmencionava\no senhor",
-                "e seu invento,\no extrato de\nenergia volátil."
+                "em uma cena de\ncrime que",
+                "mencionava o\nseu invento,",
+                "o extrato de\nenergia volátil."
               ],
               "__section": "text",
               "avatarId": "",
@@ -338,7 +442,35 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Por isso mesmo\ntenho que entrar\nno meu laborató-\nrio, é urgente."
+                " Isso!"
+              ],
+              "__section": "text",
+              "avatarId": "3efb3573-7dad-4c34-a7c5-a1a8cbae6e45",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "9e2a592d-f5ac-449b-944a-c9bc1248be80"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Por isso mesmo\ntenho que entrar",
+                "no meu laborató-\nrio.",
+                "É urgente!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -364,11 +496,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Fujam! Não deixe\nque o agarrem.",
-                "Ou o contrário."
+                " Fujam!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -391,11 +522,71 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Não quero fugir\nChapolin.\nNa verdade\nme roubaram",
-                "o extrato.\nPreciso acessar\no computador do\nlaboratório e\nrastreá-lo."
+                "Não deixe\nque o agarrem."
               ],
               "__section": "text",
               "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "0cc99644-48d8-4b03-af63-a7d327377949"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "c20168f3-67de-471a-bc43-5914c9ade4f4",
+              "__collapse": true
+            },
+            "id": "9027e960-7d6a-4627-af30-5ecdf61dc75c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Ou o contrário."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "c15023fe-bdbe-41aa-837e-5562d31d4b3b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Não quero fugir\n Chapolin.\n"
+              ],
+              "__section": "text",
+              "avatarId": "3efb3573-7dad-4c34-a7c5-a1a8cbae6e45",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -418,12 +609,39 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Suspeitei desde\no príncipio.",
-                "Mãos de cobra.",
-                "Digo, mãos à obra."
+                "Na verdade\nme roubaram",
+                "o extrato.\nPreciso acessar",
+                "o computador do\nlaboratório",
+                "e rastreá-lo agora\nmesmo."
               ],
               "__section": "text",
               "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "760cff47-9606-4b70-8d8b-5c9676b61e06"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Suspeitei desde\n o príncipio."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -446,7 +664,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Mas como vamos\nentrar Chapolin?"
+                "Mãos de cobra."
               ],
               "__section": "text",
               "avatarId": "",
@@ -466,7 +684,77 @@
               "closeDelayFrames": 30,
               "__collapse": true
             },
+            "id": "519572a8-b16d-49be-8db7-5468d9522e72"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "e287eb22-05b8-4d46-8ecd-a1c63d1dd5b4",
+              "__collapse": true
+            },
+            "id": "7be01bae-bbd7-4a9b-bb6e-7952866c7243"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Digo, mãos à obra."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "a4f57259-ec82-48fa-aedb-47a6b6437066"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Mas como vamos\n entrar?"
+              ],
+              "__section": "text",
+              "avatarId": "3efb3573-7dad-4c34-a7c5-a1a8cbae6e45",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
             "id": "047f8889-a643-47ee-9558-1e04c79276cb"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+              "__collapse": true
+            },
+            "id": "9f84c5ea-a1a7-494a-8f27-b6b1c0d247d6"
           },
           {
             "command": "EVENT_TEXT",
@@ -498,10 +786,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Sim."
+                " Sim."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "3efb3573-7dad-4c34-a7c5-a1a8cbae6e45",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -550,10 +838,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Qual?"
+                " Qual?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "3efb3573-7dad-4c34-a7c5-a1a8cbae6e45",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -681,7 +969,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "por que não toma\numa de suas\npastilhas de\nnanicolina ",
+                "por que não toma\numa de suas",
+                "pastilhas de\nnanicolina ",
                 "e passa por\ndebaixo da porta?"
               ],
               "__section": "text",
