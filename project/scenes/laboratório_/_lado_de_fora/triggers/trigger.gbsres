@@ -583,7 +583,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " Não quero fugir\n Chapolin.\n"
+                " Não quero fugir\n Chapolin."
               ],
               "__section": "text",
               "avatarId": "3efb3573-7dad-4c34-a7c5-a1a8cbae6e45",
@@ -1066,6 +1066,33 @@
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
+              "spriteSheetId": "69b19d9f-6d1a-4d14-8a3f-97334aa2d83d",
+              "__collapse": true
+            },
+            "id": "fa6a7def-f77c-471b-9944-ae8f1b27232e"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "cf75f869-1f37-495c-a818-2cce32da939d"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 3,
+              "frames": 30,
+              "__collapse": true
+            },
+            "id": "0cd476fd-c274-4c66-ad2b-cfb312ceec70"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
               "spriteSheetId": "58b6771c-573f-4716-bb2e-24907a83bfbb",
               "__collapse": true
             },
@@ -1127,7 +1154,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " Agora diga,\n onde está\n a chave?"
+                " Agora diga,",
+                " onde está\n a chave?"
               ],
               "__section": "text",
               "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
@@ -1153,7 +1181,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                " Deixei em cima\n da mesa, perto\n do computador."
+                " Deixei em cima\n da mesa,",
+                " perto do\n computador."
               ],
               "__section": "text",
               "avatarId": "3efb3573-7dad-4c34-a7c5-a1a8cbae6e45",

@@ -55,6 +55,20 @@
             "id": "051d8019-7897-4082-98b9-b50a9a307329"
           },
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 9,
+              "__collapse": true
+            },
+            "id": "32cd5b0b-4611-437b-9cbd-db973a6db315"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
