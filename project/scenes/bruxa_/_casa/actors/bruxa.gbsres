@@ -31,7 +31,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -425,7 +425,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Mas cuidado\nChapolin, porque\neles mordem."
+                "Mas cuidado\nChapolin,",
+                "porque eles\nmordem."
               ],
               "__section": "text",
               "avatarId": "",

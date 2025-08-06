@@ -474,7 +474,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 15
+                "value": 13
               },
               "moveType": "horizontal",
               "useCollisions": false,
@@ -483,12 +483,42 @@
             "id": "85cb70d9-96b0-495c-9214-89de70c8d2ba"
           },
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 34
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "moveType": "vertical",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "dd8e8501-a55e-4f5c-88d5-a3b339d98210"
+          },
+          {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
               "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
               "__collapse": true
             },
             "id": "c85e74cf-f00d-4e3d-950f-835a2bb7798b"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "player",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapse": true
+            },
+            "id": "ea3498d5-91ac-4d1d-8bc6-5b719837d565"
           },
           {
             "command": "EVENT_TEXT",
@@ -546,9 +576,35 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Fortaleza vence\no Ceará por\ndois a zero."
+                " Deixe me ver."
               ],
-              "__section": "layout",
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "a8764b8c-8b79-4b6e-bde6-14d3f7be84f9"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Fortaleza vence\no Ceará por 2 a 0."
+              ],
+              "__section": "text",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
@@ -581,18 +637,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Não, Chapolin.\nNa parte de trás.",
-                "Ah, sim. Puxa!",
-                "Prof. Baratinha\ndesenvolve o",
-                "extrato de energia\nvolátil.",
-                "Sim, você ouviu\nfalar desse\ninvento?",
-                "Não.",
-                "É incrível.\nVocê o injeta",
-                "em objetos ou\nseres vivos",
-                "e eles ficam leves\ncomo uma pena.",
-                "Deve ter sido\nassim que levaram",
-                "as renas, o trenó\ne os presentes",
-                "com tanta\nfacilidade."
+                "Não, Chapolin.\nNa parte de trás."
               ],
               "__section": "text",
               "avatarId": "",
@@ -618,13 +663,198 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "É exatamente o que\neu ia dizer.",
-                "Precisamos encon-\ntrar o Prof.\nBaratinha",
-                "e descobrir o que\nele sabe.",
-                "Onde ele mora?"
+                " Ah, sim.\n Puxa!"
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "93591c21-575c-49cf-a45b-38d1704723ca"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Prof. Baratinha\ndesenvolve o",
+                "extrato de energia\nvolátil."
               ],
               "__section": "text",
               "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "f8b3400a-a408-492e-9ca0-4cc2111ff54d"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Sim."
+              ],
+              "__section": "text",
+              "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "f0b0e9ec-278f-4aa1-aba1-85858d648a88"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Você ouviu falar\ndesse invento?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "87a2a0f2-59a3-4e92-90e6-dda35449493a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Não."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "e31ff6f5-1102-48f0-abd6-78c7d8db27dc"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " É incrível."
+              ],
+              "__section": "text",
+              "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "0625db85-f132-40cc-9c5f-fb3c43dbe7a6"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Você o injeta\nem objetos",
+                "ou seres vivos",
+                "e eles ficam leves\ncomo uma pena.",
+                "Deve ter sido\nassim que levaram",
+                "as renas, o trenó\ne os presentes",
+                "com tanta\nfacilidade."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "80e8913b-223e-42c0-b223-2b6c20908d28"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Era exatamente\n o que eu\n ia dizer."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -647,7 +877,62 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "No jornal diz que\né num laboratório\na leste, não\nmuito longe daqui."
+                "Rápido, precisamos\nencontrar o",
+                "Prof. Baratinha\ne descobrir o",
+                "que ele sabe.\nOnde ele mora?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "449b7d7a-9da9-4156-b616-c6903752d6d0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Hum."
+              ],
+              "__section": "text",
+              "avatarId": "4db74b55-9cba-48e7-8c29-b0e88002a002",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "70e84c4e-97e9-4087-9fec-6e116d41870e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "No jornal diz que\né num laboratório",
+                "a leste, não\nmuito longe daqui."
               ],
               "__section": "text",
               "avatarId": "",
@@ -673,7 +958,34 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Precisamos ir\npara a placa\nde viagem rápida.",
+                " Certo."
+              ],
+              "__section": "text",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "8eba2626-3a28-4b23-a76f-12e3d9965270"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Precisamos ir\nagora mesmo",
+                "para a placa\nde viagem rápida.",
                 "Sigam-me os bons."
               ],
               "__section": "text",
