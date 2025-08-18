@@ -1,0 +1,36 @@
+{
+  "_resourceType": "scene",
+  "id": "c1f05970-1c57-4b54-a0a9-6cd01e8a4c6f",
+  "_index": 18,
+  "name": "5 - Esconderijo / Lado de Fora",
+  "backgroundId": "e66095a4-6cf2-4a40-8da0-2c4c55fbf560",
+  "tilesetId": "",
+  "width": 50,
+  "height": 24,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "f01abbc2-b25e-44dd-a5b7-d52c6f886ee2",
+    "16b5423e-5891-456d-aa35-d11c3619fa1d",
+    "a8d58a72-589c-463d-a091-afd4d72a7b62"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0010+0f!002+0f!007+0f!002+0f!003+0f!00c+0f!0012+0f4+007+0f4+003+0f!00c+0f!0024+0f!00c+0f!0024+0f!00c+0f!0018+0f4+008+0f!00c+0f!0018+0f4+008+0f!00c+0f!0024+0f4+002+0f2+002+0f4+0028+0f2+002+0f2+001c+0f4+0016+0f!0012+0f2+002+0f6+002+0f2+0011+0f!0012+0f2+002+0f6+002+0f2+0011+0f!0012+0f2+002+0f6+002+0f2+0011+0f!0012+0f2+003+0f4+003+0f2+0011+0f!0031+0f!0031+0f!0031+0f!0017+0f4+0016+0f!0017+0f4+0016+0f!0012+0f4+007+0f4+0010+0f!0012+0f!002+0f!007+0f!002+0f!0010+0f!0012+0f!002+0f!007+0f!002+0f!002+0ff+0012+0f4+007+0f4+0076+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_19",
+  "x": 2264,
+  "y": 1336,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0d6f198f-40c8-4d07-ae5e-7754a5103690",
+        "__collapse": true
+      },
+      "id": "39781852-0d14-434e-9c4d-a2a453ed8bfd"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}

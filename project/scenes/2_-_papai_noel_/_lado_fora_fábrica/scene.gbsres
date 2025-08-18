@@ -1,0 +1,28 @@
+{
+  "_resourceType": "scene",
+  "id": "aafa56d2-c52b-4305-8349-0bd1178ca3eb",
+  "_index": 6,
+  "type": "TOPDOWN",
+  "name": "2 - Papai Noel / Lado Fora Fábrica",
+  "symbol": "scene_7",
+  "x": 2472,
+  "y": 864,
+  "width": 24,
+  "height": 22,
+  "backgroundId": "79e066c6-4f72-45db-8eac-17d2ea9e286c",
+  "tilesetId": "",
+  "paletteIds": [
+    "default-bg-5",
+    "",
+    "52ce2452-f9ae-4b4a-a2d6-b7880bad3101",
+    "38534ed0-9b7f-4681-b586-48a78decb07a"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "003+0f9+002+0f7+002+0f!003+0f!008+0f2+007+0f3+00!0f2+0014+0f!00!0f!003+0f13+002+0f!002+0f!0011+0f!002+0f!002+0f!0011+0f!002+0f!002+0f!0011+0f!002+0f!002+0f!0011+0f!002+0f!002+0f!008+0fa+002+0f!002+0f!00!0f4+003+0f!008+0f!002+0f!002+0f2+004+0f4+006+0f3+002+0f!0012+0f3+002+0f!0012+0f9+008+0fb+0016+0f!0017+0f!0017+0f!0016+0f!0017+0f!0018+0f2+00!0f2+007+0f2+007+0f2+00!0f3+002+0f7+002+0f7+002+0f2+"
+}

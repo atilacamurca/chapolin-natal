@@ -1,0 +1,572 @@
+{
+  "_resourceType": "scene",
+  "id": "098eebbf-75ca-43ff-adf4-97e1d4e0479e",
+  "_index": 4,
+  "name": "2 - Papai Noel / Casa",
+  "backgroundId": "47a9438c-9e5f-4c2c-a322-5f1aa801edcf",
+  "tilesetId": "",
+  "width": 24,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "dmg",
+    "38534ed0-9b7f-4681-b586-48a78decb07a",
+    "8e908b3c-9399-4c9c-98ad-36f2ad6dbb01",
+    "default-ui",
+    "52ce2452-f9ae-4b4a-a2d6-b7880bad3101"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0069+0f!002+0f!00c+0f8+00!0f2+00!0fa+00!0f!0016+0f2+00!0f2+0013+0f2+0016+0f2+00c+0f12+006+0f!00a+0f!00c+0f!00a+0f!00c+0f!006+0f!003+0f!00!0f2+009+0f7+00!0f!003+0f4+0010+0f3+004+0f!0012+0f!004+0f!0012+0f!004+0f!004+0ff+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 2056,
+  "y": 648,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "93fe56c9-300e-411f-a895-522d4dc6ee91"
+          },
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {
+              "__collapse": true
+            },
+            "id": "2f2849ec-9088-43c4-9565-a9d517543abf"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
+            },
+            "id": "337a010c-e1bf-4a0d-8227-08b5fe7a75b2"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 15,
+              "__collapse": true
+            },
+            "id": "c599ebcf-dc59-4628-91b8-883462706ee1"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Eu!"
+              ],
+              "__section": "layout",
+              "avatarId": "f161f9a7-4d58-4add-ab1c-a8b167c29877",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "1d4c8f6b-d91a-435e-a2d2-40513aefa1a0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "O Chapolin\nColorado!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "13cccb40-8c5c-490e-9f26-ef9a23958bb0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Não contavam com\na minha astúcia!",
+                "Sigam-me os bons!"
+              ],
+              "__section": "layout",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "6a370bd4-4d5b-4d9a-b25b-75381f8c505a"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "5d568b77-0cab-4f08-b4de-088f18225457",
+              "__collapse": true
+            },
+            "id": "b7c0a0d6-09d3-4063-92d4-a6e9ea05d4f8"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+              "__collapse": true
+            },
+            "id": "99cb87c7-8394-4508-a61d-7259c0e4531a"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Girando",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "41708c25-c218-403b-a816-ba75c48639e1"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 3,
+              "__collapse": true
+            },
+            "id": "c3d50492-ffff-487f-876b-110b071135b9"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 2,
+              "__collapse": true
+            },
+            "id": "e9dbb904-ed20-400c-ade7-350c9e34875c"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 11
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "7745911c-6c48-4dbe-b7f1-98860c86b9e0"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 10,
+              "__collapse": true
+            },
+            "id": "cee2b557-4f44-4f5a-a86a-eca487f1e2a2"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "fb6b0bd1-19f5-46ab-b81e-7afac52de870"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 10,
+              "__collapse": true
+            },
+            "id": "21f2b11b-0cfc-48be-9e2d-a45c29b6b752"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "94c984eb-be44-4925-951b-992a8e1cf073"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 11,
+              "__collapse": true
+            },
+            "id": "46992a40-a3fb-4c18-958e-a6c6218b6616"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "ac25f94f-4d29-48ff-a6fa-1820d450c94d"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 15,
+              "__collapse": true
+            },
+            "id": "0f849cf4-7108-4169-9fe6-12da43abee65"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              },
+              "__collapse": true
+            },
+            "id": "0d26de22-2172-4771-94d5-b954c681aeca"
+          },
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "number",
+                "value": 5
+              },
+              "__collapse": true
+            },
+            "id": "5acd7c94-ea4a-4a76-9c7d-cd1b75b42f6e"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1,
+              "__collapse": true
+            },
+            "id": "5506dd9f-4898-4189-8a20-83ee194793ea"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "52de3880-77e8-41e2-b040-29d00073b78f",
+              "__collapse": true
+            },
+            "id": "a0d5873c-316d-40e2-9a70-541b477fa70d"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "36ee62c8-d654-4be7-b93f-e471b4556c67",
+              "__collapse": true
+            },
+            "id": "56a246c1-47ee-4cf1-81a4-168a6c57c6a4"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Não se machucou\n Chapolin?"
+              ],
+              "__section": "text",
+              "avatarId": "38e6567f-9217-4431-a17c-1ad8e4f4f8fe",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "db23d532-e8f0-479a-b863-afb3f4f2bfa6"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "01846474-d91f-4e1e-9761-b8cab7da6985",
+              "__collapse": true
+            },
+            "id": "0ac45bb4-29d7-405c-8f1b-933f838ca84c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Claro que não.\nJá sabe que todos\nmeus movimentos",
+                "estão friamente\ncalculados.",
+                "Fiz \nintencionalmente\npara ver se o",
+                "tapete estava bem\ncolocado."
+              ],
+              "__section": "layout",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "39de5209-9a70-4521-8b29-f4d20e90fa21"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Que bom que chegou\nChapolin, imagina",
+                "que minhas renas\nforam raptadas!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "fe45f118-77ba-4344-8ff6-d51ff91d2962"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Palma, palma, não\npriemos cânico!",
+                "E onde estavam?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "e758bc25-0fc4-4e9f-a5ce-533ebb9999b2"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "No curral, aqui do\nlado esquerdo\nda minha casa."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "2447b674-afdf-4e8a-b679-45cfa6967e2b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Precisamos\ninvestigar",
+                "imediatamente.\nSigam-me os bons!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "200cfe2b-4c25-4ec8-b2f0-e19746bfda96"
+          },
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "__collapse": true
+            },
+            "id": "e4d1a905-5dc5-4288-84c8-92b4d091e55d"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "77afc525-cc02-42b9-9c4d-cec78fb6fa80"
+          }
+        ],
+        "false": []
+      },
+      "id": "1ba574d0-0679-4459-b1ea-50b49ab01cf5"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7"
+}

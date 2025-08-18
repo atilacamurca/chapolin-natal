@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "lado-fora-casa-bruxa.tmx",
+    "activeFile": "lado-fora-casa-chapolin.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -87,7 +87,7 @@
         },
         "RPG_interior.tsx": {
             "scaleInDock": 4,
-            "scaleInEditor": 5.5
+            "scaleInEditor": 8
         },
         "Top-down Gameboy Asset Pack.tsx": {
             "scaleInDock": 3,
@@ -95,7 +95,7 @@
         },
         "World tilesets outdoors.tsx": {
             "scaleInDock": 3,
-            "scaleInEditor": 1
+            "scaleInEditor": 3
         },
         "casa-da-bruxa-baratuxa.tmx": {
             "scale": 4.665885416666666,
@@ -234,11 +234,11 @@
             }
         },
         "lado-fora-casa-chapolin.tmx": {
-            "scale": 3.4994140624999996,
-            "selectedLayer": 1,
+            "scale": 5.5,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 128.02143215940168,
-                "y": 127.87855109672378
+                "x": 234.1818181818182,
+                "y": 57.18181818181819
             }
         },
         "lado-fora-casa-papai-noel.tmx": {
@@ -289,22 +289,26 @@
     "map.tileWidth": 8,
     "map.width": 8,
     "openFiles": [
-        "lado-fora-casa-bruxa.tmx"
+        "lado-fora-casa-chapolin.tmx",
+        "gameboy_outdoor_assets_v1.2.tsx",
+        "Overworld_Final.tsx",
+        "RPG_interior.tsx",
+        "Top-down Gameboy Asset Pack.tsx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
-        "lado-fora-casa-bruxa.tmx",
-        "ceu-estrelado-creditos.tmx",
-        "casa-tripa-seca-comodo-esquerdo.tmx",
-        "Presente_T.tsx",
-        "fabrica-papai-noel.tmx",
-        "lado-direito-casa-bruxa.tmx",
-        "lado-esquerdo-casa-bruxa.tmx",
+        "Top-down Gameboy Asset Pack.tsx",
+        "RPG_interior.tsx",
+        "Overworld_Final.tsx",
+        "gameboy_outdoor_assets_v1.2.tsx",
+        "lado-fora-casa-chapolin.tmx",
         "World tilesets outdoors.tsx",
-        "lado-fora-esconderijo-tripa-seca.tmx",
-        "casa-tripa-seca-comodo-central.tmx",
-        "Estrela_1_T.tsx",
-        "Estrela_Cadente_Tileset.tmx"
+        "Old_House_Final.tsx",
+        "GB_studio_overworld_tiles.tsx",
+        "Gameboy-Forest-Tileset.tsx",
+        "gameboy_rpg_v09.tsx",
+        "GameBoy Style Interiors.tsx",
+        "BitsAndBobs.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

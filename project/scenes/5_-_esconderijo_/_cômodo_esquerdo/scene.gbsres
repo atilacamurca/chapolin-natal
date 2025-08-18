@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "2c82dc54-cf22-4a08-bae2-92f87ff8348b",
+  "_index": 20,
+  "type": "TOPDOWN",
+  "name": "5 - Esconderijo / Cômodo Esquerdo",
+  "symbol": "scene_21",
+  "x": 1528,
+  "y": 1648,
+  "width": 28,
+  "height": 24,
+  "backgroundId": "3a7279da-8da4-4645-8c76-e2968e223bbd",
+  "tilesetId": "",
+  "paletteIds": [
+    "default-bg-3",
+    "16b5423e-5891-456d-aa35-d11c3619fa1d",
+    "52ce2452-f9ae-4b4a-a2d6-b7880bad3101",
+    "38534ed0-9b7f-4681-b586-48a78decb07a",
+    "",
+    "8e908b3c-9399-4c9c-98ad-36f2ad6dbb01"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "ff1ab4ba-d1d2-466e-a420-3a2274176d19",
+        "__collapse": true
+      },
+      "id": "cd46d2fc-093b-4735-bc6b-9943c32f004b"
+    },
+    {
+      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+      "args": {
+        "actorId": "ff1ab4ba-d1d2-466e-a420-3a2274176d19",
+        "__collapse": true
+      },
+      "id": "90ba5a95-535c-424e-9c9e-41dad48eb354"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0038+0f1d+00!0f2+0014+0f2+00!0f2+001a+0f2+001a+0f2+001a+0f2+005+0ff+006+0f2+005+0f!00d+0f!006+0f2+005+0f!00d+0f!006+0f2+005+0fa+004+0f!007+0f3+008+0fc+007+0f!00c+0f2+00b+0f3+00c+0f2+00!0f2+008+0f!00e+0f2+00b+0f8+007+0fd+007+0f!007+0f!0013+0f!007+0f!0010+0f4+007+0f7+009+0f!00!0f2+00e+0f!009+0f!0011+0f!009+0f!0011+0f!009+0f!0011+0f!009+0f13+006+"
+}

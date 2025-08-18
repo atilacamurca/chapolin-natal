@@ -1,0 +1,316 @@
+{
+  "_resourceType": "scene",
+  "id": "4f85d267-20c0-47f3-a4f7-b4ca7bedf8d8",
+  "_index": 25,
+  "name": "7 - Créditos / Céu Estrelado v2",
+  "backgroundId": "6df25c8c-e620-4518-982d-8db26dc608ce",
+  "tilesetId": "",
+  "width": 60,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_26",
+  "x": 880,
+  "y": 560,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "0a88648e-4f89-4094-8313-f67d6398e3e4",
+        "__collapse": true
+      },
+      "id": "89a1c7e0-a2b0-4f73-a1b9-7fe0014158c1"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 5
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "tilesetId": "3cffbde3-1b19-4d9d-a5fb-eef7ffb4938d",
+        "tileIndex": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": true
+      },
+      "id": "bf9b22d5-cf94-4951-8ae6-3af35e3932cc"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "tilesetId": "3cffbde3-1b19-4d9d-a5fb-eef7ffb4938d",
+        "tileIndex": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": true
+      },
+      "id": "b1fe5de5-f9bc-45d5-a542-621b1483d244"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "tilesetId": "3cffbde3-1b19-4d9d-a5fb-eef7ffb4938d",
+        "tileIndex": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": true
+      },
+      "id": "ae8e251b-d5b0-4d58-8b0f-438dc4b9102e"
+    },
+    {
+      "command": "EVENT_REPLACE_TILE_XY",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "tilesetId": "3cffbde3-1b19-4d9d-a5fb-eef7ffb4938d",
+        "tileIndex": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": true
+      },
+      "id": "80a0c5c2-731b-476b-ab75-fee9844dd0f5"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.3,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "tilesetId": "3cffbde3-1b19-4d9d-a5fb-eef7ffb4938d",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 8
+              },
+              "variable": "L0"
+            },
+            "id": "af96bd22-3201-4a4d-8969-d2985e1d75fc"
+          }
+        ]
+      },
+      "id": "0c7a3ab4-df16-432c-a639-76be76318f7b"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 0.3,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "tilesetId": "3cffbde3-1b19-4d9d-a5fb-eef7ffb4938d",
+              "tileIndex": {
+                "type": "number",
+                "value": 8
+              },
+              "frames": {
+                "type": "number",
+                "value": 8
+              },
+              "variable": "L1"
+            },
+            "id": "531069ad-c9ca-41d7-828a-b439fba66f24"
+          }
+        ]
+      },
+      "id": "a3217995-cbcc-4181-8646-962166ef4c4e"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 3,
+        "duration": 0.3,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 3
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "tilesetId": "3cffbde3-1b19-4d9d-a5fb-eef7ffb4938d",
+              "tileIndex": {
+                "type": "number",
+                "value": 16
+              },
+              "frames": {
+                "type": "number",
+                "value": 8
+              },
+              "variable": "L2"
+            },
+            "id": "e383dc9b-81e6-4407-a769-fec72cab5047"
+          }
+        ]
+      },
+      "id": "89749bc4-ac8a-4ca1-a92f-6c0ed2ac9da8"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 4,
+        "duration": 0.3,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "tilesetId": "3cffbde3-1b19-4d9d-a5fb-eef7ffb4938d",
+              "tileIndex": {
+                "type": "number",
+                "value": 24
+              },
+              "frames": {
+                "type": "number",
+                "value": 8
+              },
+              "variable": "L3"
+            },
+            "id": "bf3b17d2-e56a-4b14-ba24-842c91b8be39"
+          }
+        ]
+      },
+      "id": "9562c848-9b99-4c2e-b4e8-3f8926d01201"
+    },
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "T0",
+        "__scriptTabs": "true",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "    Chapolin:\n Um Conto de Natal",
+                " Desenvolvido por\n  Átila Camurça",
+                " Um projeto de fã\n Baseado nas obras\n   do Chespirito\n",
+                "    Criado com\n    GB Studio",
+                "Assets:\n    Gumpy Function\n              Icko",
+                "Assets:\n       Pixel Pablo\n    The Pixel Nook",
+                "Assets:\n       MonkeyImage\n          GibbonGL",
+                "Assets:\n     Átila Camurça",
+                "\n    FELIZ NATAL\n\n"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "text",
+              "closeButton": "a",
+              "closeDelayTime": 5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "02f7dcab-bf2d-4049-8277-6eb6d0315b4a"
+          }
+        ]
+      },
+      "id": "a2578b08-3802-4c19-9191-d602032681c9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "6b7aa36b-b867-43b7-9882-a7dd6e5a048e"
+}

@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "1d44be4a-0030-4d32-82a6-74c3212d39e7",
+  "_index": 22,
+  "type": "TOPDOWN",
+  "name": "5 - Esconderijo / Cômodo Central",
+  "symbol": "scene_23",
+  "x": 1864.7586206896553,
+  "y": 1384.7586206896551,
+  "width": 28,
+  "height": 24,
+  "backgroundId": "75035b5e-9550-4e87-82d2-c8a818c1979c",
+  "tilesetId": "",
+  "paletteIds": [
+    "default-bg-3",
+    "38534ed0-9b7f-4681-b586-48a78decb07a",
+    "16b5423e-5891-456d-aa35-d11c3619fa1d",
+    "8e908b3c-9399-4c9c-98ad-36f2ad6dbb01",
+    "52ce2452-f9ae-4b4a-a2d6-b7880bad3101",
+    "",
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "003a+0f6+00c+0fb+005+0fc+005+0f4+001a+0f2+001a+0f2+004+0f2+00e+0f2+004+0f2+004+0f2+00e+0f2+004+0f2+001a+0f2+001a+0f2+001a+0f4+008+0f6+008+0f3+002+0f!008+0f6+008+0f!002+0f3+0016+0f4+001a+0f2+001a+0f2+004+0f2+00e+0f2+004+0f2+004+0f2+00e+0f2+004+0f2+001a+0f2+001a+0f2+001a+0f4+0016+0f6+0016+0fe+006+0fb+"
+}

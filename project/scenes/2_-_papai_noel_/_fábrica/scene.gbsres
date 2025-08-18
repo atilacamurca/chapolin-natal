@@ -1,0 +1,242 @@
+{
+  "_resourceType": "scene",
+  "id": "b9ed0b69-5701-470b-86ef-eec4fe4ab1ee",
+  "_index": 7,
+  "name": "2 - Papai Noel / Fábrica",
+  "backgroundId": "a9f5a418-1ddd-4a8d-85b7-779a2b8417e1",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "default-bg-2",
+    "38534ed0-9b7f-4681-b586-48a78decb07a",
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "002e+0fe+003+0f3+00e+0f3+0011+0f!003+0f2+00e+0f!00e+0f6+00a+0f4+004+0f2+006+0f5+003+0f6+004+0fc+002+0f2+0012+0f2+0012+0f2+0012+0f2+0010+0f4+0010+0f!002+0f3+00c+0f3+004+0f!00c+0f!006+0f4+004+0f6+004+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 2312,
+  "y": 648,
+  "script": [
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "tilesetId": "c039661d-2727-47e8-a9b9-e7d975dcefc9",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L0",
+              "__collapse": false
+            },
+            "id": "90239d6c-1234-46d0-8fb6-b01c636e961b"
+          }
+        ]
+      },
+      "id": "9ae2d71b-1993-410b-ae7b-35999a8dfe34"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "tilesetId": "faba3453-b6a9-4804-aa81-1573b251ba33",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 2
+              },
+              "variable": "L1",
+              "__collapse": false
+            },
+            "id": "d9cf8c2f-5c2f-4a68-b848-de0d9990679d"
+          }
+        ]
+      },
+      "id": "b41b862f-0210-433f-933e-db40eb3e4958"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 3,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 12
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "tilesetId": "152e0f7b-8173-45a7-86ca-2c9716035512",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L2",
+              "__collapse": true
+            },
+            "id": "72a3da44-1391-4e2f-ae9e-f0301fe28394"
+          }
+        ]
+      },
+      "id": "b8c699ad-3d85-4500-9310-efbd27901bbb"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 4,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "tilesetId": "5bc7d374-333b-4931-8545-af4cb249c838",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 8
+              },
+              "variable": "L3"
+            },
+            "id": "15512837-21a2-4fa0-8028-842274518cad"
+          }
+        ]
+      },
+      "id": "21ea229d-95cd-48fa-8865-f18906db238e"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+            "args": {
+              "actorId": "7013e5e5-8582-485b-9b60-56a8683784d6",
+              "__collapse": true
+            },
+            "id": "be4558a5-2c80-4767-857b-5bee59e807df"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "7013e5e5-8582-485b-9b60-56a8683784d6",
+              "spriteSheetId": "4bfdac06-41e1-4ac3-ab13-942cc81864a8",
+              "__collapse": true
+            },
+            "id": "47cce615-8296-45fb-a5ac-896b97e38a10"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "7013e5e5-8582-485b-9b60-56a8683784d6",
+              "direction": {
+                "type": "direction",
+                "value": "down"
+              },
+              "__collapse": true
+            },
+            "id": "55a1eadd-7aa6-4351-b637-907782e3b622"
+          }
+        ],
+        "false": []
+      },
+      "id": "f5e7832a-e318-4712-9c2e-b7a6a4356434"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+  "autoFadeEventCollapse": true
+}
