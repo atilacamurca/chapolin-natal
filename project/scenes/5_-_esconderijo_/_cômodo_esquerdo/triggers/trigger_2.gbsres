@@ -251,14 +251,14 @@
             "command": "EVENT_PALETTE_SET_BACKGROUND",
             "args": {
               "palette0": "8e352e0c-3470-4694-bb78-0144c50d0c00",
-              "palette1": "keep",
-              "palette2": "keep",
-              "palette3": "keep",
-              "palette4": "keep",
-              "palette5": "keep",
+              "palette1": "8e352e0c-3470-4694-bb78-0144c50d0c00",
+              "palette2": "8e352e0c-3470-4694-bb78-0144c50d0c00",
+              "palette3": "8e352e0c-3470-4694-bb78-0144c50d0c00",
+              "palette4": "8e352e0c-3470-4694-bb78-0144c50d0c00",
+              "palette5": "8e352e0c-3470-4694-bb78-0144c50d0c00",
               "palette6": "keep",
               "palette7": "keep",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "ea1193eb-2425-438a-a2d9-82371095e70f"
           },
