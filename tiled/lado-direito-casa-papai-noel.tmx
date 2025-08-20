@@ -2,6 +2,7 @@
 <map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="24" height="22" tilewidth="8" tileheight="8" infinite="0" nextlayerid="8" nextobjectid="1">
  <tileset firstgid="1" source="Top-down Gameboy Asset Pack.tsx"/>
  <tileset firstgid="1001" source="GB Modular Houses.tsx"/>
+ <tileset firstgid="2801" source="gameboy_outdoor_assets_v1.2.tsx"/>
  <layer id="1" name="Chão" width="24" height="22">
   <data encoding="csv">
 786,786,786,540,786,787,786,786,786,786,786,786,540,786,786,786,786,540,786,786,786,786,786,786,
@@ -76,8 +77,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,388,389,491,0,0,0,0,0,0,0,0,0,490,0,0,0,0,0,0,0,
 0,0,0,0,438,439,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,3528,3528,0,0,0,0,0,0,0,3528,3528,0,0,0,0,0,0,0,3528,3528,0,0,
+0,0,3528,3528,0,0,0,3528,3528,0,0,3528,3528,0,0,0,3528,3528,0,0,3528,3528,0,0
 </data>
  </layer>
  <layer id="3" name="Fabrica/Estoque" width="24" height="22">

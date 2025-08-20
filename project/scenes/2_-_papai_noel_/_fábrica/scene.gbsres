@@ -10,8 +10,9 @@
   "type": "TOPDOWN",
   "paletteIds": [
     "default-bg-2",
-    "38534ed0-9b7f-4681-b586-48a78decb07a",
-    "default-bg-4"
+    "aaa474f8-f63c-4c9e-938e-ec9202db5dc3",
+    "default-bg-4",
+    "afb45745-a673-422c-83b9-f78ed7330ff2"
   ],
   "spritePaletteIds": [],
   "collisions": "002e+0fe+003+0f3+00e+0f3+0011+0f!003+0f2+00e+0f!00e+0f6+00a+0f4+004+0f2+006+0f5+003+0f6+004+0fc+002+0f2+0012+0f2+0012+0f2+0012+0f2+0010+0f4+0010+0f!002+0f3+00c+0f3+004+0f!00c+0f!006+0f4+004+0f6+004+",

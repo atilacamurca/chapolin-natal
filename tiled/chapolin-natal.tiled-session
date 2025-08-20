@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "lado-fora-casa-chapolin.tmx",
+    "activeFile": "fabrica-papai-noel.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -90,7 +90,7 @@
             "scaleInEditor": 8
         },
         "Top-down Gameboy Asset Pack.tsx": {
-            "scaleInDock": 3,
+            "scaleInDock": 1.5,
             "scaleInEditor": 3
         },
         "World tilesets outdoors.tsx": {
@@ -163,7 +163,7 @@
         },
         "fabrica-papai-noel.tmx": {
             "scale": 4,
-            "selectedLayer": 2,
+            "selectedLayer": 0,
             "viewCenter": {
                 "x": 80,
                 "y": 71.875
@@ -202,11 +202,11 @@
             }
         },
         "lado-direito-casa-papai-noel.tmx": {
-            "scale": 5.332440476190476,
+            "scale": 5.090056818181818,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 96.01607411955126,
-                "y": 83.92029915722499
+                "x": 96.06965451805547,
+                "y": 115.02818552212983
             }
         },
         "lado-esquerdo-casa-bruxa.tmx": {
@@ -219,7 +219,7 @@
         },
         "lado-esquerdo-casa-papai-noel.tmx": {
             "scale": 4,
-            "selectedLayer": 3,
+            "selectedLayer": 0,
             "viewCenter": {
                 "x": 96,
                 "y": 87.875
@@ -243,7 +243,7 @@
         },
         "lado-fora-casa-papai-noel.tmx": {
             "scale": 3.4994140624999996,
-            "selectedLayer": 3,
+            "selectedLayer": 0,
             "viewCenter": {
                 "x": 132.022101914383,
                 "y": 127.87855109672378
@@ -289,26 +289,26 @@
     "map.tileWidth": 8,
     "map.width": 8,
     "openFiles": [
-        "lado-fora-casa-chapolin.tmx",
+        "lado-esquerdo-casa-papai-noel.tmx",
         "gameboy_outdoor_assets_v1.2.tsx",
-        "Overworld_Final.tsx",
-        "RPG_interior.tsx",
-        "Top-down Gameboy Asset Pack.tsx"
+        "lado-fora-casa-papai-noel.tmx",
+        "lado-direito-casa-papai-noel.tmx",
+        "fabrica-papai-noel.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
+        "lado-esquerdo-casa-papai-noel.tmx",
+        "gameboy_outdoor_assets_v1.2.tsx",
+        "lado-fora-casa-papai-noel.tmx",
+        "lado-direito-casa-papai-noel.tmx",
+        "fabrica-papai-noel.tmx",
         "Top-down Gameboy Asset Pack.tsx",
         "RPG_interior.tsx",
         "Overworld_Final.tsx",
-        "gameboy_outdoor_assets_v1.2.tsx",
         "lado-fora-casa-chapolin.tmx",
         "World tilesets outdoors.tsx",
         "Old_House_Final.tsx",
-        "GB_studio_overworld_tiles.tsx",
-        "Gameboy-Forest-Tileset.tsx",
-        "gameboy_rpg_v09.tsx",
-        "GameBoy Style Interiors.tsx",
-        "BitsAndBobs.tsx"
+        "GB_studio_overworld_tiles.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
