@@ -2,25 +2,27 @@
   "_resourceType": "scene",
   "id": "098eebbf-75ca-43ff-adf4-97e1d4e0479e",
   "_index": 4,
-  "name": "2 - Papai Noel / Casa",
-  "backgroundId": "47a9438c-9e5f-4c2c-a322-5f1aa801edcf",
-  "tilesetId": "",
-  "width": 24,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [
-    "dmg",
-    "38534ed0-9b7f-4681-b586-48a78decb07a",
-    "8e908b3c-9399-4c9c-98ad-36f2ad6dbb01",
-    "default-ui",
-    "52ce2452-f9ae-4b4a-a2d6-b7880bad3101"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "0069+0f!002+0f!00c+0f8+00!0f2+00!0fa+00!0f!0016+0f2+00!0f2+0013+0f2+0016+0f2+00c+0f12+006+0f!00a+0f!00c+0f!00a+0f!00c+0f!006+0f!003+0f!00!0f2+009+0f7+00!0f!003+0f4+0010+0f3+004+0f!0012+0f!004+0f!0012+0f!004+0f!004+0ff+",
-  "autoFadeSpeed": 1,
+  "name": "2 - Papai Noel / Casa",
   "symbol": "scene_5",
   "x": 2056,
   "y": 648,
+  "width": 24,
+  "height": 18,
+  "backgroundId": "47a9438c-9e5f-4c2c-a322-5f1aa801edcf",
+  "tilesetId": "",
+  "paletteIds": [
+    "dmg",
+    "283a16fb-2be1-4505-bf2e-b5a91b56af38",
+    "8e908b3c-9399-4c9c-98ad-36f2ad6dbb01",
+    "default-ui",
+    "52ce2452-f9ae-4b4a-a2d6-b7880bad3101",
+    "",
+    "75000dbd-fb9c-4102-8565-67cb78e1c119"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
   "script": [
     {
       "command": "EVENT_IF",
@@ -568,5 +570,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7"
+  "collisions": "0069+0f!002+0f!00c+0f8+00!0f2+00!0fa+00!0f!0016+0f2+00!0f2+0013+0f2+0016+0f2+00c+0f12+006+0f!00a+0f!00c+0f!00a+0f!00c+0f!006+0f!003+0f!00!0f2+009+0f7+00!0f!003+0f4+0010+0f3+004+0f!0012+0f!004+0f!0012+0f!004+0f!004+0ff+"
 }

@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "fabrica-papai-noel.tmx",
+    "activeFile": "casa-do-papai-noel.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -99,7 +99,7 @@
         },
         "casa-da-bruxa-baratuxa.tmx": {
             "scale": 4.665885416666666,
-            "selectedLayer": 1,
+            "selectedLayer": 0,
             "viewCenter": {
                 "x": 95.80175252553443,
                 "y": 95.90891332254286
@@ -114,11 +114,11 @@
             }
         },
         "casa-do-papai-noel.tmx": {
-            "scale": 5.65,
-            "selectedLayer": 0,
+            "scale": 5.650520833333333,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 95.92920353982299,
-                "y": 71.94690265486724
+                "x": 95.92036132362429,
+                "y": 96.36279841460042
             }
         },
         "casa-tripa-seca-comodo-central.tmx": {
@@ -210,11 +210,11 @@
             }
         },
         "lado-esquerdo-casa-bruxa.tmx": {
-            "scale": 5.090056818181818,
-            "selectedLayer": 1,
+            "scale": 5.5,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 91.94396383323102,
-                "y": 87.9165038789976
+                "x": 84.54545454545453,
+                "y": 85.72727272727272
             }
         },
         "lado-esquerdo-casa-papai-noel.tmx": {
@@ -275,7 +275,7 @@
         },
         "sala-seguranca-papai-noel.tmx": {
             "scale": 6.221180555555555,
-            "selectedLayer": 3,
+            "selectedLayer": 0,
             "viewCenter": {
                 "x": 80.04911536529555,
                 "y": 71.93168499190715
@@ -289,14 +289,14 @@
     "map.tileWidth": 8,
     "map.width": 8,
     "openFiles": [
-        "lado-esquerdo-casa-papai-noel.tmx",
-        "gameboy_outdoor_assets_v1.2.tsx",
-        "lado-fora-casa-papai-noel.tmx",
-        "lado-direito-casa-papai-noel.tmx",
-        "fabrica-papai-noel.tmx"
+        "casa-do-papai-noel.tmx",
+        "GameBoy Style Interiors.tsx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
+        "GameBoy Style Interiors.tsx",
+        "casa-do-papai-noel.tmx",
+        "casa-do-chapolin.tmx",
         "lado-esquerdo-casa-papai-noel.tmx",
         "gameboy_outdoor_assets_v1.2.tsx",
         "lado-fora-casa-papai-noel.tmx",
@@ -305,10 +305,7 @@
         "Top-down Gameboy Asset Pack.tsx",
         "RPG_interior.tsx",
         "Overworld_Final.tsx",
-        "lado-fora-casa-chapolin.tmx",
-        "World tilesets outdoors.tsx",
-        "Old_House_Final.tsx",
-        "GB_studio_overworld_tiles.tsx"
+        "lado-fora-casa-chapolin.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
