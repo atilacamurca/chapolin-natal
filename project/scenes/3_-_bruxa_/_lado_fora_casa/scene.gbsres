@@ -2,27 +2,28 @@
   "_resourceType": "scene",
   "id": "2fb5c4a5-ba25-4ec5-81a3-78012e48fd43",
   "_index": 11,
+  "type": "TOPDOWN",
   "name": "3 - Bruxa / Lado Fora Casa",
-  "backgroundId": "04b98ec6-31de-4917-a412-43f385d4707c",
-  "tilesetId": "",
+  "symbol": "scene_12",
+  "x": 1200,
+  "y": 1368,
   "width": 24,
   "height": 22,
-  "type": "TOPDOWN",
+  "backgroundId": "04b98ec6-31de-4917-a412-43f385d4707c",
+  "tilesetId": "",
   "paletteIds": [
     "16b5423e-5891-456d-aa35-d11c3619fa1d",
     "e3207ef4-ba4a-4911-970a-da74ffd53a6e",
     "8e908b3c-9399-4c9c-98ad-36f2ad6dbb01",
-    null,
-    "063b2d20-169c-4b74-9dd1-d3519bb5e690"
+    "",
+    "063b2d20-169c-4b74-9dd1-d3519bb5e690",
+    "002429be-fa9c-4625-9733-dbfaf375591e"
   ],
   "spritePaletteIds": [],
-  "collisions": "003+0f8+00c+0f!004+0f!00!0f!004+0f!00b+0f!004+0f!00!0f!005+0f!00a+0f!004+0f!00!0f!005+0f!00a+0f6+00!0fd+002+0f4+00c+0f4+00!0f4+002+0f3+002+0f2+0013+0f!0017+0f!0015+0f3+0015+0f!003+0f2+0012+0f!00c+0fb+00d+0f!0017+0f!0017+0f!0017+0f!0017+0f!0017+0f!00a+0fe+0052+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_12",
-  "x": 1200,
-  "y": 1368,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "003+0f8+00!0f!00a+0f!004+0f!00!0f!004+0f2+00a+0f!004+0f!00!0f!005+0f!00a+0f!004+0f!00!0f!005+0f!00a+0f6+00!0fd+002+0f4+00c+0f4+00!0f4+002+0f3+002+0f2+0013+0f!0017+0f!0015+0f3+0015+0f!003+0f2+0012+0f!00c+0fb+00d+0f!0017+0f!0017+0f!0017+0f!0017+0f!0017+0f!00a+0fe+0052+"
 }
