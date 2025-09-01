@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "lado-fora-casa-bruxa.tmx",
+    "activeFile": "casa-tripa-seca-comodo-central.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -101,8 +101,8 @@
             "scale": 4.665885416666666,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 66.54685494223365,
-                "y": 95.90891332254287
+                "x": 66.65401573924208,
+                "y": 95.90891332254286
             }
         },
         "casa-do-chapolin.tmx": {
@@ -118,7 +118,7 @@
             "selectedLayer": 5,
             "viewCenter": {
                 "x": 95.92036132362429,
-                "y": 71.94027099271821
+                "y": 71.94027099271823
             }
         },
         "casa-tripa-seca-comodo-central.tmx": {
@@ -187,7 +187,7 @@
         },
         "laboratorio-professor-baratinha.tmx": {
             "scale": 4.665885416666666,
-            "selectedLayer": 3,
+            "selectedLayer": 2,
             "viewCenter": {
                 "x": 96.01607411955129,
                 "y": 95.90891332254286
@@ -197,7 +197,7 @@
             "scale": 4.520416666666667,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 102.2029680154853,
+                "x": 102.20296801548528,
                 "y": 87.9343718315052
             }
         },
@@ -213,7 +213,7 @@
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 84.36363636363637,
+                "x": 84.36363636363636,
                 "y": 88.0909090909091
             }
         },
@@ -289,16 +289,13 @@
     "map.tileWidth": 8,
     "map.width": 8,
     "openFiles": [
-        "casa-do-papai-noel.tmx",
-        "GameBoy Style Interiors.tsx",
-        "sala-seguranca-papai-noel.tmx",
-        "casa-da-bruxa-baratuxa.tmx",
-        "lado-direito-casa-bruxa.tmx",
-        "lado-esquerdo-casa-bruxa.tmx",
-        "lado-fora-casa-bruxa.tmx"
+        "laboratorio-professor-baratinha.tmx",
+        "casa-tripa-seca-comodo-central.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
+        "laboratorio-professor-baratinha.tmx",
+        "casa-tripa-seca-comodo-central.tmx",
         "casa-do-papai-noel.tmx",
         "GameBoy Style Interiors.tsx",
         "sala-seguranca-papai-noel.tmx",
@@ -308,9 +305,7 @@
         "lado-fora-casa-bruxa.tmx",
         "casa-do-chapolin.tmx",
         "lado-esquerdo-casa-papai-noel.tmx",
-        "gameboy_outdoor_assets_v1.2.tsx",
-        "lado-fora-casa-papai-noel.tmx",
-        "lado-direito-casa-papai-noel.tmx"
+        "gameboy_outdoor_assets_v1.2.tsx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
