@@ -256,9 +256,9 @@
               "palette3": "8e352e0c-3470-4694-bb78-0144c50d0c00",
               "palette4": "8e352e0c-3470-4694-bb78-0144c50d0c00",
               "palette5": "8e352e0c-3470-4694-bb78-0144c50d0c00",
-              "palette6": "keep",
+              "palette6": "8e352e0c-3470-4694-bb78-0144c50d0c00",
               "palette7": "keep",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "ea1193eb-2425-438a-a2d9-82371095e70f"
           },

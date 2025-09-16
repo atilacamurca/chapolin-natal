@@ -12,9 +12,12 @@
   "backgroundId": "f6575dda-853a-4fb8-8827-995385732203",
   "tilesetId": "",
   "paletteIds": [
-    "default-ui",
+    "default-bg-5",
     "",
-    "52ce2452-f9ae-4b4a-a2d6-b7880bad3101"
+    "52ce2452-f9ae-4b4a-a2d6-b7880bad3101",
+    null,
+    "aaa474f8-f63c-4c9e-938e-ec9202db5dc3",
+    "f2e0a19d-81fd-4d85-8fef-04a88873563a"
   ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,

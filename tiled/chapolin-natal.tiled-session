@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "casa-tripa-seca-sala-estar.tmx",
+    "activeFile": "casa-do-chapolin.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -50,7 +50,7 @@
             "scaleInEditor": 3
         },
         "GameBoy Style Interiors.tsx": {
-            "scaleInDock": 3,
+            "scaleInDock": 1.5,
             "scaleInEditor": 4
         },
         "Gameboy-Forest-Tileset.tsx": {
@@ -82,7 +82,7 @@
             "scaleInEditor": 11
         },
         "RPG_exterior.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 3,
             "scaleInEditor": 5.5
         },
         "RPG_interior.tsx": {
@@ -94,7 +94,7 @@
             "scaleInEditor": 3
         },
         "World tilesets outdoors.tsx": {
-            "scaleInDock": 3,
+            "scaleInDock": 2,
             "scaleInEditor": 3
         },
         "casa-da-bruxa-baratuxa.tmx": {
@@ -107,10 +107,10 @@
         },
         "casa-do-chapolin.tmx": {
             "scale": 6.221180555555555,
-            "selectedLayer": 5,
+            "selectedLayer": 3,
             "viewCenter": {
                 "x": 79.88837416978289,
-                "y": 71.93168499190715
+                "y": 94.11396997265169
             }
         },
         "casa-do-papai-noel.tmx": {
@@ -138,27 +138,27 @@
             }
         },
         "casa-tripa-seca-comodo-esquerdo.tmx": {
-            "scale": 4.665885416666666,
+            "scale": 4,
             "selectedLayer": 6,
             "viewCenter": {
-                "x": 49.72260981191049,
-                "y": 95.90891332254286
+                "x": 182.75,
+                "y": 135.125
             }
         },
         "casa-tripa-seca-sala-estar.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 160.72727272727275,
+                "x": 72.18181818181819,
                 "y": 65.36363636363637
             }
         },
         "ceu-estrelado-creditos.tmx": {
-            "scale": 3.3903125,
+            "scale": 4,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 240.09586136971154,
-                "y": 71.82228776845794
+                "x": 129,
+                "y": 71.875
             }
         },
         "fabrica-papai-noel.tmx": {
@@ -250,11 +250,11 @@
             }
         },
         "lado-fora-esconderijo-tripa-seca.tmx": {
-            "scale": 3,
+            "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 200,
-                "y": 95.83333333333334
+                "x": 229.45454545454544,
+                "y": 129.1818181818182
             }
         },
         "lado-fora-laboratorio-prof-baratinha.tmx": {
@@ -289,26 +289,23 @@
     "map.tileWidth": 8,
     "map.width": 8,
     "openFiles": [
-        "lado-esquerdo-casa-papai-noel.tmx",
-        "casa-tripa-seca-comodo-direito.tmx",
-        "casa-tripa-seca-comodo-central.tmx",
-        "casa-tripa-seca-comodo-esquerdo.tmx",
-        "casa-tripa-seca-sala-estar.tmx"
+        "casa-do-chapolin.tmx",
+        "casa-da-bruxa-baratuxa.tmx"
     ],
     "project": "chapolin-natal.tiled-project",
     "recentFiles": [
+        "casa-da-bruxa-baratuxa.tmx",
+        "casa-do-chapolin.tmx",
+        "casa-do-papai-noel.tmx",
+        "lado-fora-esconderijo-tripa-seca.tmx",
+        "casa-tripa-seca-comodo-esquerdo.tmx",
+        "casa-tripa-seca-comodo-central.tmx",
+        "casa-tripa-seca-sala-estar.tmx",
+        "ceu-estrelado-creditos.tmx",
         "lado-esquerdo-casa-papai-noel.tmx",
         "casa-tripa-seca-comodo-direito.tmx",
-        "casa-tripa-seca-comodo-central.tmx",
-        "casa-tripa-seca-comodo-esquerdo.tmx",
-        "casa-tripa-seca-sala-estar.tmx",
         "lado-direito-casa-papai-noel.tmx",
-        "laboratorio-professor-baratinha.tmx",
-        "casa-do-papai-noel.tmx",
-        "GameBoy Style Interiors.tsx",
-        "sala-seguranca-papai-noel.tmx",
-        "casa-da-bruxa-baratuxa.tmx",
-        "lado-direito-casa-bruxa.tmx"
+        "laboratorio-professor-baratinha.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
