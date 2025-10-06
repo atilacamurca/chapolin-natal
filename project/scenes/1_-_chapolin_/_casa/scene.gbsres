@@ -41,67 +41,6 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "0"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 0
-          }
-        },
-        "__collapseElse": false,
-        "__collapse": true,
-        "__disableElse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SET_TIMER_SCRIPT",
-            "args": {
-              "timer": 1,
-              "duration": 10,
-              "frames": 30,
-              "__scriptTabs": "end",
-              "__collapse": true,
-              "__label": "Chapolin recebe chamdo Polo Norte"
-            },
-            "children": {
-              "script": [
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "0",
-                    "value": {
-                      "type": "number",
-                      "value": 1
-                    },
-                    "__collapse": true
-                  },
-                  "id": "1963b817-cd84-4532-8159-187bde4e349b"
-                },
-                {
-                  "command": "EVENT_TIMER_DISABLE",
-                  "args": {
-                    "timer": 1,
-                    "__collapse": true
-                  },
-                  "id": "22cab934-7576-4e8d-a658-939a2d3cfd97"
-                }
-              ]
-            },
-            "id": "23112015-6202-46a2-944c-38a50dd7fa39"
-          }
-        ],
-        "false": []
-      },
-      "id": "25acbd05-a2a0-446a-89eb-4c669112f64f"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
             "value": "1"
           },
           "valueB": {
@@ -163,5 +102,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "003f+0f2+004+0f4+009+0f!002+0f!002+0f!004+0f!008+0f!002+0f4+004+0f6+00!0f3+0010+0f2+0012+0f2+0012+0f8+006+0f7+006+0f!006+0f!00c+0f!006+0f7+006+0f!00c+0f!003+0f4+00c+0f!002+0f!00a+0f7+002+0f!00a+0f!008+0f!00a+0f!009+0f5+004+0f!007+"
+  "collisions": "003f+0f2+004+0f4+009+0f!002+0f!002+0f!004+0f!008+0f!002+0f4+004+0f6+00!0f3+0010+0f2+0012+0f2+0012+0f8+006+0f7+006+0f!006+0f!00c+0f!006+0f7+006+0f!00c+0f!003+0f4+00c+0f!002+0f!00c+0f5+002+0f!00a+0f2+007+0f!00a+0f!009+0f5+004+0f!007+"
 }

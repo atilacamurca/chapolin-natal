@@ -20,69 +20,7 @@
   "symbol": "scene_3",
   "x": 1528,
   "y": 1016,
-  "script": [
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "0"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 0
-          }
-        },
-        "__collapseElse": false,
-        "__collapse": false,
-        "__disableElse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SET_TIMER_SCRIPT",
-            "args": {
-              "timer": 1,
-              "duration": 10,
-              "frames": 30,
-              "__scriptTabs": "end",
-              "__collapse": false,
-              "__label": "Chapolin recebe chamdo Polo Norte"
-            },
-            "children": {
-              "script": [
-                {
-                  "command": "EVENT_TIMER_DISABLE",
-                  "args": {
-                    "timer": 1,
-                    "__collapse": true
-                  },
-                  "id": "a026840c-092f-418d-bb27-66199fd48b2f"
-                },
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "0",
-                    "value": {
-                      "type": "number",
-                      "value": 1
-                    },
-                    "__collapse": true
-                  },
-                  "id": "8a512eae-c434-4bf0-a5ef-0c89fc23d1e5"
-                }
-              ]
-            },
-            "id": "a83fe0ee-0347-483f-b6d7-1340335ef2b8"
-          }
-        ],
-        "false": []
-      },
-      "id": "4086e99d-4039-4e68-bdc6-67c19fb91463"
-    }
-  ],
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

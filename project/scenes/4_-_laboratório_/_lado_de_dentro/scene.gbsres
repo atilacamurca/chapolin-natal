@@ -95,7 +95,7 @@
         },
         "__collapseElse": true,
         "__disableElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -615,6 +615,85 @@
         "false": []
       },
       "id": "ff340168-9fe5-43c2-a5ac-dacf1d03beb3"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "tilesetId": "14c2ea3e-606c-43f8-8620-17a53faa7640",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L0",
+              "__collapse": true
+            },
+            "id": "16666ece-a934-4558-9022-9a4883294fbe"
+          }
+        ]
+      },
+      "id": "d900ae2c-3c13-42cd-8060-9569f7a69178"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end",
+        "__collapse": true
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY_SEQUENCE",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "tilesetId": "669a7f87-9be7-46a3-9fb2-ec588d98c993",
+              "tileIndex": {
+                "type": "number",
+                "value": 0
+              },
+              "frames": {
+                "type": "number",
+                "value": 4
+              },
+              "variable": "L1"
+            },
+            "id": "42277db2-34ba-4b41-b73b-aa207630f207"
+          }
+        ]
+      },
+      "id": "14b88990-76c0-4ed8-a69e-b16c10f3fff6"
     }
   ],
   "playerHit1Script": [],

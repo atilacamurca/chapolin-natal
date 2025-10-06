@@ -1,0 +1,199 @@
+{
+  "_resourceType": "trigger",
+  "id": "836b761e-9787-4404-aa36-907bc5f30a55",
+  "name": "",
+  "prefabId": "",
+  "x": 15,
+  "y": 7,
+  "symbol": "trigger_33",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "f7728e14-4869-4e6a-8055-2c1f6a7557ab"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_MOVE_CANCEL",
+                  "args": {
+                    "actorId": "player",
+                    "__collapse": true
+                  },
+                  "id": "3e8dbc3c-611b-45f0-9b58-b79ba41ed56f",
+                  "children": {}
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
+                    "__collapse": true
+                  },
+                  "id": "4a2ac8d4-a2d9-4c1d-87cb-ba82a3ec88b6",
+                  "children": {}
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "42498f4f-ecc1-49ec-b7f5-ebefad650f24",
+                  "children": {}
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Não tarda e ele\nlogo sente que",
+                      "algo de errado\nnão está certo."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "top",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "6b949ed0-6fa7-4470-9010-fad96d6c0dce",
+                  "children": {}
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "0f0f763e-75a2-4c0a-9784-9f536065a17f",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 51,
+                    "__collapse": true
+                  },
+                  "id": "88a59c21-9294-43dd-bf65-f488706ddf57",
+                  "children": {}
+                },
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "player",
+                    "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                    "__collapse": true
+                  },
+                  "id": "1562cb42-8d21-416d-8044-873d924cd481",
+                  "children": {}
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Nossa! Minhas \nanteninhas de",
+                      "vinil estão\ndetectando o\nperigo. ",
+                      "E ele vem\ndo Polo Norte.",
+                      "Devo ir\nimediatamente para",
+                      "a placa de viagem\nrápida que\nfica lá fora."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 3,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "34efeac5-f681-431d-bf4c-e7d45f2e89e4",
+                  "children": {}
+                },
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+                    "__collapse": true
+                  },
+                  "id": "0d3db9d3-b8d1-4740-a67d-f9ebc9e30b7d",
+                  "children": {}
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "player",
+                    "spriteStateId": "",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "dad27f13-519c-43ca-a811-581da3642837",
+                  "children": {}
+                }
+              ]
+            },
+            "id": "40745c9b-29ec-42dc-8404-0b31e168ed69"
+          }
+        ],
+        "false": []
+      },
+      "id": "7ab3a716-1d95-4e53-be83-86bb973a3ab1"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

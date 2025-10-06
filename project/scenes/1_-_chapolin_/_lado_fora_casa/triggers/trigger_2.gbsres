@@ -1,23 +1,15 @@
 {
-  "_resourceType": "actor",
-  "id": "0d621ed5-f8e1-47c4-be20-b44764470b24",
-  "name": "Auxiliar",
-  "frame": 0,
-  "animate": false,
-  "spriteSheetId": "6b7aa36b-b867-43b7-9882-a7dd6e5a048e",
-  "prefabId": "5ca54447-5569-4111-87b9-cafbb8529818",
-  "direction": "down",
-  "moveSpeed": 1,
-  "animSpeed": 15,
-  "paletteId": "",
-  "isPinned": false,
-  "persistent": true,
-  "collisionGroup": "",
+  "_resourceType": "trigger",
+  "id": "55088403-ae88-456b-944a-3228970da73b",
+  "name": "",
+  "prefabId": "",
+  "x": 14,
+  "y": 22,
+  "symbol": "trigger_63",
   "prefabScriptOverrides": {},
-  "symbol": "actor_62",
-  "script": [],
-  "startScript": [],
-  "updateScript": [
+  "width": 5,
+  "height": 4,
+  "script": [
     {
       "command": "EVENT_IF",
       "args": {
@@ -29,40 +21,42 @@
           },
           "valueB": {
             "type": "number",
-            "value": 1
+            "value": 0
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
+        "__collapse": false,
         "__disableElse": true
       },
       "children": {
         "true": [
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "3a478e87-4ca1-4d68-b582-e54251f128db"
+          },
+          {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "0",
-                    "value": {
-                      "type": "number",
-                      "value": 2
-                    },
-                    "__collapse": true
-                  },
-                  "id": "b988fb0a-d109-4e22-96bc-7869d486a614"
-                },
                 {
                   "command": "EVENT_ACTOR_MOVE_CANCEL",
                   "args": {
                     "actorId": "player",
                     "__collapse": true
                   },
-                  "id": "4dd954d6-6f35-462e-9c64-7d1d4009a1ad"
+                  "id": "2f7453e5-77c3-478f-850d-b6992a3831f6",
+                  "children": {}
                 },
                 {
                   "command": "EVENT_PLAYER_SET_SPRITE",
@@ -70,7 +64,8 @@
                     "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
                     "__collapse": true
                   },
-                  "id": "a72ebb18-35ef-45ba-b598-138c8b169023"
+                  "id": "54cf71ac-6d53-40ce-9d9b-687b308d6c3d",
+                  "children": {}
                 },
                 {
                   "command": "EVENT_ACTOR_SET_DIRECTION",
@@ -82,7 +77,8 @@
                     },
                     "__collapse": true
                   },
-                  "id": "b4a49a24-29e4-49cb-99a2-9d20822c776f"
+                  "id": "07932c6a-717f-4e87-b7aa-786282d4075c",
+                  "children": {}
                 },
                 {
                   "command": "EVENT_TEXT",
@@ -109,7 +105,8 @@
                     "closeDelayFrames": 30,
                     "__collapse": true
                   },
-                  "id": "9c6f94b7-e31c-4814-8584-22ee7f0fd2ed"
+                  "id": "7ddf98a1-6d65-4df8-a29e-a5d53c0b5348",
+                  "children": {}
                 },
                 {
                   "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -123,7 +120,8 @@
                     "effect": 51,
                     "__collapse": true
                   },
-                  "id": "ab645f51-bf94-495f-866c-48b3d4b04eb6"
+                  "id": "28534cfe-494a-42b1-bf3f-cd4f38e454bb",
+                  "children": {}
                 },
                 {
                   "command": "EVENT_ACTOR_EMOTE",
@@ -132,7 +130,8 @@
                     "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
                     "__collapse": true
                   },
-                  "id": "72be55c2-b734-43a2-9810-5bba912307ac"
+                  "id": "fc179b74-f9c2-402b-b5d0-bea72b25f51a",
+                  "children": {}
                 },
                 {
                   "command": "EVENT_TEXT",
@@ -142,7 +141,7 @@
                       "vinil estão\ndetectando o\nperigo. ",
                       "E ele vem\ndo Polo Norte.",
                       "Devo ir\nimediatamente para",
-                      "a placa de viagem\nrápida que\nfica lá fora."
+                      "a placa de viagem\nrápida que\nfica aqui fora."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -160,9 +159,10 @@
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
-                  "id": "01d1e018-8769-4858-ab15-32d6dd42a7f0"
+                  "id": "9a1182d6-fd39-4bf1-87ee-9f315abd8e00",
+                  "children": {}
                 },
                 {
                   "command": "EVENT_PLAYER_SET_SPRITE",
@@ -170,7 +170,8 @@
                     "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
                     "__collapse": true
                   },
-                  "id": "f785ae06-babf-4f18-abc5-2cefac145139"
+                  "id": "60b65c8f-1e4a-4ca2-813a-ba8de3c49c4f",
+                  "children": {}
                 },
                 {
                   "command": "EVENT_ACTOR_SET_STATE",
@@ -180,22 +181,19 @@
                     "loopAnim": true,
                     "__collapse": true
                   },
-                  "id": "116592c0-bbe0-419a-a0a1-c0502d9df92c"
+                  "id": "f40a6872-ed5c-49e7-9c93-8c96dd65c887",
+                  "children": {}
                 }
               ]
             },
-            "id": "7525f8e9-d908-45f7-844a-b5837efd5600"
+            "id": "1e712578-303b-4699-94aa-bdd2c6ec504c"
           }
         ],
         "false": []
       },
-      "id": "87b50f7f-fd01-4b3f-b0f3-acf5fc75dc28"
+      "id": "a6aff8b4-138a-4839-88bd-f22ba496b1af"
     }
   ],
-  "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": [],
-  "x": 0,
-  "y": 10,
-  "_index": 2
+  "leaveScript": [],
+  "_index": 1
 }
