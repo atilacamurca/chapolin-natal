@@ -18,7 +18,7 @@
     "3754d275-32d5-4b02-ab5b-04ab6871dc2d"
   ],
   "spritePaletteIds": [],
-  "collisions": "0090+0f13+005+0f!0011+0f7+0016+0f8+0010+0f!006+0f!0010+0f8+006+0fc+00c+0f!00a+0f!00c+0fc+00c+0f!009+0f2+00c+0f4+006+0f8+00a+0f7+006+0f!0010+0f!00!0f6+0010+0f2+0016+0f4+0014+0f!002+0f!0014+0f!002+0f!0014+0f!002+0f7+006+0f9+",
+  "collisions": "007b+0f5+008+0f2+006+0f3+005+0f8+002+0f!005+0f!0011+0f7+0016+0f8+0010+0f!006+0f!0010+0f8+006+0fc+00c+0f!00a+0f!00c+0fc+00c+0f!009+0f2+00c+0f4+006+0f8+00a+0f7+006+0f!0010+0f!00!0f6+0010+0f2+0016+0f4+0014+0f!002+0f!0014+0f!002+0f!0014+0f!002+0f7+006+0f9+",
   "autoFadeSpeed": 1,
   "symbol": "scene_16",
   "x": 1392,
@@ -95,7 +95,7 @@
         },
         "__collapseElse": true,
         "__disableElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -369,7 +369,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "e2497868-08ba-4f9b-b226-138c05ecc968",
-              "spriteSheetId": "4786d4c9-df1f-46c8-9cf0-3894a6d5399c",
+              "spriteSheetId": "4d10ae81-b02b-401f-8c0c-68ad4b716711",
               "__collapse": true
             },
             "id": "1c7008b0-7572-4e23-b2c9-18b9b0197c21"
@@ -411,6 +411,15 @@
               "__collapse": true
             },
             "id": "77da7bf4-f832-4841-a7cf-bf688d9cdd32"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "e2497868-08ba-4f9b-b226-138c05ecc968",
+              "spriteSheetId": "4786d4c9-df1f-46c8-9cf0-3894a6d5399c",
+              "__collapse": true
+            },
+            "id": "9218628d-6207-4914-8bec-8e77289750a3"
           },
           {
             "command": "EVENT_ACTOR_SET_POSITION",
