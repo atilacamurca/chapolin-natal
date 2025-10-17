@@ -1,0 +1,149 @@
+{
+  "_resourceType": "scene",
+  "id": "a882a8da-a697-4fbd-ba03-e51503149e3b",
+  "_index": 26,
+  "name": "0 - Início / Tela título",
+  "backgroundId": "84fd411b-3759-42d2-b498-b13d6b593c10",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "606ad496-ba9a-4be2-b90d-bf7ac2c4cdff"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_27",
+  "x": 964.063492063492,
+  "y": 186.28571428571428,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false
+      },
+      "id": "1758fdf8-a997-47a3-8b89-50b30e1a343e"
+    },
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "__collapse": true
+      },
+      "id": "0fe2ac1e-111f-4e84-9a7d-a83e23e9c36a"
+    },
+    {
+      "command": "EVENT_LOOP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "L0",
+              "trueText": "Novo jogo",
+              "falseText": "Continuar"
+            },
+            "id": "d9646444-076c-44a3-9790-99c987c915f2"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "53c9ee01-697e-4cdf-a75b-633c362cba06",
+                    "x": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 11
+                    },
+                    "direction": "down",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "f997c448-2b86-4a40-b6d3-ffcd89497cbb"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_IF_SAVED_DATA",
+                  "args": {
+                    "saveSlot": 0,
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_LOAD_DATA",
+                        "args": {
+                          "saveSlot": 0
+                        },
+                        "id": "5d3573b7-aa31-44ee-aa36-b1fa927e9516"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Nenhum jogo foi\niniciado."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "8df5a48d-ac8c-4c22-91f2-be4d249f476c"
+                      }
+                    ]
+                  },
+                  "id": "2598e6e8-b0b4-42b4-9396-7b4d87ecae98"
+                }
+              ]
+            },
+            "id": "1585485f-d799-4dd6-904a-93913327d6af"
+          }
+        ]
+      },
+      "id": "0f12a2c6-f260-44cd-aed0-ae93504f7009"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
+}
