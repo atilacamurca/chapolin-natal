@@ -75,6 +75,19 @@
             "children": {
               "true": [
                 {
+                  "command": "EVENT_SAVE_DATA",
+                  "args": {
+                    "saveSlot": 0,
+                    "__scriptTabs": "save",
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [],
+                    "load": []
+                  },
+                  "id": "14713c1c-084f-4a04-aee9-ad9518b9ca37"
+                },
+                {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
                     "sceneId": "fe0de12d-1934-4520-89e2-05f8c6a457ac",
