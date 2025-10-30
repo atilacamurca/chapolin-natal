@@ -19,10 +19,18 @@
   "y": 186.28571428571428,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "ce36b900-d892-4959-aac9-450a55396a2f",
+        "__collapse": true
+      },
+      "id": "d3237464-4aaf-4234-8753-d3fd0245f179"
+    },
+    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "1758fdf8-a997-47a3-8b89-50b30e1a343e"
     },
@@ -38,7 +46,9 @@
     },
     {
       "command": "EVENT_LOOP",
-      "args": {},
+      "args": {
+        "__collapse": false
+      },
       "children": {
         "true": [
           {
@@ -69,6 +79,14 @@
             "children": {
               "true": [
                 {
+                  "command": "EVENT_CLEAR_DATA",
+                  "args": {
+                    "saveSlot": 0,
+                    "__collapse": true
+                  },
+                  "id": "af42969f-fce9-44df-b4d0-dbbfb17ad560"
+                },
+                {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
                     "sceneId": "53c9ee01-697e-4cdf-a75b-633c362cba06",
@@ -81,7 +99,8 @@
                       "value": 11
                     },
                     "direction": "down",
-                    "fadeSpeed": "2"
+                    "fadeSpeed": "2",
+                    "__collapse": true
                   },
                   "id": "f997c448-2b86-4a40-b6d3-ffcd89497cbb"
                 }

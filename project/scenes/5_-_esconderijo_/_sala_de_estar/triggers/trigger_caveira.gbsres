@@ -324,6 +324,15 @@
             "id": "781e8fc9-4fa9-4173-8869-4a3406ef20b8"
           },
           {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "8ce56c6d-c22f-4207-8447-42956108bba3",
+              "speed": 63,
+              "__collapse": true
+            },
+            "id": "1cb5b12b-0b52-4a32-b3a8-8ad438e5b4ae"
+          },
+          {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
               "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",

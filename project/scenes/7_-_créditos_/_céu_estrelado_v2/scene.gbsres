@@ -301,9 +301,27 @@
               "closeButton": "a",
               "closeDelayTime": 5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "02f7dcab-bf2d-4049-8277-6eb6d0315b4a"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a882a8da-a697-4fbd-ba03-e51503149e3b",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": true
+            },
+            "id": "486895ee-158e-4311-82cb-80280765ed96"
           }
         ]
       },

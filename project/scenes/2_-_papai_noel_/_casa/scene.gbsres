@@ -306,7 +306,7 @@
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "spriteSheetId": "aa90d3db-6d3d-47cf-ac47-fe83db744ff7",
+              "spriteSheetId": "3eee2648-e39c-4c48-a27f-8775bf653c7c",
               "__collapse": true
             },
             "id": "ac25f94f-4d29-48ff-a6fa-1820d450c94d"

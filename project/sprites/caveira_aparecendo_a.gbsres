@@ -536,6 +536,37 @@
                   "priority": false
                 }
               ]
+            },
+            {
+              "id": "5b386e4c-16ad-4dea-8222-cc2c6b7eb734",
+              "tiles": [
+                {
+                  "id": "f3d314c9-868f-497d-a74b-de3293fb75ae",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                },
+                {
+                  "id": "b04db91c-6ac6-447c-9da8-8f0dc818c3ab",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "palette": 0,
+                  "flipX": true,
+                  "flipY": false,
+                  "objPalette": "OBP0",
+                  "paletteIndex": 5,
+                  "priority": false
+                }
+              ]
             }
           ]
         },
